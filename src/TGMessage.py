@@ -1,217 +1,580 @@
+
 import math
+import random
+
 import tgcrypto
 import time
+
 from src.utils import *
 import hashlib
 
-from src.MTProto_Session import MTProto_Session
+from src.MtprotoSession import MtprotoSession
+
 
 
 class TGMessage:
-    def __init__(self, message_data : bytearray, session: MTProto_Session, msg_type: str, silent: bool, colored: bool):
+    def __init__(self, plaintext_bytes : bytearray = None, session: MtprotoSession = None, msg_type: str  = None, silent: bool = False, colored: bool  = None, instant: bool = False, ciphertext_bytes : bytearray = None):
+        
+        self.check_msg_key_large = None
+        self.check_msg_key = None
+        self.msg_type = None
+        self.msg_time = None
+        self.unix_ns = None
+        self.unix_s = None
+        self.message_data_plaintext = None
+        self.modulo = None
+        self.additive = None
+        self.message_id = None
+        self.seqNo = None
+        self.data_length = None
+        self.padding = None
+        self.plaintext = None
+        self.x = None
+        self.auth_key_fragment_msg_key_start = None
+        self.auth_key_fragment_msg_key_end = None
+        self.auth_key_fragment_sha_a_start = None
+        self.auth_key_fragment_sha_a_end = None
+        self.auth_key_fragment_sha_b_start = None
+        self.auth_key_fragment_msg_key = None
+        self.auth_key_fragment_sha_b_end = None
+        self.auth_key_fragment_sha_a = None
+        self.auth_key_fragment_sha_b = None
+        self.msg_key_large = None
+        self.msg_key = None
+        self.sha_256_a = None
+        self.sha_256_b = None
+        self.aes_key = None
+        self.aes_iv = None
+        self.ciphertext = None
+        self.tcp_payload = None
+        self.abridged_transport_header = None
         self.session = session
-        self.message_data = message_data
-        unix_s = math.floor(time.time()) << 32  # 32 most significative bits are unix time
-        unix_ns = (time.time_ns() - math.floor(time.time()) * 10 ** 9) # 32 less significative bits are nanoseconds since last second
-        msg_id =  unix_s + unix_ns
+        self.complete_bytes_ciphertext = None
+
+        if ciphertext_bytes is None:
+            self.construct_message_from_plaintext(plaintext_bytes, msg_type, silent, colored, instant)
+        else:
+            self.construct_message_from_ciphertext(ciphertext_bytes, msg_type, silent, colored, instant)
+        
+
+
+    def prepare_to_build_msg_key(self, sender: str):
+        self.x = 0 if ("client" in sender) else 8
+        self.auth_key_fragment_msg_key_start = 88 + self.x
+        self.auth_key_fragment_msg_key_end = 88 + 32 + self.x
+        self.auth_key_fragment_sha_a_start = self.x
+        self.auth_key_fragment_sha_a_end = 36 + self.x
+        self.auth_key_fragment_sha_b_start = 40 + self.x
+        self.auth_key_fragment_sha_b_end = 40 + 36 + self.x
+
+        self.auth_key_fragment_msg_key = self.session.auth_key[
+            self.auth_key_fragment_msg_key_start: self.auth_key_fragment_msg_key_end]
+        self.auth_key_fragment_sha_a = self.session.auth_key[
+            self.auth_key_fragment_sha_a_start: self.auth_key_fragment_sha_a_end]
+        self.auth_key_fragment_sha_b = self.session.auth_key[
+            self.auth_key_fragment_sha_b_start: self.auth_key_fragment_sha_b_end]
+
+
+    def build_aes_key_iv(self):
+        self.sha_256_a = hashlib.sha256(self.auth_key_fragment_sha_a + self.msg_key).digest()
+        self.sha_256_b = hashlib.sha256(self.msg_key + self.auth_key_fragment_sha_b).digest()
+        self.aes_key = self.sha_256_a[:8] + self.sha_256_b[8: 24] + self.sha_256_a[24:]
+        self.aes_iv = self.sha_256_b[:8] + self.sha_256_a[8: 24] + self.sha_256_b[24:]
+
+    def construct_message_from_ciphertext(self, received_bytes: bytearray, sender:str, silent: bool, colored: bool, instant: bool = False):
+        self.complete_bytes_ciphertext = received_bytes
+        if self.complete_bytes_ciphertext[0] != 0x7f:
+            self.abridged_transport_header = received_bytes[:1]
+            self.tcp_payload = self.complete_bytes_ciphertext[1:]
+        else:
+            self.abridged_transport_header = received_bytes[:4]
+            self.tcp_payload = self.complete_bytes_ciphertext[4:]
+        # self.session = MtprotoSession(auth_key) # todo questo rigenera l'id della sessione, devo prendere effettivmente i dati dal messaggio
+        if self.session is None:
+            self.session = MtprotoSession(self.tcp_payload[:20])
+
+        self.msg_key = self.tcp_payload[20:36]
+        self.ciphertext = self.tcp_payload[36:]
+        self.prepare_to_build_msg_key(sender)
+        self.build_aes_key_iv()
+        if len(self.ciphertext) % 16 != 0:
+            print("ciphertext length : ", len(self.ciphertext))
+        self.plaintext = tgcrypto.ige256_decrypt(self.ciphertext, self.aes_key, self.aes_iv)
+        self.remove_trailing_zeros()
+        pre_hashed_msg_key_large = self.auth_key_fragment_msg_key + self.plaintext
+        self.check_msg_key_large = hashlib.sha256(pre_hashed_msg_key_large).digest()
+        self.check_msg_key = self.check_msg_key_large[8:24]
+
+        self.msg_key_large = self.check_msg_key_large
+        self.seqNo = self.plaintext[24:28]
+        self.session.salt = self.plaintext[:8]
+        self.session.session_id = self.plaintext[8:16]
+        self.session.n_content_related = (bytes_to_int(self.seqNo) >> 1) + 1
+        self.message_id = self.plaintext[16:24]
+        self.unix_s = bytes_to_int(self.message_id[:32])
+        self.unix_ns = bytes_to_int(self.message_id[32:])
+        self.msg_type = "client_msg" if bytes_to_int(self.message_id) % 4 == 0 else "server_response_msg" if bytes_to_int(self.message_id) % 4 == 1 else "server_unsolicited"
+        self.data_length = self.plaintext[28:32]
+        self.message_data_plaintext = self.plaintext[32:32 + bytes_to_int(self.data_length)]
+        self.padding =  self.plaintext[32 + bytes_to_int(self.data_length):]
+        if not silent: # and self.message_data_plaintext[:8]!=b"00000000":
+            self.print_message_decryption(colored, instant)
+        if self.check_msg_key != self.msg_key:
+            print("auth_key_fragment check on decryption failed")
+            print("decrypted msg_key      : ",to_hex_str(self.check_msg_key))
+            print("external header msg_key: ",to_hex_str(self.msg_key))
+            raise MsgCheckFailedException
+
+
+    def construct_message_from_plaintext(self, message_data: bytearray, msg_type: str,
+                                         silent: bool, colored: bool, instant: bool = False):
+
+        self.message_data_plaintext = message_data
+        self.unix_s = math.floor(time.time()) << 32  # 32 most significative bits are unix time
+        self.unix_ns = (time.time_ns() - math.floor(
+            time.time()) * 10 ** 9)  # 32 less significative bits are nanoseconds since last second
+        self.msg_time = self.unix_s + self.unix_ns
         self.msg_type = msg_type
-        modulo = 0 if msg_type == "client_msg" else 1 if msg_type == "server_response_msg" else 3
-        additive = (4 - msg_id % 4 + modulo) % 4
-        self.message_id = msg_id + additive # message_id mod 4 is 0 for client messages, 3 for server unsolicited messages and 1 for server response messages
-        self.seqNo = (self.session.n_content_related << 1) + 1
-        session.n_content_related +=1
-        self.data_length = (len(self.message_data))
-        self.padding = rand_bytes(random.randint(12,1024))
+        self.modulo = 0 if msg_type == "client_msg" else 1 if msg_type == "server_response_msg" else 3 #server_unsolicited
+        self.additive = (4 - self.msg_time % 4 + self.modulo) % 4
+        self.message_id = to_bytes(self.msg_time + self.additive,
+                                   8)  # message_id mod 4 is 0 for client messages, 3 for server unsolicited messages and 1 for server response messages
+        self.seqNo = to_bytes((self.session.n_content_related << 1) + 1, 4)
+        self.session.n_content_related += 1
+        self.data_length = to_bytes(len(self.message_data_plaintext), 4)
+        self.padding = bytearray(rand_bytes(random.randint(12, 1024)))
+        while self.padding[-1] == 0x00:
+            self.padding[-1] = rand_bytes(1)[0]
         self.plaintext = (self.session.get_header_Bytes()
-                          + to_bytes(self.message_id, 8)
-                          + to_bytes(self.seqNo, 4)
-                          + to_bytes(self.data_length, 4)
-                          + self.message_data
+                          + self.message_id
+                          + self.seqNo
+                          + self.data_length
+                          + self.message_data_plaintext
                           + self.padding)
 
-        x = 0 if msg_type == "client_msg" else 8
+        self.prepare_to_build_msg_key(msg_type)
+        pre_hashed_msg_key_large = self.auth_key_fragment_msg_key + self.plaintext
+        self.msg_key_large = hashlib.sha256(pre_hashed_msg_key_large).digest()
+        self.msg_key = self.msg_key_large[8:24]
+        self.check_msg_key_large = self.msg_key_large
+        self.check_msg_key = self.msg_key
+        self.build_aes_key_iv()
+        self.ciphertext = tgcrypto.ige256_encrypt(self.plaintext + bytes(-len(self.plaintext) % 16), self.aes_key,
+                                                  self.aes_iv)
+        self.tcp_payload = self.session.auth_key_id + self.msg_key + self.ciphertext
+        self.abridged_transport_header = to_bytes(int(len(self.tcp_payload) / 4), 1) if int(
+            len(self.tcp_payload) / 4) < 127 else to_bytes(0x7f, 1) + to_bytes(int(len(self.tcp_payload) / 4), 3)
+        self.complete_bytes_ciphertext = self.abridged_transport_header + self.tcp_payload
 
-        auth_key_fragment_msg_key_start = 88 + x
-        auth_key_fragment_msg_key_end = 88 + 32 + x
-        auth_key_fragment_sha_a_start = x
-        auth_key_fragment_sha_a_end = 36 + x
-        auth_key_fragment_sha_b_start = 40 + x
-        auth_key_fragment_sha_b_end = 40 + 36 + x
-
-        auth_key_fragment_msg_key = self.session.auth_key[auth_key_fragment_msg_key_start : auth_key_fragment_msg_key_end]
-        auth_key_fragment_sha_a = self.session.auth_key[auth_key_fragment_sha_a_start : auth_key_fragment_sha_a_end]
-        auth_key_fragment_sha_b = self.session.auth_key[auth_key_fragment_sha_b_start : auth_key_fragment_sha_b_end]
-        pre_hashed_msg_key_large = auth_key_fragment_msg_key + self.plaintext
-        msg_key_large = hashlib.sha256(pre_hashed_msg_key_large).digest()
-        msg_key = msg_key_large[8:24]
-        sha_256_a = hashlib.sha256(auth_key_fragment_sha_a + msg_key).digest()
-        sha_256_b = hashlib.sha256(msg_key + auth_key_fragment_sha_b).digest()
-        self.aes_key = sha_256_a[:8] + sha_256_b[8 : 24] + sha_256_a[24:]
-        self.aes_iv =  sha_256_b[:8] + sha_256_a[8 : 24] + sha_256_b[24:]
-        self.cyphertext = tgcrypto.ige256_encrypt(self.plaintext + bytes(-len(self.plaintext) % 16), self.aes_key, self.aes_iv)
+        if not silent:  #and self.message_data_plaintext[:8]!=b"00000000":
+            self.print_message_encryption(colored, instant)
 
 
+
+    def print_message_decryption(self, colored: bool, instant: bool):
+        salt_str = colored_st("salt", "salt", colored)
+        session_id_str = colored_st("session_id", "session_id", colored)
+        # internal_header_str = colored_str("internal ", "salt", colored) + colored_str("header", "session_id", colored)
+        internal_header_str = colored_st("Internal Header", "bold", colored)
+        unix_s_str = colored_st("unix_s", "unix_s", colored)
+        unix_ns_str = colored_st("unix_ns", "unix_ns", colored)
+        message_id_str = colored_st("mess", "unix_s", colored) + colored_st("age_i", "unix_ns", colored) + colored_st(
+            "d", "additive", colored)
+        message_seq_no_str = colored_st("message_seq_no", "seq_no", colored)
+        message_data_len_str = colored_st("message_data_length", "data_length", colored)
+        message_data_str = colored_st("message_data", "message_data", colored)
+        padding_str = colored_st("padding", "padding", colored)
+        plaintext_str = (colored_st("P", "salt", colored) + colored_st("l", "session_id", colored) + colored_st("a",
+                                                                                                                "unix_s",
+                                                                                                                colored)
+                         # + colored_str("i","unix_ns",colored) + colored_str("n","data_length",colored)
+                         + colored_st("int", "message_data", colored) + colored_st("ext", "padding", colored))
+        aes_key_str = colored_st("ae", "sha_256_a", colored) + colored_st("s_k", "sha_256_b", colored) + colored_st(
+            "ey", "sha_256_a", colored)
+        aes_iv_str = colored_st("ae", "sha_256_b", colored) + colored_st("s_", "sha_256_a", colored) + colored_st(
+            "iv", "sha_256_b", colored)
+        auth_key_str = colored_st("aut", "auth_key_sha_a", colored) + colored_st("h_k", "auth_key_sha_b",
+                                                                                 colored) + colored_st("ey",
+                                                                                                       "auth_key_msg_key",
+                                                                                                       colored)
+        auth_key_fragment_msg_str = colored_st("auth_key_fragment_msg", "auth_key_msg_key", colored)
+        x_str = colored_st("x", "x", colored)
+        auth_key_fragment_a_str = colored_st("auth_key_fragment_a", "auth_key_sha_a", colored)
+        auth_key_fragment_b_str = colored_st("auth_key_fragment_b", "auth_key_sha_b", colored)
+        msg_key_large_str = colored_st("msg_key", "msg_key", colored) + colored_st("_large", "unused", colored)
+        msg_key_str = colored_st("msg_key", "msg_key", colored)
+        sha_256_a_str = colored_st("sha_256_a", "sha_256_a", colored)
+        sha_256_b_str = colored_st("sha_256_b", "sha_256_b", colored)
+        auth_key_id_str = colored_st("auth_key_id", "auth_key_id", colored)
+        ciphertext_str = colored_st("ciphertext", "ciphertext", colored)
+        printable_message = PrintableBytesMessage(self, colored)
+        print(f"\nGenerating {plaintext_str} from external headeer ({auth_key_id_str} + {msg_key_str}) + {ciphertext_str}:\n")
+        wait_input(instant)
+        print("Abridged transport header + TCP payload")
+        print(
+            f"{printable_message.transport_header_str + printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext}")
+        wait_input(instant)
+        print(f"Abridged transport header:")
+        print(printable_message.transport_header_str)
+        if self.abridged_transport_header[0] == 0x7f :
+
+            print(f"Since the first byte of Abridged Transport Layer is 0x7f, the length of the TCP payload is 4 times the number encoded in the next 3 bytes of the header. So lenght = 4 * {bytes_to_int(self.abridged_transport_header[1:])} = {len(self.tcp_payload)}")
+        print(f"{colored_st("\nTCP payload: ", "bold", colored)}\nexternal header ({auth_key_id_str} + {msg_key_str}) + {ciphertext_str} (after removing Abridged transport header)")
+        print(
+            printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext)
+
+        wait_input(instant)
+        print(
+            f"{colored_st("\nexternal header: ", "bold", colored)}\n{auth_key_id_str} + {msg_key_str}\nsent in clear text\n{auth_key_id_str} is needed to identify the {auth_key_str} for decryption, {msg_key_str} is needed to compute {aes_key_str} and {aes_iv_str}")
+        print(printable_message.colored_auth_key_id + printable_message.colored_msg_key)
+
+        wait_input(instant)
+        print(
+            f"\n{ciphertext_str}\nAES Infinite Garble Mode (IGE) of plaintext (zero padded to be of a multiple of 16 bytes long)")
+        print(printable_message.colored_ciphertext)
+
+        print(
+            f"{auth_key_str}2048 bit, exchanged through Diffie-Hellman when logging into a new device, known to client device and server. A single user can have multiple auth_keys, one for each device where they are logged in. Once obtained, it is never changed."
+            f"\nBytes 0..7, 44..47 and 88..95 are unused in server to client communications {" (this case)" if "client" not in self.msg_type else ""}"
+            f"\nBytes 36..39, 76..83 and 120..127 are unused in client to server communications {" (this case)" if "client" in self.msg_type else ""}"
+            f"\nBytes 84..87 and 128..255 are never involved in the computation of aes_key and aes_iv, and may only be used for encryption on local data on device."
+            f"\nAll the remaining bytes are used on both directions of communication")
+
+        print(printable_message.colored_auth_key_str)
+
+        print(f"\n{x_str}:\n{x_str} = 0 on client to server messages, {x_str} = 8 on server to client messages. In this instance, {x_str} = {self.x}")
+
+        wait_input(instant)
+        print(
+            f"{colored_st("\npre-hashed sha_256_a: \n", "bold", colored)}{auth_key_fragment_a_str} + {msg_key_str}, where {auth_key_fragment_a_str} is the 36 bytes of {auth_key_str} starting from byte {x_str} ({self.x})")
+        print(printable_message.colored_auth_key_sha_a + printable_message.colored_msg_key)
+
+        wait_input(instant)
+        print(f"\n{sha_256_a_str}\nsha-256 of {auth_key_fragment_a_str} + {msg_key_str}")
+        print(printable_message.colored_sha_256_a)
+
+        wait_input(instant)
+        print(
+            f"{colored_st("\npre-hashed sha_256_b: \n", "bold", colored)}{msg_key_str} + {auth_key_fragment_b_str}, where {auth_key_fragment_b_str} is the 36 bytes of {auth_key_str} starting from byte 40 + {x_str} ({40 + self.x})")
+        print(printable_message.colored_msg_key + printable_message.colored_auth_key_sha_b)
+
+        wait_input(instant)
+        print(f"\n{sha_256_b_str}\nsha-256 of msg_key + auth_key_fragment_b")
+        print(printable_message.colored_sha_256_b)
+
+        wait_input(instant)
+        print(
+            f"\n{aes_key_str}\nBytes 0..7 of {sha_256_a_str} + bytes 8..23 of {sha_256_b_str} + bytes 24..31 of {sha_256_a_str}")
+        print(printable_message.colored_aes_key)
+
+        wait_input(instant)
+        print(
+            f"\n{aes_iv_str}\nBytes 0..7 of sha_256_b + bytes 8..23 of sha_256_a + bytes 24..31 of sha_256_b")
+        print(printable_message.colored_aes_iv)
+
+        wait_input(instant)
+        print(f"\n{plaintext_str}\n(decrypted from {ciphertext_str} using AES IGE with computed {aes_key_str} and {aes_iv_str}): \n{salt_str} + {session_id_str} + {message_id_str} + {message_seq_no_str} + {message_data_len_str} + {message_data_str} + {padding_str}")
+        print(printable_message.plaintext_str)
+        
+        wait_input(instant)
+        print(f"\nComputing {msg_key_str} again from {plaintext_str} to check it is equal to the one received in the external header")
+        wait_input(instant)
+        print(f"\n{msg_key_large_str}:\nsha-256 of {auth_key_fragment_msg_str} + {plaintext_str}")
+        print(printable_message.colored_check_msg_key_large)
+
+        wait_input(instant)
+        print(
+            f"\n{msg_key_str}: \nmiddle 16 bytes of {msg_key_large_str}, the rest is unused")
+        print(printable_message.colored_check_msg_key)
+        wait_input(instant)
+        if printable_message.colored_check_msg_key == printable_message.colored_msg_key:
+            print(f"{msg_key_str} computed again from {plaintext_str} and {msg_key_str} received in external header match, security check is passed")
+        else:
+            print(f"{msg_key_str} computed again from {plaintext_str} and {msg_key_str} received in external header do not match, security check is failed. Decryption is aborted")
         print()
-        if not silent:
-            instant = False
-            salt_str = colored_str(to_hex_str(self.session.salt), "salt", colored)
-            session_id_str = colored_str(to_hex_str(self.session.session_id), "session_id", colored)
-            additive_str = colored_str(str(additive), "additive", colored)
-            unix_s_str = colored_str(to_hex_str(to_bytes(unix_s >> 32, 4)), "unix_s", colored)
-            unix_ns_str = colored_str(to_hex_str(to_bytes(unix_ns, 4)),"unix_ns", colored)
-            hex_msg_id = to_hex_str(to_bytes(self.message_id))
-            message_id_str = (colored_str(hex_msg_id[:len(hex_msg_id)//2], "unix_s", colored)
-                              + colored_str(hex_msg_id[len(hex_msg_id)//2:-2], "unix_ns", colored)
-                              + colored_str(hex_msg_id[-2:], "additive", colored))
-            msg_seq_no_str = colored_str(to_hex_str(to_bytes(self.seqNo, 4)), "seq_no", colored)
-            data_length_str = colored_str(to_hex_str(to_bytes(self.data_length, 4)), "data_length", colored)
-            message_data_str = colored_str(to_hex_str(self.message_data), "message_data", colored)
-            padding_str = colored_str(to_hex_str(self.padding), "padding", colored)
-
-            plaintext_str = salt_str + session_id_str + message_id_str + msg_seq_no_str + data_length_str + message_data_str + padding_str
-            auth_key_str = to_hex_str(self.session.auth_key)
-            colored_auth_key_msg = colored_str(to_hex_str(auth_key_fragment_msg_key), "auth_key_msg_key", colored)
-            colored_auth_key_sha_a = colored_str(to_hex_str(auth_key_fragment_sha_a), "auth_key_sha_a", colored)
-            colored_auth_key_sha_b = colored_str(to_hex_str(auth_key_fragment_sha_b), "auth_key_sha_b", colored)
-            colored_auth_key_str = (colored_str(auth_key_str[: 3 * auth_key_fragment_sha_a_start], "unused", colored)
-                                    + colored_auth_key_sha_a
-                                    + colored_str(auth_key_str[3 * auth_key_fragment_sha_a_end: 3 * auth_key_fragment_sha_b_start], "unused", colored)
-                                    + colored_auth_key_sha_b
-                                    + colored_str(auth_key_str[3 * auth_key_fragment_sha_b_end: 3 * auth_key_fragment_msg_key_start],"unused", colored)
-                                    + colored_auth_key_msg
-                                    + colored_str(auth_key_str[3 * auth_key_fragment_msg_key_end :],"unused", colored)
-                                    )
-            colored_msg_key = colored_str(to_hex_str(msg_key), "msg_key", colored)
-            colored_msg_key_large = colored_str(to_hex_str(msg_key_large[:8]), "unused", colored) + colored_msg_key + colored_str(to_hex_str(msg_key_large[24:]),"unused", colored)
-            colored_sha_256_a = colored_str(to_hex_str(sha_256_a), "sha_256_a", colored)
-            colored_sha_256_b = colored_str(to_hex_str(sha_256_b), "sha_256_b", colored)
-            colored_aes_key = colored_str(to_hex_str(self.aes_key[:8]), "sha_256_a", colored) + colored_str(to_hex_str(self.aes_key[8:24]), "sha_256_b", colored) +  colored_str(to_hex_str(self.aes_key[24:]), "sha_256_a", colored)
-            colored_aes_iv =  colored_str(to_hex_str(self.aes_iv[:8]), "sha_256_b", colored) + colored_str(to_hex_str(self.aes_iv[8:24]), "sha_256_a", colored) +  colored_str(to_hex_str(self.aes_iv[24:]), "sha_256_b", colored)
-            colored_auth_key_id = colored_str(to_hex_str(self.session.auth_key_id), "auth_key_id", colored)
-            colored_cyphertext = colored_str(to_hex_str(self.cyphertext), "cyphertext", colored)
-            print("\nGenerating plaintext to be encrypted:\n")
-            print(f"Generating {colored_str("Internal Header","bold", colored)}, consisting of server salt and session_id\n")
-
-            wait_input(instant)
-            print(colored_str("salt:\n", "bold", colored) + colored_str("64 bits, randomly generated by the server, changes every 30 minutes","italic", colored))
-            print(salt_str)
-
-            wait_input(instant)
-            print(colored_str("\nsession_id:\n", "bold", colored) + "64 bits, generated by client at random, lasts for the entire session")
-            print(session_id_str)
-
-            wait_input(instant)
-            print(f"\ngenerating {colored_str("Message","bold", colored)}, consisting of message_id, message_seq_no, message_data_length, message_data and padding")
-
-            wait_input(instant)
-            print("\ngenerating "+colored_str("message_id: \n", "bold", colored) + f"64 bit, 32 most significative bits are the unix time in seconds. 32 least significative bits are nanoseconds since last second. \nSince message_id % 4 = {msg_id % 4} and message type is {msg_type}, {additive_str} was added so that message_id % 4 = {modulo} ")
-
-            wait_input(instant)
-            print(colored_str("unix seconds: ", "bold", colored))
-            print(unix_s_str)
-
-            wait_input(instant)
-            print(colored_str("nanoseconds: ", "bold", colored))
-            print(unix_ns_str)
-
-            wait_input(instant)
-            print(colored_str("message_id: ", "bold", colored))
-            print(message_id_str)
-
-            wait_input(instant)
-            print(colored_str("\nmsg_seq_no: \n", "bold", colored) + "32 bit, message sequence number. Equal to 2n + 1 where n is the number of content related messages sent in the current session prior to this one.")
-            print(msg_seq_no_str)
-
-            wait_input(instant)
-            print(colored_str("\nmessage_data_length: \n", "bold", colored) + "32 bit, length of actual data")
-            print(data_length_str)
-
-            wait_input(instant)
-            print(colored_str("\nmessage_data: \n", "bold", colored) + f"variable length ({len(self.message_data)} in this instance), actual message contents")
-            print(message_data_str)
-
-            wait_input(instant)
-            print(colored_str("\npadding: \n", "bold", colored) + f"12 to 1024 Bytes ({len(self.padding)} in this instance), random length, random contents")
-            print(padding_str)
-
-            wait_input(instant)
-            print(colored_str("\nassembled plaintext: \n", "bold", colored) + "salt + session_id + message_id + seq_no + message_data_length + message_data + padding")
-            print(plaintext_str)
-
-            wait_input(instant)
-            print(f"\nGenerating AES IGE {colored_str("aes_key","bold", colored)} and {colored_str("aes_iv","bold", colored)} from auth_key and plaintext:")
-            wait_input(instant)
-            print(f"{colored_str("\nauth_key: \n", "bold", colored)}2048 bit, exchanged through Diffie-Hellman when logging into a new device, known to client device and server. A single user can have multiple auth_keys, one for each device where they are logged in. Once obtained, it is never changed."
-                  f"\nBytes 0..7, 44..47 and 88..95 are unused in communications server to client{" (this case)" if "client" not in self.msg_type else ""}"
-                  f"\nBytes 36..39, 76..83 and 120..127 are unused in communications client to server{"(this case)" if "client" in self.msg_type else ""}"
-                  f"\nBytes 84..87 and 128..255 are never involved in the computation of aes_key and aes_iv, and may only be used for encryption on local data on device."
-                  f"\nAll the remaining bytes are used on both directions of communication")
-
-            print(colored_auth_key_str)
-
-            wait_input(instant)
-            print(f"\n{colored_str("x: \n", "bold", colored)}x = 0 on client to server messages, x = 8 on server to client messages. In this instance, x = {x}")
-
-            wait_input(instant)
-            print(f"{colored_str("\npre-hashed msg_key_large: \n", "bold", colored)}auth_key_fragment_msg + plaintext, where auth_key_fragment_msg is the 32 bytes of auth_key starting from byte 88 + x ({88 + x})")
-            print(colored_auth_key_msg + plaintext_str)
-
-            wait_input(instant)
-            print(f"{colored_str("\nmsg_key_large: \n", "bold", colored)}sha-256 of auth_key_fragment_msg + plaintext")
-            print(colored_msg_key_large)
-
-            wait_input(instant)
-            print(f"{colored_str("\nmsg_key: \n", "bold", colored)}middle 16 bytes of msg_key_large, the rest of msg_key_large is unused")
-            print(colored_msg_key)
-
-            wait_input(instant)
-            print(f"{colored_str("\npre-hashed sha_256_a: \n", "bold", colored)}auth_key_fragment_a + msg_key, where auth_key_fragment_a is the 36 bytes of auth_key starting from byte x ({x})")
-            print(colored_auth_key_sha_a + colored_msg_key)
-
-            wait_input(instant)
-            print(f"{colored_str("\nsha_256_a: ", "bold", colored)}\nsha-256 of auth_key_fragment_a + msg_key")
-            print(colored_sha_256_a)
-
-            wait_input(instant)
-            print(f"{colored_str("\npre-hashed sha_256_b: \n", "bold", colored)}msg_key + auth_key_fragment_b, where auth_key_fragment_b is the 36 bytes of auth_key starting from byte 40 + x ({40 + x})")
-            print(colored_msg_key + colored_auth_key_sha_b)
-
-            wait_input(instant)
-            print(f"{colored_str("\nsha_256_b: ", "bold", colored)}\nsha-256 of msg_key + auth_key_fragment_b")
-            print(colored_sha_256_b)
-
-            wait_input(instant)
-            print(f"{colored_str("\naes_key: ", "bold", colored)}\nBytes 0..7 of sha_256_a + bytes 8..23 of sha_256_b + bytes 24..31 of sha_256_a")
-            print(colored_aes_key)
-
-            wait_input(instant)
-            print(f"{colored_str("\naes_iv: ", "bold", colored)}\nBytes 0..7 of sha_256_b + bytes 8..23 of sha_256_a + bytes 24..31 of sha_256_b")
-            print(colored_aes_iv)
-
-            wait_input(instant)
-            print("Generating external header")
-
-            wait_input(instant)
-            print(f"{colored_str("auth_key_id: ", "bold", colored)}\nSHA-1 of auth_key")
-            print(colored_auth_key_id)
-
-            wait_input(instant)
-            print(f"{colored_str("external header: ", "bold", colored)}\nauth_key_id + msg_key\nsent in clear text\nauth_key_id is needed to identify the auth_key for decryption, msg_key is needed to compute aes_key and aes_iv")
-            print(colored_auth_key_id + colored_msg_key)
-
-            wait_input(instant)
-            print(f"{colored_str("\ncyphertext: ", "bold", colored)}\nAES Infinite Garble Mode (IGE) of plaintext (zero padded to be of a multiple of 16 bytes long)")
-            print(colored_cyphertext)
-
-            wait_input(instant)
-            print(f"{colored_str("pre-obfuscation data: ", "bold", colored)}\nexternal header + cyphertext")
-            print(colored_auth_key_id + colored_msg_key + colored_cyphertext)
-
-            wait_input(instant)
-            print("Obfuscating data:")
-
-            wait_input(instant)
+        print("Message decrypted")
+        print("---------------------------------------------------------------")
+        print()
+        print()
 
 
 
+    def print_message_encryption(self, colored: bool, instant: bool):
+        printable_message = PrintableBytesMessage(self, colored)
+        salt_str = colored_st("salt", "salt", colored)
+        session_id_str = colored_st("session_id", "session_id", colored)
+        # internal_header_str = colored_str("internal ", "salt", colored) + colored_str("header", "session_id", colored)
+        internal_header_str = colored_st("Internal Header", "bold", colored)
+        print("\nGenerating plaintext to be encrypted:\n")
+        print(
+            f"Generating {internal_header_str}, consisting of server {salt_str} and {session_id_str}\n")
 
+        wait_input(instant)
+        print(f"{salt_str}:\n64 bits, randomly generated by the server, changes every 30 minutes")
+        print(printable_message.salt_str)
+
+
+
+        wait_input(instant)
+        print(colored_st(f"\n{session_id_str}:\n", "bold",
+                         colored) + "64 bits, generated by client at random, lasts for the entire session")
+        print(printable_message.session_id_str)
+
+        print(f"\n{internal_header_str}: {salt_str} + {session_id_str}")
+        print(printable_message.salt_str + printable_message.session_id_str)
+
+        unix_s_str = colored_st("unix_s", "unix_s", colored)
+        unix_ns_str = colored_st("unix_ns", "unix_ns", colored)
+        message_id_str = colored_st("mess", "unix_s", colored) + colored_st("age_i", "unix_ns", colored) + colored_st("d", "additive", colored)
+        message_seq_no_str = colored_st("message_seq_no", "seq_no", colored)
+        message_data_len_str = colored_st("message_data_length", "data_length", colored)
+        message_data_str = colored_st("message_data", "message_data", colored)
+        padding_str = colored_st("padding", "padding", colored)
+        plaintext_str = (colored_st("P", "salt", colored) + colored_st("l", "session_id", colored) + colored_st("a", "unix_s", colored)
+                         # + colored_str("i","unix_ns",colored) + colored_str("n","data_length",colored)
+                         + colored_st("int", "message_data", colored) + colored_st("ext", "padding", colored))
+        aes_key_str = colored_st("ae", "sha_256_a", colored) + colored_st("s_k", "sha_256_b", colored) + colored_st(
+            "ey", "sha_256_a", colored)
+        aes_iv_str = colored_st("ae", "sha_256_b", colored) + colored_st("s_", "sha_256_a", colored) + colored_st(
+            "iv", "sha_256_b", colored)
+        auth_key_str = colored_st("aut", "auth_key_sha_a", colored) + colored_st("h_k", "auth_key_sha_b",
+                                                                                 colored) + colored_st("ey",
+                                                                                                          "auth_key_msg_key",
+                                                                                                       colored)
+        auth_key_fragment_msg_str = colored_st("auth_key_fragment_msg", "auth_key_msg_key", colored)
+        x_str = colored_st("x", "x", colored)
+        auth_key_fragment_a_str = colored_st("auth_key_fragment_a", "auth_key_sha_a", colored)
+        auth_key_fragment_b_str = colored_st("auth_key_fragment_b", "auth_key_sha_b", colored)
+        msg_key_large_str = colored_st("msg_key", "msg_key", colored) + colored_st("_large", "unused", colored)
+        msg_key_str = colored_st("msg_key", "msg_key", colored)
+        sha_256_a_str = colored_st("sha_256_a", "sha_256_a", colored)
+        sha_256_b_str = colored_st("sha_256_b", "sha_256_b", colored)
+        auth_key_id_str = colored_st("auth_key_id", "auth_key_id", colored)
+        ciphertext_str = colored_st("ciphertext", "ciphertext", colored)
+
+        wait_input(instant)
+        print(
+            f"\ngenerating {plaintext_str}, consisting of {message_id_str}, {message_seq_no_str}, {message_data_len_str}, {message_data_str} and {padding_str}")
+
+        wait_input(instant)
+        print(f"\ngenerating {message_id_str}:\n64 bit, 32 most significative bits are the unix time in seconds ({unix_s_str}). 32 least significative bits are nanoseconds since last second ({unix_ns_str}). \nSince {unix_s_str} + {unix_ns_str} % 4 = {self.msg_time % 4} and message type is {self.msg_type}, {printable_message.additive_str} was added so that {message_id_str} % 4 = {self.modulo} ")
+
+        wait_input(instant)
+        print(f"\n{unix_s_str}: ")
+        print(printable_message.unix_s_str)
+
+        wait_input(instant)
+        print(f"\n{unix_ns_str}: ")
+        print(printable_message.unix_ns_str)
+
+        wait_input(instant)
+        print(f"\n{message_id_str}: ")
+        print(printable_message.message_id_str)
+
+        wait_input(instant)
+        print(f"\n{message_seq_no_str}: \n32 bit, message sequence number. Equal to 2n + 1 where n is the number of content related messages sent in the current session prior to this one.")
+        print(printable_message.msg_seq_no_str)
+
+        wait_input(instant)
+        print(f"\n{message_data_len_str}: \n32 bit, length of actual data")
+        print(printable_message.data_length_str)
+
+        wait_input(instant)
+        print(f"\n{message_data_str}:\nvariable length ({len(self.message_data_plaintext)} in this instance), actual message contents")
+        print(printable_message.message_data_str)
+
+        wait_input(instant)
+        print(f"\n{padding_str}:\n12 to 1024 Bytes ({len(self.padding)} in this instance), random length, random contents")
+        print(printable_message.padding_str)
+
+        wait_input(instant)
+        print(f"\nassembled {plaintext_str}: \n{salt_str} + {session_id_str} + {message_id_str} + {message_seq_no_str} + {message_data_len_str} + {message_data_str} + {padding_str}")
+        print(printable_message.plaintext_str)
+
+        wait_input(instant)
+
+        print(
+            f"\nGenerating AES IGE {aes_key_str} and {aes_iv_str} from {auth_key_str} and {plaintext_str}:")
+        wait_input(instant)
+        print(
+            f"\n{auth_key_str}:\n2048 bit, exchanged through Diffie-Hellman when logging into a new device, known to client device and server. A single user can have multiple auth_keys, one for each device where they are logged in. Once obtained, it is never changed."
+            f"\nBytes 0..7, 44..47 and 88..95 are unused in server to client communications {" (this case)" if "client" not in self.msg_type else ""}"
+            f"\nBytes 36..39, 76..83 and 120..127 are unused in client to server communications {" (this case)" if "client" in self.msg_type else ""}"
+            f"\nBytes 84..87 and 128..255 are never involved in the computation of aes_key and aes_iv, and may only be used for encryption on local data on device."
+            f"\nAll the remaining bytes are used on both directions of communication")
+
+
+        print(printable_message.colored_auth_key_str)
+
+        wait_input(instant)
+        print(f"\n{x_str}:\n{x_str} = 0 on client to server messages, {x_str} = 8 on server to client messages. In this instance, {x_str} = {self.x}")
+
+        wait_input(instant)
+        print(
+            f"\npre-hashed {msg_key_large_str}:\n{auth_key_fragment_msg_str} + {plaintext_str}, where {auth_key_fragment_msg_str} is the 32 bytes of {auth_key_str} starting from byte 88 + {x_str} ({88 + self.x})")
+        print(printable_message.colored_auth_key_msg + printable_message.plaintext_str)
+
+        wait_input(instant)
+        print(f"\n{msg_key_large_str}:\nsha-256 of {auth_key_fragment_msg_str} + {plaintext_str}")
+        print(printable_message.colored_msg_key_large)
+
+        wait_input(instant)
+        print(
+            f"\n{msg_key_str}: \nmiddle 16 bytes of {msg_key_large_str}, the rest is unused")
+        print(printable_message.colored_msg_key)
+
+        wait_input(instant)
+        print(
+            f"{colored_st("\npre-hashed sha_256_a: \n", "bold", colored)}{auth_key_fragment_a_str} + {msg_key_str}, where {auth_key_fragment_a_str} is the 36 bytes of {auth_key_str} starting from byte {x_str} ({self.x})")
+        print(printable_message.colored_auth_key_sha_a + printable_message.colored_msg_key)
+
+        wait_input(instant)
+        print(f"\n{sha_256_a_str}:\nsha-256 of {auth_key_fragment_a_str} + {msg_key_str}")
+        print(printable_message.colored_sha_256_a)
+
+        wait_input(instant)
+        print(
+            f"{colored_st("\npre-hashed sha_256_b: \n", "bold", colored)}{msg_key_str} + {auth_key_fragment_b_str}, where {auth_key_fragment_b_str} is the 36 bytes of {auth_key_str} starting from byte 40 + {x_str} ({40 + self.x})")
+        print(printable_message.colored_msg_key + printable_message.colored_auth_key_sha_b)
+
+        wait_input(instant)
+        print(f"\n{sha_256_b_str}:\nsha-256 of {msg_key_str} + {auth_key_fragment_b_str}")
+        print(printable_message.colored_sha_256_b)
+
+        wait_input(instant)
+        print(
+            f"\n{aes_key_str}:\nBytes 0..7 of {sha_256_a_str} + bytes 8..23 of {sha_256_b_str} + bytes 24..31 of {sha_256_a_str}")
+        print(printable_message.colored_aes_key)
+
+        wait_input(instant)
+        print(
+            f"\n{aes_iv_str}:\nBytes 0..7 of {sha_256_b_str} + bytes 8..23 of {sha_256_a_str} + bytes 24..31 of {sha_256_b_str}")
+        print(printable_message.colored_aes_iv)
+
+        wait_input(instant)
+        print("Generating external header")
+
+        wait_input(instant)
+        print(f"\n{auth_key_id_str}:\nSHA-1 of {auth_key_str} (20 bytes)")
+        print(printable_message.colored_auth_key_id)
+
+        wait_input(instant)
+        print(
+            f"\n{colored_st("external header: ", "bold", colored)}\n{auth_key_id_str} + {msg_key_str}\nsent in clear text\n{auth_key_id_str} is needed to identify the {auth_key_str} for decryption, {msg_key_str} is needed to compute {aes_key_str} and {aes_iv_str}")
+        print(printable_message.colored_auth_key_id + printable_message.colored_msg_key)
+
+        wait_input(instant)
+        print(
+            f"\n{ciphertext_str}:\nAES Infinite Garble Mode (IGE) of {plaintext_str} (zero padded to be of a multiple of 16 bytes long), encrypted using {aes_key_str} and {aes_iv_str}")
+        print(printable_message.colored_ciphertext)
+
+        wait_input(instant)
+        print(f"\n{colored_st("TCP payload: ", "bold", colored)}\nexternal header ({auth_key_id_str} + {msg_key_str}) + {ciphertext_str}")
+        print(printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext)
+
+        wait_input(instant)
+        print("\nAdding abridged transport header:")
+        print(
+            f"\n{colored_st("Abridged Transport header: ", "bold", colored)}\nTCP payload length divided by 4 if it is less than 127 (0x7f), encoded as 1 byte; otherwise the byte 0x7f followed by TCP payload length divided by 4, encoded as 3 bytes.")
+        print(f"In this instance, length of TCP payload divided by 4 is {len(self.tcp_payload)} / 4 = {int(len(self.tcp_payload) / 4)}")
+        print(printable_message.transport_header_str)
+
+        wait_input(instant)
+        print("Abridged transport header + TCP payload")
+
+        print(f"{printable_message.transport_header_str + printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext}")
+        print()
+        print("Message encrypted")
+        print("---------------------------------------------------------------")
+        print()
+        print()
+
+    def remove_trailing_zeros(self):
+        while self.plaintext[-1] == 0x00:
+            self.plaintext = self.plaintext[:-1]
+
+
+
+
+
+    def get_decrypted_data(self):
+        return self.message_data_plaintext
+
+    def get_encrypted_data(self):
+        return self.complete_bytes_ciphertext
+
+class PrintableBytesMessage:
+    def __init__(self, message: TGMessage, colored):
+        self.message = message
+        self.salt_str = colored_st(to_hex_str(self.message.session.salt), "salt", colored)
+        self.session_id_str = colored_st(to_hex_str(self.message.session.session_id), "session_id", colored)
+        self.additive_str = colored_st(str(self.message.additive), "additive", colored)
+        self.unix_s_str = colored_st(to_hex_str(to_bytes(self.message.unix_s >> 32, 4)), "unix_s", colored)
+        self.unix_ns_str = colored_st(to_hex_str(to_bytes(self.message.unix_ns, 4)), "unix_ns", colored)
+        hex_msg_id = to_hex_str(self.message.message_id)
+        self.message_id_str = (colored_st(hex_msg_id[:len(hex_msg_id) // 2], "unix_s", colored)
+                               + colored_st(hex_msg_id[len(hex_msg_id) // 2:-2], "unix_ns", colored)
+                               + colored_st(hex_msg_id[-2:], "additive", colored))
+        self.msg_seq_no_str = colored_st(to_hex_str(self.message.seqNo), "seq_no", colored)
+        self.data_length_str = colored_st(to_hex_str(self.message.data_length), "data_length", colored)
+        self.message_data_str = colored_st(to_hex_str(self.message.message_data_plaintext), "message_data", colored)
+        self.padding_str = colored_st(to_hex_str(self.message.padding), "padding", colored)
+
+        self.plaintext_str = self.salt_str + self.session_id_str + self.message_id_str + self.msg_seq_no_str + self.data_length_str + self.message_data_str + self.padding_str
+        self.auth_key_str = to_hex_str(self.message.session.auth_key)
+        self.colored_auth_key_msg = colored_st(to_hex_str(self.message.auth_key_fragment_msg_key), "auth_key_msg_key",
+                                               colored)
+        self.colored_auth_key_sha_a = colored_st(to_hex_str(self.message.auth_key_fragment_sha_a), "auth_key_sha_a",
+                                                 colored)
+        self.colored_auth_key_sha_b = colored_st(to_hex_str(self.message.auth_key_fragment_sha_b), "auth_key_sha_b",
+                                                 colored)
+        self.colored_auth_key_str = (
+                colored_st(self.auth_key_str[: 3 * self.message.auth_key_fragment_sha_a_start], "unused", colored)
+                + self.colored_auth_key_sha_a
+                + colored_st(
+                self.auth_key_str[
+                    3 * self.message.auth_key_fragment_sha_a_end: 3 * self.message.auth_key_fragment_sha_b_start],
+                "unused", colored)
+                + self.colored_auth_key_sha_b
+                + colored_st(
+                self.auth_key_str[
+                    3 * self.message.auth_key_fragment_sha_b_end: 3 * self.message.auth_key_fragment_msg_key_start],
+                "unused",
+                colored)
+                + self.colored_auth_key_msg
+                + colored_st(self.auth_key_str[3 * self.message.auth_key_fragment_msg_key_end:], "unused", colored)
+                    )
+        self.colored_msg_key = colored_st(to_hex_str(self.message.msg_key), "msg_key", colored)
+        self.colored_msg_key_large = colored_st(to_hex_str(self.message.msg_key_large[:8]), "unused",
+                                                colored) + self.colored_msg_key + colored_st(
+            to_hex_str(self.message.msg_key_large[24:]),
+            "unused", colored)
+        self.colored_check_msg_key = colored_st(to_hex_str(self.message.check_msg_key), "msg_key", colored)
+        self.colored_check_msg_key_large = colored_st(to_hex_str(self.message.check_msg_key_large[:8]), "unused",
+                                                colored) + self.colored_msg_key + colored_st(
+            to_hex_str(self.message.msg_key_large[24:]),
+            "unused", colored)
+        self.colored_sha_256_a = colored_st(to_hex_str(self.message.sha_256_a), "sha_256_a", colored)
+        self.colored_sha_256_b = colored_st(to_hex_str(self.message.sha_256_b), "sha_256_b", colored)
+        self.colored_aes_key = colored_st(to_hex_str(self.message.aes_key[:8]), "sha_256_a", colored) + colored_st(
+            to_hex_str(self.message.aes_key[8:24]), "sha_256_b", colored) + colored_st(
+            to_hex_str(self.message.aes_key[24:]),
+            "sha_256_a", colored)
+        self.colored_aes_iv = colored_st(to_hex_str(self.message.aes_iv[:8]), "sha_256_b", colored) + colored_st(
+            to_hex_str(self.message.aes_iv[8:24]), "sha_256_a", colored) + colored_st(
+            to_hex_str(self.message.aes_iv[24:]),
+            "sha_256_b", colored)
+        self.colored_auth_key_id = colored_st(to_hex_str(self.message.session.auth_key_id), "auth_key_id", colored)
+        self.colored_ciphertext = colored_st(to_hex_str(self.message.ciphertext), "ciphertext", colored)
+
+        if len(self.message.abridged_transport_header) == 1:
+            self.transport_header_str = colored_st(to_hex_str(self.message.abridged_transport_header),
+                                                   "abridged_transport_header_length", colored)
+        else:
+            self.transport_header_str = colored_st(to_hex_str(self.message.abridged_transport_header[:1]),
+                                                   "abridged_transport_code", colored) + colored_st(
+                to_hex_str(self.message.abridged_transport_header[1:]), "abridged_transport_header_length", colored)
+
+
+class MsgCheckFailedException(Exception):
+    pass

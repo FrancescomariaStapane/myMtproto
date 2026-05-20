@@ -8,8 +8,13 @@ def to_bytes(n: int, length = -1) -> bytes:
     length = length if length > 0 else (n.bit_length() + 7) // 8
     return n.to_bytes(length, 'big')
 
-def to_hex_str(arr: bytes) -> str:
+def bytes_to_int(b: bytes):
+    return int.from_bytes(b, 'big')
+
+def to_hex_str(arr: bytes, spaces = True) -> str:
     s = arr.hex()
+    if not spaces:
+        return s
     spaced_str = ""
     for i in range(0, len(s), 2):
         spaced_str = spaced_str + s[i:i+2] + " "
@@ -39,23 +44,40 @@ def get_ansi(content: str, colored: bool) -> str:
     if content == "auth_key_sha_a" : return "\x1b[1;38;5;202;49m"
     if content == "auth_key_sha_b" : return "\x1b[1;38;5;140;49m"
     if content == "auth_key_msg_key" : return "\x1b[1;38;5;34;49m"
+    if content == "x" : return "\x1b[1;38;5;210;49m"
     if content == "unused" : return "\x1b[0;38;5;244;49m"
     if content == "msg_key" : return "\x1b[1;38;5;48;49m"
     if content == "sha_256_a" : return "\x1b[1;38;5;200;49m"
     if content == "sha_256_b" : return "\x1b[1;38;5;20;49m"
-    if content == "cyphertext" : return "\x1b[1;38;5;228;49m"
+    if content == "ciphertext" : return "\x1b[1;38;5;228;49m"
     if content == "auth_key_id" : return "\x1b[1;38;5;204;49m"
+    if content == "abridged_transport_code" : return "\x1b[1;38;5;87;49m"
+    if content == "abridged_transport_header_length" : return "\x1b[1;38;5;202;49m"
     return ""
 
-def colored_str(s:str, content_type: str, colored: bool) -> str:
+def colored_st(s:str, content_type: str, colored: bool) -> str:
     return get_ansi(content_type, colored)+ s + get_ansi("close",colored)
 
 
-def load_user_data(username):
-    with open('users.json', 'r') as file:
-        users = json.load(file)
-        user = users[username]
-        return user
+def load_user_data_server(auth_key_id: bytearray = None, user_id: str = None):
+    if auth_key_id is not None:
+        with open('users.json', 'r') as file:
+            users = json.load(file)
+            if str(auth_key_id.hex()) not in users.keys():
+                return None
+            user = users[str(auth_key_id.hex())]
+            return  user
+    elif user_id is not None:
+        with open('users_reverse.json', 'r') as file:
+            users = json.load(file)
+            if str(user_id) not in users:
+                return None
+            user = users[str(user_id)]
+            return user
+    raise Exception
+
+
+
 
 def wait_input(instant):
     if not instant: getpass.getpass("")
