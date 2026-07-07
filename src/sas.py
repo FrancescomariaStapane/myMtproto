@@ -1,20 +1,20 @@
-min_ = 3
-max_ = 8
-splits = 10
-arr = []
-for i in range(splits + 1):
-    arr.append((max_ - min_) / (splits) * i + min_)
+import math
+import time
+import requests
+import json
+from Crypto.Util import number
+from Crypto.Random import random
+from utils import to_bytes
 
 
-for i in range(len(arr)):
-    print(arr[i])
+import secrets
+import time
 
-def find_index(min_, max_, splits, value):
-    step = (max_ - min_) / splits
-    index = round((value - min_) / step)
-    if index > splits:
-        return splits
-    return max(0, index)
-print()
-print(arr[find_index(min_, max_, splits, 3.3)])
+def get_safe_prime_and_g():
+    url = "https://2ton.com.au/getprimes/random/2048"
+    data = json.loads(requests.get(url).content.decode())
+    p = int((data["p"]["base10"]))
+    g = int(data["g"]["base10"])
+    return p, g
 
+print(get_safe_prime_and_g())
