@@ -64,7 +64,7 @@ def exchange_DH_server(conn, tg_message_req_DH):
     if not args.silent:
         print("Received DH parameters request from client. Generating p, g, private key a and public key A")
         wait_input(args.instant)
-        print("p (2048 bit safe prime, meaning (p-1)/2 is also prime)")
+        print("p (2048 bit safe prime, meaning (p-1)/2 is also prime and 2^2047 < p < 2^2048)")
         print(p)
         print()
         wait_input(args.instant)
@@ -73,7 +73,7 @@ def exchange_DH_server(conn, tg_message_req_DH):
         print()
 
         wait_input(args.instant)
-        print("a (random 2048 bit number bigger than 2^2048 - 1)")
+        print("a (random 2048 bit number bigger than 2^2047)")
         print(a)
         print()
 
@@ -191,7 +191,7 @@ def get_auth_keys(user_id: str):
     return []
 
 def get_auth_key_id(auth_key: bytearray):
-    return bytearray(hashlib.sha1(auth_key).digest())
+    return bytearray(hashlib.sha1(auth_key).digest())[12:]
 
 def start_server():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:

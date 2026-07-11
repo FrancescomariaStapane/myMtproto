@@ -4,12 +4,12 @@ import json
 import os, re, sys, termios, tty
 import tgcrypto
 
-def to_bytes(n: int, length = -1) -> bytes:
+def to_bytes(n: int, length = -1, little = False) -> bytes:
     length = length if length > 0 else (n.bit_length() + 7) // 8
-    return n.to_bytes(length, 'big')
+    return n.to_bytes(length, 'little') if little else n.to_bytes(length, 'big')
 
-def bytes_to_int(b: bytes):
-    return int.from_bytes(b, 'big')
+def bytes_to_int(b: bytes, little=False):
+    return int.from_bytes(b, 'little') if little else  int.from_bytes(b, 'big')
 
 def to_hex_str(arr: bytes, spaces = True) -> str:
     s = arr.hex()
