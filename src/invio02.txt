@@ -1,0 +1,420 @@
+tag: efefefef44437963
+5e 28 b3 51 e4 d3 e5 f3 77 ac 1d e5 ea 2d 6c 8b 04 48 84 ef 65 5d ba 94 3c 8a a8 e6 76 c9 bd 2f 3f 63 66 0c 25 31 46 9e c5 c4 a5 85 93 f3 e1 1b 13 23 fb 49 c0 e8 7b 21 2c 85 53 2f 6e 1f e8 d3 84 67 87 fb d0 28 1c ed 27 3e 46 9d 5a 87 4f 64 e3 af 7e 4d 6c 5d 01 97 5d 8a 15 5c 86 2f dc c8 96 c8 6d 1c 25 fa a0 0e 5d b7 28 1c 42 e1 29 32 76 4d f5 1c 14 2c 3d 51 2a 8a ca cc 47 42 44 89 6d 00 71 0a 2d 4d c9 5f 75 41 c8 6b 9d 94 79 be e5 b6 a7 68 6a ce 02 12 06 00 4c f9 a5 5b 56 33 ee d8 04 d6 db 04 47 85 ec de 65 e7 28 8a 54 11 67 3a 3d d6 06 b0 3b e8 d9 32 cd b1 17 ec ff 7c a9 c7 78 2b d1 78 94 f9 e7 2c f2 cf cf 6b 4f 94 85 fe a9 6a a2 2a 54 2f 83 ee bb 08 75 fb ea 72 ce 82 e0 76 45 1a 56 de 51 84 3c 69 f7 9c 2c f5 29 99 1d 2c bd 13 de 80 a5 9b 3b d4 eb 8c d0 0d e4 20 40 5d 9f ef 83 b8 06 02 50 df 60 ad aa f5 c8 e8 2a 7a be 1a 11 d2 de db 1e 24 24 44 ec 38 10 fa 64 4e 5c 21 b3 c7 83 3a b6 85 8c 1d 7b 3c aa 5a 9e 88 d9 46 13 79 fd 75 f4 a3 b7 70 c3 34 6a 40 a4 bc 78 51 42 c3 1e 79 d5 bd 69 85 f0 b9 29 c1 c6 6e d3 ba 77 2a 27 61 9b e0 f6 41 8b ce b2 c3 84 ff 73 78 1c ff 91 58 4d c1 96 34 ea e7 0c ab 3f 3b 70 93 8e f0 85 3a 28 b3 51 e4 d3 e5 f3 77 b8 ec 2a 5b c6 6b bb 5b 04 56 a2 1c 1d 0b 03 16 3e 75 3e 16 1e 9f bd 89 ae 5b 09 c7 e1 b8 2d 9b 81 a4 4a 91 e9 ea d3 92 ad 4b cf 6f d2 7c d1 f9 79 4f 0c 02 ee 15 d3 23 11 bf 3d 39 38 1b 7d 0f dc f1 a3 c7 09 3d 76 21 89 7d b1 ee 30 42 98 b4 31 a6 9c 8b 39 f0 3b 01 60 c2 4b 02 f3 bb ce c6 d9 04 69 2e ba 66 93 f9 6f 31 53 cb 11 e3 eb 04 79 c3 73 e0 55 5c d2 34 7c d0 0e 71 5e 26 71 89 a4 b9 bd 5e d0 90 c8 ef 29 47 b9 9d 8b 6f b7 c4 b3 5b c6 cc c3 53 17 dd bb 18 5c eb 72 99 0c 8d 1c dd f6 b9 3a 43 a8 94 b6 88 e0 a2 05 99 81 4d 28 25 85 01 0a ef f2 de 7c 39 73 15 fe 72 03 cd 17 25 8c 7f c8 d9 51 12 1e 58 3f 4e 63 b0 81 df 81 f1 7a 45 ec 20 58 7a 4a f4 44 87 1a e3 51 70 22 28 b3 51 e4 d3 e5 f3 77 6f 56 64 af a7 27 e9 61 e7 ef 53 79 2e 96 37 ec 4f 31 1f e2 d7 9c ea d1 9a 54 7a fb a0 ea f7 ce 1f 0e 5a f9 1b d0 2e bf 02 05 04 2b 32 d1 22 06 3b b4 ff 14 9c 29 4c 9c 9d 57 b1 6e f2 45 b8 a6 57 96 68 6a 2b ac 22 25 fc 47 cf 4a 42 47 20 7a 3f 6a db 84 24 4f 7a d5 71 a4 de 58 6a 7d 19 0a 5a e0 44 c1 5b b4 0f 57 62 64 c9 62 e2 03 2b 5e 27 4d bb cb 8a fd 4a aa ce d4 ea 6b 94 6b 6f 45 3a 28 b3 51 e4 d3 e5 f3 77 6a 05 1c 4c c4 2b 79 d6 28 38 af 39 4d 0a 0f 2a 0c 7f 91 4e 57 e1 30 14 1f 70 13 33 4d 54 42 eb da cb e4 b7 d6 f9 59 c6 a5 15 9d 26 1b a3 9f 18 ac 13 96 99 3a 4a ba 0e c8 fa b6 c2 8f 2b 35 7b f5 92 11 6c 30 7f 4f 82 54 f6 31 e8 fd 7c 17 d6 33 f4 a8 65 08 d7 0a a4 07 0f c4 9d f1 5b 76 bb 24 14 a7 04 b3 28 be 29 d1 c8 67 59 9e 9f 28 00 8f 2f b4 40 47 ad da 25 03 41 71 77 00 83 1c c0 f7 32 5e e7 ab 10 26 a9 6a 11 62 94 2e 55 c9 01 ad 81 d2 f6 1b 52 aa 5f 1b 26 bd 7d 7c f2 c0 40 ae 8f 45 ff ee 66 34 65 08 1b 66 17 2b 78 25 60 4f ff 0e c0 2d 15 c4 a0 6c 9c b2 e0 ee 45 16 6b d9 a6 81 71 bd ba 41 13 f8 c8 75 38 97 f3 d4 40 1e 95 c3 37 f0 9e a9 a4 41 aa 54 62 2f b7 c4 f6 32 28 b3 51 e4 d3 e5 f3 77 d9 37 49 56 d0 3e 3a 83 43 06 d1 7e ff 22 f9 62 40 00 ab 73 e5 1b d5 2a 74 13 0b 84 49 48 f7 27 93 1f 2b a3 5a 1d 0d 4f b9 4c 0e a2 c9 12 0d d7 2c 23 5b 5c 61 d3 f1 5c 15 b9 e5 fb f3 28 62 b7 2d 29 03 88 51 5d 25 28 0b 5a 36 67 2d 20 b8 11 4a f5 91 eb f1 2b 62 e3 d1 7c ca 12 bd 61 58 7a 0a 5f de c1 cd 48 bb 12 c8 92 94 97 46 68 93 81 2e b1 e3 c0 04 6c ea 8c 81 22 2a 3d 76 8a 7c 3f 71 e7 6f ca 28 a3 c2 7d 84 c7 86 a9 53 bd 60 e7 4d 8c 18 6f 18 ff 25 6a a6 1a 03 41 33 75 fc c1 02 6a 22 ad 3c 31 8e 74 90 d5 1c 93 60 8c 39 38 8f 6b e5 d8 29 8b 48 0c e7 4a e5 3f 9c c5 d3 29 42 28 b3 51 e4 d3 e5 f3 77 9d a5 02 bc 5f c9 99 f9 ea 15 3b 16 9f c1 9b 8b 86 b5 7f 63 02 33 be 55 ba 3a 99 b6 0d 83 29 27 d1 26 54 4e f4 a6 86 38 89 36 92 5d 6a fb 7c 7d 86 64 d6 17 4a ba aa b2 4e aa 1e fc 8c 5b 34 08 42 02 3a 91 dd 6e 24 de a4 21 49 a9 0e 77 b9 00 54 c7 0a 85 f5 ae f9 4b f6 eb a3 f5 ac 0c 27 f0 f7 f8 bb a1 4a e1 cc ea 03 0e 29 3f 67 25 e5 4c 5c 33 c5 d8 aa d2 84 0e b9 b5 5b 28 70 81 15 53 3b 5a 4d 55 e5 70 d6 2b 9a 90 33 a9 17 38 d2 c3 b0 18 b1 94 70 45 72 d4 b2 42 82 e4 63 50 6d ee fc 4d c9 f6 db 5f 2c c6 88 f5 e3 5f c3 9f fe 1c b3 81 cd af 47 e2 3e aa da e0 1d 8d 8d 40 ca 9c 08 e2 f4 46 07 1c f3 cd f0 45 a5 83 b6 5f 5a ca d7 77 97 5e 27 81 db 44 31 04 89 a4 9e 3d ea 07 b5 37 d5 53 66 f4 78 9d 3b 40 3a 59 b5 cb 8f 72 1a f6 16 50 2d 68 9a 68 21 95 fa 65 dd b0 c9 f6 3a 28 b3 51 e4 d3 e5 f3 77 3a 5a a6 2e b1 a6 9f 4a a1 76 29 f5 5f 4f 10 0d 18 95 bc b7 f2 76 ec 02 d8 ff 8a ab be 78 dc 42 1e 29 db d8 40 f9 88 f5 33 44 04 e1 d5 99 48 83 ed 8d cc 12 4f 62 69 48 73 7c 5a 65 12 70 81 ee 26 ad 6c 98 af b8 0a 67 ce b4 6e 00 97 24 53 85 cf dc b6 45 0e 9d 43 72 33 7a fe f8 bb df 6c 3f bf 6c cb 0c 00 b3 96 b5 54 4a 04 ff 64 4d e3 5e 63 36 9c 1e cf d4 be 4c f4 80 09 0b a4 1e 84 7d 40 24 4c 51 43 7a f7 21 96 d8 64 cf 2c 35 9b ac 75 7e 4d 5a 1f 3a ab 3f 6a b3 00 e4 87 2e 09 ac 53 cc c4 53 5f a8 89 7d ae bb 9d 2f 0e fb 91 eb 98 82 31 80 93 d9 07 f2 46 3c 71 01 d8 a1 18 a5 a3 3c 6e 8d fd f5 2c ce a1 af c5 eb b1 80 c0 b2 c9 43 11 56 4c b2 82 5a 85 bf ad 26 38 97 4c 7b 2a 28 b3 51 e4 d3 e5 f3 77 ef 2e e5 6e 2e e4 f4 ce 1c 9e ab 47 79 8b 6d b6 7c b6 91 c1 1c 67 19 68 75 f7 69 bd 51 15 8b 70 90 cd 8d f8 76 48 03 a4 a1 29 6a 1e fb 93 a4 39 85 29 36 5e 54 fb fa 45 00 d0 1b 3c 20 1c c4 c6 ff 23 90 77 65 18 0f 5f dc 95 74 f7 d1 14 90 ca e9 b1 fc 29 24 31 16 6d 96 0a b4 b1 66 52 13 ba 19 ad 08 14 28 4d 82 bd 36 cd 55 d0 83 31 6f e0 2e bd 43 4e e6 d4 1e a4 89 51 7c 27 3e f7 7c c4 4a 6a c2 a6 34 4d 6b 45 29 08 b5 c9 ce 9e 6d 75 04 c5 32 de 03 6d 29 bb 5a 54 38 ad ff 33 64 1d 46 28 b3 51 e4 d3 e5 f3 77 2d dd f8 ef 82 83 d8 88 44 f9 47 02 06 fe 65 c4 ef 51 55 68 13 b7 3c b7 90 7c b0 e8 35 f6 04 2d 00 5e 38 51 65 b9 f7 63 42 1e bf af 8e 75 76 6b 68 4c 9b ff b1 81 69 3a ee 24 14 7b e4 20 35 fa 4f 06 4d 28 8a 2f a4 e1 f2 d4 75 7e f5 c6 55 6f 65 7c 4b 66 f1 a8 55 06 49 61 4f 02 45 2a 26 7f 2f 39 b9 78 47 2f cd ff fd 88 d5 2d 6b a9 53 b7 4c a8 66 8e 92 e4 1e c6 8c 50 59 65 e2 13 b6 cd 99 34 7a 84 c6 0d d4 0c 56 10 72 5c c9 e9 4c e7 89 76 22 ba 89 d8 76 80 29 b6 8c 8f 9a f9 10 8c e1 a0 62 e5 60 71 ee 14 29 fd 25 6c 22 28 ac 9f e1 3b 2e 67 2d 7a fb a9 47 7a 4a 00 e2 13 bd 66 82 09 79 5f 68 c6 3a 37 7f 5a 04 e9 4f a6 32 fe 3b d2 e6 e4 88 13 55 65 34 c8 5e 5b 5f c0 42 1a bf e5 b1 e1 07 b9 7d d6 b3 be 4c 46 17 4f c1 ff c2 81 07 da 44 e1 02 a9 ac 0a 44 a4 b3 dc a4 3f 54 57 25 35 7c 99 77 e7 39 53 94 2d 43 2a fc 47 4e 28 b3 51 e4 d3 e5 f3 77 aa de 64 bb 74 ac 71 27 1a 1b 87 be ca 69 73 e1 a3 a6 04 85 9e 81 91 9a 9f 4e 1b 8d 29 45 e3 60 bb 04 d9 d5 46 2b 2e 59 a9 26 f5 4f 07 95 42 70 32 1f cd 5d fe 34 f0 ef 6f 2a 86 34 c0 20 00 7b 33 65 34 9f 24 0d 25 8b 20 9a 3d 24 1c 06 bc 79 9b 61 49 b5 5d bb ff e1 16 06 b5 82 91 5e 10 ab ac ab 11 1e f8 55 6d af 4a 60 21 66 ce 24 23 4d 39 37 6f 25 fb 47 c7 24 78 ff 28 01 bc c2 f5 bf fc 7b fc 8e 33 8a 8d 0e 33 0d a7 b7 5e b1 0b 99 8a a4 ca 70 a9 9d bd 68 64 a1 4f e1 56 e5 bf 90 68 d2 7f cb 2e 3d ca 4e 6b 11 f8 56 f7 a3 6e cc 7f 50 cb e5 ed df a1 35 5a 51 7f c8 ee a0 1a 3d 23 f0 de 1a 75 fe da b0 58 0c 73 71 7d bd d7 4d d5 c5 59 d3 77 d9 4a b4 be 4f 2e dc ca 98 01 14 07 16 4c 1c 11 34 85 67 cc 90 19 e0 47 1b e2 5f 6f 63 b3 a1 6a 46 da ea 2d 03 47 54 aa 6a 3b 52 2f 01 c3 c3 16 13 e9 eb 2d 7b 00 8b b1 a1 79 a6 7f b0 34 9c e2 5a dc a1 2d 68 7d fc 97 0f 9b 3b e6 2f 23 dc ab 41 ab 5a 30 9e b7 61 1d c4 bb 7b 3e 28 b3 51 e4 d3 e5 f3 77 3c 81 35 01 d3 34 a3 42 92 11 76 2a 5f 83 30 26 0c 68 65 a0 32 56 f7 c3 c9 eb e2 38 36 6d 3d c6 28 90 f9 59 d9 ba 37 96 7e 27 d8 d3 2d 17 9e e9 17 97 d3 a9 19 99 8b aa 2c ec cf c9 b0 5c 9a 4f 22 f3 fb 5d 8b c5 c7 fe 6b 2e 7a e5 df 3f 88 b2 ed 1c d1 83 cf ab 8c 87 1a 3b 6e b6 dc 12 76 9f af ee 46 f9 fa 09 84 30 98 90 ef 84 a7 14 05 5d b5 40 39 2e 48 df a3 91 7d c0 73 09 26 6b c7 6e b5 00 91 9d 98 18 78 bd ef 1a 32 bc e4 21 11 a4 14 37 1d 79 28 02 31 14 a2 ed 6f f4 ec 8d 80 f8 9c 0a 94 6c 63 a3 a7 87 1c b6 2c c3 4f 8c 74 13 ce da 4f 22 3e 40 84 c1 8d 5e 73 0c f5 12 f9 fa 9e 31 70 c6 e3 ad 37 0b 7c e0 25 0c 97 28 c7 d6 7d aa a0 27 b8 d0 f1 54 50 0a 2c 1a 21 ba 53 3d 9d 15 d6 13 89 30 14 7d cf b2 2d 42 cb 50 dc f2 26 28 b3 51 e4 d3 e5 f3 77 65 0a 9e 04 e9 59 82 db c3 97 54 fd 70 da ce db 4e 09 f2 c4 f0 0e b5 10 95 df 99 34 47 5a 52 e9 ce 63 3f fe 54 cb 98 07 93 4f 57 7d 76 0c dc e6 5a 06 a3 c6 12 ed e9 59 56 d5 57 ad 9b 80 20 94 e6 21 cb 54 6a a4 6a 2f 3a da f3 fc 2f 84 81 ac be 4b f5 70 e2 d4 73 c2 8e 74 35 a7 75 15 fd 5b ed e0 2a 4a fb 34 c5 6d 92 bd 96 3a 30 2f 18 c6 7b 1f c5 68 74 4b 3a 87 39 51 5b 19 5f d0 fc 15 87 96 e7 09 e4 cd a8 c7 04 9a 93 2a e3 21 fc ee 52 28 b3 51 e4 d3 e5 f3 77 5c 4e 1d fe cc 64 34 07 9d 0b d1 b4 16 56 10 64 50 fa 2c c5 38 55 d2 35 f0 7f 0d b6 ca 5d 06 2b 7b 64 1c bb 62 94 d7 dc 30 da 4f 5b 4a 6c 9c c1 39 7f 78 b9 f7 78 7c d2 ff 78 df 7f f8 f8 bd 98 5b 05 f1 f2 dc 83 e1 a3 90 33 85 e2 b2 d2 5e 85 5e 91 54 56 b7 4e b1 ec 0d 77 ca b4 04 5b 7f dd 03 b0 70 37 02 8c 7f 8f 47 1a 5a cc cf 45 8c f0 77 c6 2c 1f 52 31 38 95 c6 73 c7 9a 54 25 5d f6 ef 58 79 59 a1 03 85 e5 0d d3 34 e2 a1 bd 87 ce af ce 25 61 9b b9 7a 4a 0c 4e 9a 80 a3 0a 72 64 a3 71 9b db cd 6b 70 11 bc ce 6d da 28 f2 18 48 be a5 87 7a 30 ef ec f2 d1 c9 33 6e b6 b6 b5 6f a7 8b 04 81 fd 89 c2 fe aa d9 a8 18 24 d3 ba 76 14 80 6f 58 e1 af 8b d3 1e 14 f0 4d d5 25 b7 07 83 e3 44 78 4e 2a 91 ed 4f 02 56 6a 81 e7 02 7d b4 17 b7 55 b1 ab a6 c0 56 bd 36 bc ae 4b ab cd be a6 9a f6 79 12 e0 d1 c4 47 d4 7c ee dc 93 9d bd 33 cb 60 06 34 5d 0d 21 66 f3 33 c8 a1 9d 1c a5 37 a4 1b 17 97 34 a4 ff 03 61 04 5d 1c 92 ba 47 ac d8 7a 6f 31 a2 35 ac 42 d5 b9 38 53 21 a9 22 28 b3 51 e4 d3 e5 f3 77 1d 5f 80 cc c0 45 ef ab 66 eb 2b 49 b9 c6 6d 0e 55 70 9e a0 d2 10 25 40 69 18 05 d7 33 6d e3 d0 69 7d 14 24 67 0d 73 4e ba 9e 5e 22 e1 f7 4f c2 09 d2 67 85 d8 9a 97 77 8f 45 21 93 f9 57 ca 65 28 e4 aa ac ca 47 da d2 df aa 2b 20 f7 b5 dc 9a ae c8 9a ad 20 02 87 3c c1 85 7e 3b 8b 66 70 50 0f 11 f4 ee 80 11 1f c9 30 3a 3f 2a a5 07 dc 74 c5 a7 ed 9c 7f d3 a8 86 77 37 85 fc c9 6e be f5 2a 28 b3 51 e4 d3 e5 f3 77 db bd 3a cd 62 5c 02 e1 7e 31 be 2d dd 5c 1d 0e e6 9f bc ce e5 31 90 dd 87 20 3a 27 32 cd db 08 62 3f 41 07 6a bc 6c 61 e3 67 69 85 18 d1 aa 6c a5 ad 3c 24 b3 50 22 1b 35 5d 1f 74 c8 5d b2 b3 62 b1 85 dc 29 e5 8c 9d 19 e9 13 4f 36 1f 33 a3 dc 2c ce dc 13 29 88 80 26 e9 12 6d e2 30 4b db f1 ca a1 79 66 20 23 71 1f 8e 32 ca 38 f8 9e 1c 23 c8 ea 65 f4 c6 d1 02 90 17 62 14 f9 49 e9 60 59 0d 32 c6 65 3b cc 90 29 49 8c 48 46 f4 86 29 b9 a1 7b 41 dd a7 ec 62 6b a6 e0 4e 2c d0 87 43 2e 28 b3 51 e4 d3 e5 f3 77 e4 a6 c4 d7 73 bf 67 8c f0 98 af 44 d3 71 4f 4f 17 50 c0 c6 d2 29 dc 16 17 8f 62 70 c4 9e 81 5b 4f 78 b6 78 6f 75 6d c3 2d dc e6 59 be a9 65 c7 29 37 c7 a9 e1 98 9e 55 83 8c a3 b2 eb e0 25 d0 b5 7d 3e 6c d3 ca b4 be e0 dc 3d 9b 59 41 1b 60 1e 6d bb a1 34 84 22 9d 28 6f 8c c6 84 69 d7 d9 d8 e6 4f fd aa 56 65 5c 27 72 f4 77 d0 5d 1c 0f b1 c1 12 23 ba 1f 6f 66 48 e0 c0 f0 3b cb cb 77 e1 a4 98 1e e1 9b 41 d0 16 c3 a8 5c f3 ca 21 93 bd 3e eb 65 7e 8b 9e 14 dd 0c ad 3b 6c 23 c0 08 78 d7 31 8f ec 9f 82 a1 2e 8c fb d3 ce 6a 7c b6 ba 28 b3 51 e4 d3 e5 f3 77 42 80 19 4f e0 b7 68 f8 43 f8 4e 02 55 20 63 98 cf de 82 7d 20 5f ff fc 73 46 67 00 d6 e8 c6 b0 5a ab 03 19 0d 03 b6 97 43 e5 1b d0 d6 00 68 8f d8 70 01 ae 38 f9 e4 12 75 bb 54 b9 78 47 e3 e9 15 64 44 7a 48 50 93 a9 be 3d aa 6d da 83 d2 bd 6b 46 19 3b 79 a3 3c b8 95 b7 88 4d fc fe 77 39 98 0e dd 13 22 81 c0 eb 93 4d e5 91 20 58 ee cf 10 4a 4a 58 10 86 0d 3c 01 a6 e2 99 b8 4a d3 d4 a4 83 5e 27 81 e5 49 08 60 78 31 e4 12 72 29 e5 b6 24 e4 89 94 f0 38 70 98 64 c1 a2 ab 5d 65 1e 1a db 90 09 d0 af 4b 84 07 d7 c1 03 85 c0 49 ec eb 42 39 5b 58 ad f9 66 1a 19 32 a9 de 98 7a 88 02 3b ab 63 a2 83 93 28 32 d8 81 73 60 ee c1 84 b2 3a 70 83 32 6a 53 2f c1 55 92 76 27 6d 7e 92 3e 28 b3 51 e4 d3 e5 f3 77 aa a0 e0 cb a3 24 5d 92 e8 7e ce a2 b8 0a b5 9f f2 a1 39 7b 6a fd 9a b2 de 29 e4 4b bf 14 40 34 54 98 d0 e0 82 3e 26 4a ef a4 da 27 f6 4f f3 5f a0 96 e9 6b 7e 07 54 6e 71 5c 66 a0 59 af e7 58 62 62 b6 3d f5 66 45 fd 59 9d 01 7f 43 f9 dd 37 5c c3 8d 62 3c ca 53 5f 16 ce 10 1a 66 92 aa 5e cb 42 1d 08 3b c1 c1 5a ef e5 57 9a ca 31 c9 11 ba 03 53 0e 34 3c c5 a3 dd 84 53 4f 4f df 32 a3 22 20 d6 de c6 8f 5a 3a 3b 5f 31 a4 b0 8d b5 1d 0b fc af f7 cd 76 f3 74 7b f0 17 b3 c0 18 56 56 cf 05 ee 3d 26 78 fe e5 b8 fb 1f 2e 2b 2c df c1 82 b3 c7 48 48 88 28 49 28 34 8b e9 72 75 0a b6 5f 64 5d ab 18 3c 75 65 98 58 57 76 4d 15 72 13 d4 3e a6 3d 08 f1 64 51 53 c4 3a ee 92 b4 3f e8 e3 e7 24 c0 ab 16 d6 a9 bd 4e c7 a7 7f 49 17 3e 3a 28 b3 51 e4 d3 e5 f3 77 ba ad 8c 06 2b 6f b9 91 b7 cb ed c9 2e e9 de 91 e8 3f 4a d3 ce ff 1a 5f b7 71 95 07 9b 4e c6 a4 fc 73 d7 af a1 8f e4 91 93 21 36 f0 45 0d f8 5f 4c 2d c4 ba a1 29 2a b9 f0 ba 36 ac be 90 f8 f0 7c fe b2 34 14 cd 2a 59 1e 07 d7 56 27 f6 06 f0 41 18 68 8b 24 e1 8b d6 d9 37 88 ce d2 ab 10 5c 55 ec d6 59 9d 80 a0 84 43 b1 d8 dd 03 df b1 d9 fd e6 6a 23 60 c0 fe 13 f6 9d 24 95 dd f6 ca c2 3c 83 24 7c 8b 15 1d 75 e1 18 72 2a c3 a3 d4 6c e1 dc d4 f6 1f 2f 43 f7 b6 01 28 95 de c3 70 eb cd 13 1b 73 2c 8a 68 5f 5c ac 8a fc 59 e8 20 0c 4b e7 61 05 67 c9 a3 20 38 82 0a 12 12 f3 be b4 b4 8d d1 d3 40 54 7d bb bd c6 28 24 04 f4 be 2b 1d e3 78 a1 3a 01 77 79 55 95 df af 7c 29 d6 96 46 28 b3 51 e4 d3 e5 f3 77 22 a3 8a 5a 75 b7 bd aa 84 77 ef 7d 88 30 b9 55 48 b7 90 fb 07 0b 6b b0 27 a1 ef f5 7e c2 05 08 3d 45 79 ee fa 31 9a f1 9c 0a 45 92 20 f7 eb 4a 77 4f 90 35 0a 7e fc 38 1e 79 0d 25 f1 4a a5 f9 9a 69 b3 b6 02 dc 80 2e bd c1 e0 5e d9 32 7a 69 36 b3 2b 59 76 6f c4 91 46 e8 cd 20 7c c2 52 76 33 82 7e 32 eb a7 5e e8 58 57 54 0a 9e 5e b8 a2 27 6f 58 85 a1 e0 e9 8a 59 09 98 31 0b ca 0a a8 2b c5 d2 6b 14 5c 03 14 01 c5 20 53 cd 6b 12 33 2d 43 93 19 e5 b7 2a 9c ab fd 5a 4a 8d b7 72 6e 8b 6e 50 96 9b 25 74 a7 b2 c8 75 4a e8 2a d6 c8 ea 7e ad b9 b6 d5 38 6a 73 88 98 4f 19 14 e4 66 3f 43 a2 7d e9 89 f9 87 de a7 96 2e 30 44 8b 86 ae 9a 44 a1 51 60 ac 16 28 27 3d 26 a4 66 ef bd 46 fe 5d a8 10 51 4c 00 9a 2c 5b 69 2e 8c 83 5d 07 2a 8e 99 bd 5b 99 dc 93 7c 91 60 53 08 a3 00 c2 ac d2 6a 11 12 ce 0d 20 ee 2a 43 8f 70 19 28 26 28 b3 51 e4 d3 e5 f3 77 a0 f4 6b fc 73 5f 27 02 d1 e3 74 b3 90 11 2d 45 98 bd bf fb 52 eb c5 1a 3c bd 1c 94 af 64 91 d2 26 5d da 08 8a c3 ed 92 fd 23 58 23 9f 50 d6 3f db 9d 34 9b 8e 81 7b bc e5 2c 87 bc 39 f7 0f 72 26 52 23 63 bb cc 78 d4 80 45 35 20 0f ab 28 68 2f 5d 5f 6a ac c7 84 e5 51 52 69 90 ff 67 a0 09 cc a6 fd a3 76 73 73 58 f7 f6 f6 eb d8 3e 72 3b 7f 8d 07 a8 f3 ee 29 14 ec 7a 2d 44 b3 e3 c5 fd 19 97 09 55 0f b1 a1 f3 ab 89 fd 39 39 6f c1 5b 2a 28 b3 51 e4 d3 e5 f3 77 7c bc 07 c7 7d bd 54 61 cb 2b 38 29 73 1f 12 1f 67 4f b5 28 5d 6e c7 59 d0 1f 23 75 45 a1 6a 4e c4 92 9a 02 8a c5 ff 1a 09 6a f0 fb 52 3b 98 18 e9 22 b4 56 c0 50 9c 91 08 ab 83 5d 42 b2 5c 39 3b 7c e7 3d 4a 9c f3 7b 5f 3c 8f 29 45 cb 5c 9d 00 cf c9 4c f2 2c 27 07 3b b1 5a c4 02 1e 16 61 73 2e 24 e8 6e 64 c5 c1 a0 4a 0a b5 6e a0 bf 86 01 f6 ae 1b 3d 81 44 86 06 e0 f3 7a dc 57 a3 0c 72 67 2f bd d0 cf b8 fc 2b 00 0f b6 38 7e 19 b9 a1 ff 6f c9 66 ac ea c0 0e d1 c4 ca 9b ee 43 17 4a 28 b3 51 e4 d3 e5 f3 77 9b ae aa ce ec df ad 4e 8c 88 68 4d a5 49 c1 2a b0 27 ca 60 92 76 7b 86 e6 8f 9f a9 3f 25 4a a5 d6 7c 19 13 29 55 da a2 4e d1 9c f5 3e 5b f2 d5 f6 a3 d5 2c a4 11 a4 98 42 e4 f5 a3 4d 6c 6a 57 d1 7c 3a 71 59 91 7c eb 75 9f 99 49 b9 81 9b 5a e8 b0 fb ac a5 5b 81 f3 b8 e6 e8 2d 6c ac d5 0f 2e 3e 51 40 86 a6 9d cc 02 88 dc fb b5 ae 48 df 16 40 59 11 9b 22 f3 34 ba a4 85 a6 28 f0 70 64 1e 91 85 0e 70 eb 56 d5 5f ee 03 e9 94 fd c8 14 a0 5b 70 42 85 3a da 08 d6 d0 48 00 c9 d0 7c 83 dc 21 08 be a4 f5 b0 03 98 d9 53 86 f3 2e 88 e6 36 c2 ea 2f c0 98 98 53 be fa 09 36 b5 82 ff 45 1b 34 1e 59 94 1f ad a2 86 65 06 82 78 ad 58 fb f5 21 09 7b 0a 8a 68 d1 4a c7 3b eb 45 a0 f6 84 7b 9b 8c c9 3a 20 9b 91 02 35 c4 ba fd 3f bf 0f 9f 65 81 af b6 8e 15 8f 6d 9b 77 b7 e4 94 e4 fa b6 5b 11 6c 58 58 b0 7c 2e 93 f9 ef 76 cc d5 67 25 83 e6 6a e9 54 b5 0a af 86 31 54 fb b0 4c 8f 
+OUTGOING TRAFFIC
+
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7662869464830204928, 'seq_no': 481, 'obj': <telethon.tl.functions.stories.GetAllStoriesRequest object at 0x765f914da270>}, {'_': 'TLMessage', 'msg_id': 7662869464830204932, 'seq_no': 483, 'obj': <telethon.tl.functions.stories.GetAllStoriesRequest object at 0x765f91509590>}]}
+Submessages objects
+{'_': 'GetAllStoriesRequest', 'next': False, 'hidden': False, 'state': '1784150593:1368549973:0:625a1cd6877b8c7919'}
+{'_': 'GetAllStoriesRequest', 'next': False, 'hidden': True, 'state': '1784150660:0:0:7fc1fee8a4ec5a58e2'}
+
+ObfuscatedBytes
+8854cd0fe34c9edadd188d73c547ad2c7c0caa70e38d1fbfd11eead5c8cf56962b967806ca4515c05449bc87f9b4cc2db3f1f3a60e379fd181e7bc056dcfb5a672ed4dcfa3587350a53aa487736ebed029215a993f91971de86ecdbb10bb3038e7e7b6f3b827eec420e548c7bc6754d5fe1f8cd3cfb63d4a74d5a3dfe2d650b5b92b8bbe468032de548c005ebf7c74b450d9cfbe1e09d5c3266f8fd83aa3416abaf06905944f1b242a7bf41656af8b202253b67f04f1d30978ba489205a0feab52f1a48d18ea99da027417defc5f39f96ca011fb6df864d4e570f1b2b96f691c39f8b0f861f7d0fc8d93c11e1002825d291e1837e62eb644832adea51b4de608930d587065a4d53e5c28e6ecfefbf33a33caa890fab146ee792c0dcfa47e2fefdcd506c2ace9ee990ac3511d07ddd7cad3e15fde226d2fe728b6ac1c22fc3c9afba7c2a4bfb0e6298dc2f4828d34ebd9a9cc1628cc781aab57a58f50da54874d97fb3d3d514a126145f19d2ec9d23bf35f9fca314e9aa60c74
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'PingDelayDisconnectRequest', 'ping_id': 47, 'disconnect_delay': 35}
+
+ObfuscatedBytes
+9fa55ed908b3f7970b7471769ee50fd40d3ae5710cd247ee86fbc07fd8824dcfeddaa9bea7b784487cb502b454b3bbaeb78cef1f1e8cef8655e4a0f0d0ceca51543e2b3c10fe575f38427018ed066ea3e99ad8a70653e114b2f028775cd7477023e868b073d0eb465892c0000bdeeb00bcde442e737ab2993fccce6cb6917c0b06c636f67674884cec7d27c02caeb84860d5a21bfa88a2546d2426e6e88f7fc028947ecb23bfbbc781e39e42f575a13e3b29d4f5b7a01e26bb0c27dec7c6cd8d4f4ce00b2f8d2ef18d4a1236c8d6e316d2a538baa50b324585e6563e22d95e7de9a402916a35abd73e
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869465658759169]}
+
+ObfuscatedBytes
+db12c15564e90982fd6801e806f9d257a9f21917dc7c2749384135bb150ca175c7a374a3692901afb330bf84ff32c6be52f47ddb8d2f040fd9d56be3f3d919b5e36fe0262f4915bfecdcf8e54bcfe1708d7b7fed400e0dd969f9f7991be2d891443527ac07045f741a7bf915998d2903efb3c7e85e509aa6fd8c1aa60f5ce1c8f1206a5c4fd6d1e1c6
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869465708459009]}
+
+ObfuscatedBytes
+22dd935e7ad6cfb3d1c4b65a3f3af8bce4ecfe13afe12c91bbf535496b2ef965802dda5e49b9dd05cc5ea50510723ca1fef91366e3c76e8f54f3b27a506dd4a63fba2b5c0e60d128b7d055d8f883e83d0a57f9ff15b0ab2284e47e419da698fe02287f1e0d206b2a4c2c6c7e178a5a536dac74b4377fbf77844ca92cbd4fc0ba54d2077ba373298259c5db947282f0f546017f7d6dd2e9af015bb780ff6bb0c8645074ae417bcebaefb8efbbd751fddcfc37df9caa744395b084167d0e661cd8dbf24a53667dfe509963bb5bbd73ec5baf5c6e7b85d552f2694cdfec2c872e20f043940336783dce00
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'UpdateStatusRequest', 'offline': False}
+
+ObfuscatedBytes
+67c97f6f15d2fef1880d47e28b24cfe312785cd3e61524b02d02b31cd399d1df15cc7e7774433041831aeb5aa1c95233d27282f89db6b2d131d88295858ddac19669e4abd967feded0a3560d605d87406a7f2b2a69f726b5273c691f3659501888c27263d2c4031712adde075f1aced721d3e6810e5788a43d5ee56a4cb125759374046620513377af5155b4d9d75e18188c014b0749ba56fb305f5f4c8d5aa76734c951b01b9de4a9a356dc227529922aa159cfe2b4c733f9313566179a7f223c0f6a7d6406864a1a
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869471150243841]}
+
+ObfuscatedBytes
+7649f5e9bdda09081517792a025cc617b62ec8b1d41091f1626888b9ccc0a00e9e24dc0f1a28e36cc8af0ea1d78339729aab4085a40e04f86306f7d3387e709cb9602c9039c7d849ec5329dd8a7296b157c3c724bab0c5365a925e38c135529436c5af758cb1a6d472ad6105e9d6291b9c1f51246b2fa79669f98957b9fe415793436f6a3f4e5c6e759b091ef3be0a9a6ef8a6b2d48b238f8aa5e7d0b6d966d67d4919e5f428820088d09f12de857259ad0a9a69fa8bd0f5f617a0921264bab29d23007e29c05a300b717b71631c3ec92de6f3b428f55c5bb184178daa9df32ad84eda0e3d36232f720d361eae2d9c3c465c8bcb80689900627ba0a12947805024856f74b12672eb31
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'GetSavedHistoryRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'offset_id': 2147483647, 'offset_date': datetime.datetime(2038, 1, 19, 3, 14, 7, tzinfo=datetime.timezone.utc), 'add_offset': -1, 'limit': 1, 'max_id': 0, 'min_id': 0, 'hash': 0, 'parent_peer': None}
+
+ObfuscatedBytes
+675deb78954e22793ada05bf2b2e9d476fc8298db8f970b4ccdb1a983fc16367791b816a40e29de8bd54160e4ca43639020d374dcc2b972da228ef3b6f44495bc855c377ef3fdea3d1d9ad0b27c73fcb4415eee750b06aaaab8aa2d075f9195387f05173907e8f8ff603f020445106b70a07786f1d3404836836b99497d002389e9b425f4be23978f6123c919482f0c9eea6c4926f288c64948f5d925787050abc98ab2f5340196800e5e330ed59e39f3f622fb4845e5db4ae908d4ed368a74915d96d5145766eabbeef8448c1b2b584584969c51749f731fa6c0f547e3473128401411b9523b560fb
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'GetFullUserRequest', 'id': {'_': 'InputUser', 'user_id': 156312201, 'access_hash': -325319132941366380}}
+
+ObfuscatedBytes
+bb7beeac369735e51682824fd9cd05272f9b937c4fc62e06592261d34e0c1da9b56bb5d3afdff7d3bcc0167709256e159ce5a41e1e477122c497a71d992b45e0d0ea3a11c1d914fdabfa4fa9f71015955ad3b2a02d4a499c2536a2fa6f973e874bb0793658a726cd86f4a3cf7ef565e74185a5c5507006fff25dc2a5e409d203a02e00aea3ce7e9214f852234a5b2a649ebeb60852c8ac1d755a5a5084bfd5f42ffbb66c96dbf66c86
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'GetScheduledHistoryRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'hash': 0}
+
+ObfuscatedBytes
+8e0143c610a80d14e9342496f6cda2b90cb60901ab25b7d68154e72b718d0757832fc95a028dc41652da4d1148d38d582b29fcf589efecf8c9e48be98212b722cc9b38f2371fea7bc750c77a4105a27a85e8caa4f9d5320156c29631fe9722449bd05b8dbf4a5df3bf99ec5693bab708d4534043da6155226d60c2a5599bfc4c478bd66c7fd04ff111a2ad5b38e0301af33b096b2f70a3c91c4f19d042b7aa34b18946d495bbcbd6a5f42f8f4c65a94389c44f569e53aaeae5b5eb33829d604d2be1668ebbaeabfb8de271e9f31b3e7b89cdeb338b6685a43a1c5a6ead2da0b382fccd6dd25ab164c058a508d553c1313906d419791182f7819c4c49df8e327da84c4f3f220833bd5e2d89770097e523b50e6ebf8b7a62bf23
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'GetMessagesReactionsRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'id': [186, 185, 184, 183, 182, 181, 180, 179, 178, 177, 176, 175, 174, 172, 171, 170, 169, 168, 167, 166, 165, 164, 163, 162, 161]}
+
+ObfuscatedBytes
+7e373c71b3d4ae60ff589b1b483a9fc3915294faf3f90867ac8227460d0d7a07233716cf21f681de99e8a05f6c4ed9e4991754022f3089d76c884154bb96812ee42aff0ef746febf44b5aa1d6359cbdc9f461d205f2827885a7ca37889e8516958d7ac26c4ca311fcf48a638f23fcbb107c4a42caf1b82cc58adc6397c203641d0dbfc20b6fe3ed8af8284c94e5f10e87dd0c45683964f7444327c98b569ddd5fec370ecc5c58958d1760369b2f401e2b1e385f11d846daf264973fc850921f58506fb23ed722089c5ea8bcac7832c33d374c44e309ed841419ad0615074bf9902647d815f39b57f0b6a376093cd10029af8e9d533f33936bc9678902841d7d13f73b44df2e311001f40a6e44425948630c2500ad83c6ac98a239dc4be3883e7a23953a63d86aa5feb6006a9b5dd5b262240108b5dc8e54cbd
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'ReadHistoryRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'max_id': 186}
+
+ObfuscatedBytes
+010b489efc75c2e6463e39355264ef51b951bc1900c9f84eafa17f4f89dd087f41f4abaf0f1cbb6eb5dd0a8f2a294f5130911dd83ac7f1af97354b261c0386056c0af0169381b0968db8931b9e29696f2c82e94ca48554f08218c0d1a04b9299155ce7fe921802786f12a31cae07110f62589e159b4fde18ce95ebad5f83991782042ddbfe35387b34f2d7d6c313c126f09e6fa289b63c05f2989d143606c6ad342e9025a2e7cee7718b625e10b6014efe29190c00a52f717aada17ed6f9c819961ff128194c76ac4b3821e850c4d7c123936848206f722390cb64ea8754a88a6c76cb474da5b07bffd646a3341236b9f8b61cc9fd09663f57
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869488531151873]}
+
+ObfuscatedBytes
+0bdcca915c2f34dfb9f4a88ce3792022b590c748c93046cd97e9474f7c6601f1ece6d6422c72736a169b37c337a5d8319cf73fca1a68cb0712f02321c7961fec90bad46227b7c647c4ff5d589467c813b623180265d7a6783ecccdf6ab2a47db0ca34e2c8a93feab989140ee2ee5e368b094ddbc230f0eafcdb56bd03041dafff32c446bcc5fb1aab0aec3e2eeba5b225e1a6cdb1e26edc555
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869488629083137]}
+
+ObfuscatedBytes
+72bff8a6be240d0ab655e5c546da1cde7e2b704072a8a4fc3508c8c5af107d1561b2c3e0117a21fe65d7bcf7d4efc95a06805cf49951da1a56ccfb76d82c7c2fe79ad41fa2a5984f0eac1c45bafdf3ce2542a8426cbcf7a9e1d5777b8dbecad0969f7c5724768909fa3069ef7da978305e8009a74642a4ea2fd91f5a26107a58023a1ade8dac61e8f8c4e7a7c3f91cd6e993130fc8ec9b63859ab88e21970c3a45feabdbeb811d6c298a4fe16961ae64106447d16453776c65d2c2ca6139a5b7fa9d11b08322dc713e23c74fa518bfb0b41792cf7ba94df697788a3eaca82e79aa4d1421634d68998f532257152877fc3238c275d1d29f187f2eb60cd735c85b4d236ed0d4b07618ce3a9e82ed76b4268f78e644b0a072962a51f9307031e1ba57fb28ac7703c5c136762b0ec10ce625dbff36333ca33bd2b11314a91fbbbe1d7ba86f833f95f2b075
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869488899059713]}
+
+ObfuscatedBytes
+4eb82fc968e5b1468b749226c1003ca94cb8c058663d13b821e14d2aa6a9546ce198170e9fcd80f71e55a402c549e078b30a6d92d7b11b1885963f3c7ac44b40af98ee33567e0bfa4261e876c5b6e20442487024a77df9798c8a9b18e14ac11ea7d4e08970f9c4c40bd55bf7f0d4ac437674e23062dd15dc723846d1ce5428f62ef5e41bca1a04d0fc
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869488899684353]}
+
+ObfuscatedBytes
+702152f841e46ba3faf949caf9e8522d1c5db86a06c8d8123f3b4787d8cc00a9b16c250b46e55d47c561b3e462a0fe3ea90f509e70eab142a290c83fc1f42c28698d9e5c7b9bddcbc94f14236def97369073e1d18da3d89304d4c74580b8c94edd49d3e9f0cee0a433bbad967997a7123a8daa64cdb550fd428d4947b5ed7d67eeb8d5f2ea3bdbb56f5ed60d1c76f8e425c5c230e611a90aacf5e2d779193a805e89303bebf8f60aea
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869488920720385]}
+
+ObfuscatedBytes
+3fe460c7bd27d0dc52d41970cc2298cc91cb2cdc70689feab4c7d49dbb25a4f910e005e19651554800baac080ad0945d26521c24b10c5b415234f294099f81534a7fa1f74f0c616f2ec6c56bcfbcf05a8eaec76a30ce2ac9879e41d89911c76769b513c88e11116d527a8dff02410d90656355db1bd28c652caa87eb196333fe945fedcc61bcb349c6e6cf15870a45c7faf43b30eb9001634b6dd3ec24e9c81503404d2676d9d4a9574cf00aea779b420e96202f904a2a392c
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+
+key extracted from  tgnet3.dat
+{'_': 'SendMessageRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'message': 'sas', 'no_webpage': False, 'silent': False, 'background': False, 'clear_draft': True, 'noforwards': False, 'update_stickersets_order': False, 'invert_media': False, 'allow_paid_floodskip': False, 'reply_to': None, 'random_id': 8767542876273698655, 'reply_markup': None, 'entities': [], 'schedule_date': None, 'schedule_repeat_period': None, 'send_as': None, 'quick_reply_shortcut': None, 'effect': None, 'allow_paid_stars': None, 'suggested_post': None, 'rich_message': None}
+
+ObfuscatedBytes
+52a3947e48d84a9e0b02597eccd17aea03df1cc690ac9f43ae07a476be3b830342958cf1f778079ee737d578489bb3c18f94655190e1a1cbc731584b587914eb39f5f8866808034c178daed19e65b77bf546401ad9ce14de6dc0506b235367f377fc69c4f0e9c62149d2e0ad425c655c6faf617718792cfd6aa1a5464aa79718ab655cb39c1fab30c2dac304e1845170c7079e62c35013bb016eb2a2222d760c7271e7acbc46712afa213de4c5f55d5ba1ab1c8eeb217e7ff15aa6d11e98061d08cc9658c8ecebb6d0cd1269fa059bc972b7e6182d4b0e0a1698dda665da9f134bea8189c29749acf0
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869504398603265]}
+
+ObfuscatedBytes
+c0baa591cc403faa42ec5f5531cdba45f7a03637eb7c029d7bc2b1164f731bede3684857201fa7b79d9c5732fe6035d3d526ed6db8f71152e2b9dbe1385440321829fa20555c4b99b06a084f8b5df633c7d8e4d6f017757579f1aac8193eee577d0216c2ed0afe1c75922148002036baa8af22575da382f7adcadb47fd72419d100d7e3b4f675a01c765983098f52efbe27f50928a8b6729347fcebd62c8f1be723e6a8287d5fe830caa84b16f0a3a12df1a599bba33e7c95af6f224e6abeede25b49ab4bb2686d65a225e042faf3def9fc1e423cf1625f51a2dcdbb04e2c4c873f299c06e7b1e9fc85458ccfa728a61ea870d3172a1ebb043
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'GetMessagesReactionsRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'id': [187]}
+
+ObfuscatedBytes
+d78e9f32ad6f87bf350bf66891121fe5ce5a4b656c94b7ee1c1ae1177fdc7ad7f314e11a2503aca0d00bfba775a01ccbe8480ff3da3457a15860ea80173f8ac4442432189de15cce85eed83154fb829856926a4dcd84485ede0defcaabf90eee48e80223cd33dff371f02fbc19c6f2ed59402d62991d9cec097ff34e1e9f1fa75a45239290520596305d530ec666e18cab1aeac0b9e94fe002aa6da6840beac27c9915668dd2bc4e5860f3ef40dd8f33c7ad9bf1f73908b4c1178d2f2b648e0be8f0a9795b6f09c36309d00735513b1b1452825c77be343c779f2a8d4f1e7f6084814b6000e45ec7cd
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869504803021825]}
+
+ObfuscatedBytes
+ef3019760a7bdb1b2d9cbf8aba9ed3963961287cb8969798a4338ea832e6f3639ba9e9d31255a158de4b99758558ca336ce68fb78090a81b1c650d64aaa9aa546f7371ef3087febf3a62d01bdc3ab73a0b38bce72e7143efa816448a7db16399719f3c6251cd92c7cf5cc344d25edc9ef229cb874987ea8cb8fcc69cccb5dc3f76e4e7320b47592d9cd144bf43202e09ffa82829548fd50d94da568742ab8bf447cce08fda369b83afc4e4a403de400fab2d49523d27d4a132cfad2de34fb04f9a28cdcdb4e8f5d71e2c70b31641aef743b3b339c915cfd805f437db3354c1c616d4fd15eced80bf7a53ffce8c4d257ae1f1def393b0c5cfcea373ae9aa049ebc95d394f5f82207508d373e31aa3d28a4880fabb3a669803b1
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'UpdateStatusRequest', 'offline': True}
+
+ObfuscatedBytes
+7787412ab69b3d91662b0d0419cd863180419516fb0874a93804cabec36914aab003c6a7ab4b7c147ab68efe43f3dd7c567097f0877ef03c590a9afee5a1f15581409e90050f14c958d53defdf6a2efd4f7f52bc057743ca22f5c8c73ca81c7cb6699e78b132299f06b1d95c858420578904932777565c40309f785d061ef0a12c6000402fc5f099ccafdeb3f9617ccd7a635278c3af5584ba
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7662869536865671169]}
+
+ObfuscatedBytes
+e56de79623fa334d35c77a72f062e0f15d2e6c352a4a1a36e48afd408cd3107976daf9e3d3b1c6890551a34015a5996dcd96c1e80a2dc6582b21d1c6e79ef162cfe90036c47765dc7ce84d659df9ab017662ca15d409104f1a4c080060d216e6b66fd1ef73b32fb53940d370f1e4bbc51d1fc69131f7c88fc7be1ead7364e5e80612c6e8d8ee51273b5beeccf8139995f896038c0cecd10e80549c3a942da7480e5dadff326629a331
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+key extracted from  tgnet3.dat
+{'_': 'PingDelayDisconnectRequest', 'ping_id': 48, 'disconnect_delay': 35}
+
+ObfuscatedBytes
+cfcc8f1e02563baeaf3e594d3c3a2700467a6fad90176b8b29b6cc90223d0a775182fc90239bdaca540fee7711d7b99e1c480a19e2288c44fbaf6789054c042cf45588ecfe89c9027ba392e985bc95b1b8208923226e3ae0f040b653d29d81cdf9ae3bc8c70cc1c6d53755883d1177c297e6165ab0f722d5b269c4d040524a35c1ad5952f814dcfb92c2ab54f4a3e59cc8810e497302b4dc59eecbd500d676536e4b27da5899e5ac6b1e1508d2f1d6f8fe33434164ffe981e0e12b3b03ebb307390eb39243916520359f4e99c7c9224964447d0c73bf9b3c9c276cb92c8a7f88e40a9d11ae78c05ddb87a0ca8a977dc8ead6ed150afaddb1390463b10195fa0a57814b032aaeb639cdad8e8e0589b8919134d1f81fb5dc6f7a11a47d0a640b8946addbba3e79e9073c
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 
+
+
+
+INCOMING TRAFFIC
+
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7662869465196580865, 'seq_no': 502, 'obj': <telethon.tl.types.Pong object at 0x765f914d9e80>}, {'_': 'TLMessage', 'msg_id': 7662869465196580869, 'seq_no': 502, 'obj': <telethon.tl.types.MsgsAck object at 0x765f91512cd0>}]}
+Submessages objects
+{'_': 'Pong', 'msg_id': 7662869464830204940, 'ping_id': 47}
+{'_': 'MsgsAck', 'msg_ids': [7662869464830204928, 7662869464830204932]}
+
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7662869465196580865, 'seq_no': 502, 'obj': <telethon.tl.types.Pong object at 0x765f91509810>}, {'_': 'TLMessage', 'msg_id': 7662869465196580869, 'seq_no': 502, 'obj': <telethon.tl.types.MsgsAck object at 0x765f91513050>}]}
+ObfuscatedBytes
+48e2dd7c36fa98f49f226fab30ab5049b56743a10f58239d2b90aefc6f0a6537fa8633ea8ddeacb8bdc85268f34e5fc84ecd5689d482b933d3e8871e44e985ecc191abdd3ffec1e02fddcd718beb11a96b9a1906921f6f0c2652d0605aa4f8354da4ca5b3f094b0f5b628a6dffdde7ced3f3394a10ac505e278d920dfb119ff28aaa0f6ef8a64591fc25cd6d7c226966b593429cb9a6435589a83ac0a495ebb0a434ebb7789f94d0bf
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869464830204932, 'body': b"\x81^\xfcn\x00\x00\x00\x00\x00\x00\x00\x00!1784150829:0:0:63d690f8bbf06ae029\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\xfd'.q\x00\x00\x00\x00", 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869464830204932, 'body': b"\x81^\xfcn\x00\x00\x00\x00\x00\x00\x00\x00!1784150829:0:0:63d690f8bbf06ae029\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\xfd'.q\x00\x00\x00\x00", 'error': None}
+ObfuscatedBytes
+60dac32ec86453cfdcb56914f633887558956371015f1eb7d50f2ee6e8cd52b632c387b3ae9ee951cd011b0144583831b061bf7ac48dec2aeda89f34ad17842cead0ffa702c92ff2ff9b6d9904b9e5d691f745a37a35efd767046fccdc37a43e690ec8a24baecf1fdbff2ca82362c9ac3622a75c80309307a867ae3e9a607b8de578f5cd180d4f2e53b1850d8f8122ffebd8cea6fe2b24a734629929964e22cac0b094f3cc98be729c
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869464830204928, 'body': b">\xfeX\x11\x00\x00\x00\x00*1784150593:1368549973:0:625a1cd6877b8c7919\x00\xfd'.q\x00\x00\x00\x00", 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869464830204928, 'body': b">\xfeX\x11\x00\x00\x00\x00*1784150593:1368549973:0:625a1cd6877b8c7919\x00\xfd'.q\x00\x00\x00\x00", 'error': None}
+ObfuscatedBytes
+3c7812b2d8a740e11ff5096527f7abedaa05cd5ab56d3a130ba2b295238a8fe5ab40d21b93b03a4cc4d5b31016441adbeed63ba2cb524fcffe149754e16e1943032fb82afd3ca139ed416184e8f01a729db719fa3584121f5108a0496b64c6a7806d6986f571d19f56cff59deb35dbde5c8acb39884441ee802e340df742084d3ab05f8b701fd3976f330ed7ecf0b6da1eca7c4d0e52916de5
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869470297698304, 'body': b'\xb5ur\x99', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869470297698304, 'body': b'\xb5ur\x99', 'error': None}
+ObfuscatedBytes
+f34614b18b2af69b720570c0566839e6144999385e144424e5e1d3b9809aa2e1ed1725c06bad76803d4a3cc7e46a3e4e865d9c3c020a10d4e2d54fb56a863bee41086d4b1131a452bfa915fdcab70381577b9489f62340f3d4
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7662869488531151873, 'seq_no': 509, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x765f91a1c050>}, {'_': 'TLMessage', 'msg_id': 7662869488531151877, 'seq_no': 510, 'obj': <telethon.tl.types.MsgsAck object at 0x765f91a82cf0>}]}
+Submessages objects
+{'_': 'RpcResult', 'req_msg_id': 7662869487632186368, 'body': b'\xea\xe7s\x1d\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x05\x1c\x14@3\xfbWj\xfe\x01\x00\x00\x1c\x00\x00\x00Y\xb4\xd6b\x15\xc4\xb5\x1c\x02\x00\x00\x00\x00X9\x143\xfbWj\x00,\x87\x163\xfbWj', 'error': None}
+{'_': 'MsgsAck', 'msg_ids': [7662869487795394560, 7662869487834049536]}
+
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7662869488531151873, 'seq_no': 509, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x765f91a1caf0>}, {'_': 'TLMessage', 'msg_id': 7662869488531151877, 'seq_no': 510, 'obj': <telethon.tl.types.MsgsAck object at 0x765f91a825f0>}]}
+ObfuscatedBytes
+2e7ae6b1fdee59a0717949797d7dc7e2adb233aff5d9265446dacd95e26fed7ce77a77aea84ccaa1e16caae2dc43639f3a9d87e564dd9a1beb004f049a9a4244bafae5692cab521b7e5d08798effc2affa5d0dce1ed307413734d133f1a6941e4656993cd7b7bfd7bb49a539578c1e039edd856da5833d8d372b25c8959da99f25098b2a723dba6b6a993671c29a4a6dbdbf4080eb4d8664310fa9cd53e75d62e2adb016357b24d8fe9e774b5ddaca265944598e682357039d
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869487834049536, 'body': b'\xea\xe7s\x1d\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00(\xf9Wj', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869487834049536, 'body': b'\xea\xe7s\x1d\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00(\xf9Wj', 'error': None}
+ObfuscatedBytes
+e1d789e0863e7a7d87ae682dd3a19f6fea979a1a66835dc2da1ecf51c267158912fa153090c3f828bc88ec40b8139031de3eb2ab7785fd54e2e83bbd570169f42564797cbf0db1f8752034133877b8f3a852a4c0c9ce33b0a21fb1da616ff591f4d044e7dec23167f8676ec997c3a50c2c68f2918809eaa125f0c2b2cdbcd6a9cc9643a3e99e959546a68598e0462ec351eeeda855710600c6545d94c47cd1ec42dc519101d84ccfef73bbef6b9228b8a3715b547d86c23dc4ebafce0fd5e7c89000a756c878feef7f8e6b03d665861504b2133e4452f1c1c93b7a1e458343a95ebc2828133305503b
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7662869488899059713, 'seq_no': 513, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x765f914e5e50>}, {'_': 'TLMessage', 'msg_id': 7662869488899059717, 'seq_no': 514, 'obj': <telethon.tl.types.MsgsAck object at 0x765f914e3e90>}]}
+Submessages objects
+{'_': 'RpcResult', 'req_msg_id': 7662869487932833792, 'body': b'\x85\x91\xd1\x848\x01\x00\x00\x00\x00\x00\x00\x05\xf0\x01V3\xfbWj\x02\x02\x00\x00\x14\x00\x00\x00Y\xb4\xd6b\x15\xc4\xb5\x1c\x01\x00\x00\x00\x00\xf8(\x1c3\xfbWj', 'error': None}
+{'_': 'MsgsAck', 'msg_ids': [7662869487928539136]}
+
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7662869488899059713, 'seq_no': 513, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x765f914e5b80>}, {'_': 'TLMessage', 'msg_id': 7662869488899059717, 'seq_no': 514, 'obj': <telethon.tl.types.MsgsAck object at 0x765f914e3fb0>}]}
+ObfuscatedBytes
+5342c9fcc2e7f3cc42884f8a508791bd322d16a18ae6df9e2795c2927f433f3b6cdb37957910f307e4c8bc4bf5cc292b08254162c64f761fdcdadeda67f819d3180561fab1a6eabe5ec16c5d5503324ddbdb6f203592b3a57d437d27dcc4818ca2b892b6a55fc203027cb9a62df4dc6b83de6f975320b461c8c20a9e857938c81e8528c8a04226352aa8265addf503deed20d32f0307dcb556
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869487795394560, 'body': b'.\x15m;E\xe6\xcb\x06\x94 \x00\x00\x00\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\xf7Aw\xf4\x00\x00\x00\x00ez\x19\xfb\x00\x00\x00\x00\xf8\xa71\x1b\x89"Q\tH\xa5\xf3\xc6\x1f\xb8\xa2\xdd\x15\x00jW\xfb3\xe9s\x85\xd8J\xeb\xd3\x92/2\xd4\xc2\xd3s\x04\x90\x00\x00c\xe3\x11e\x15\xc4\xb5\x1c\x04\x00\x00\x00`\x8e\xc7u\x01a\x00\x00\xa0\x00\x00\x00\xa0\x00\x00\x00\xad8\x00\x00`\x8e\xc7u\x01b\x00\x00@\x01\x00\x00@\x01\x00\x00i\xb7\x00\x00`\x8e\xc7u\x01c\x00\x00\x80\x02\x00\x00\x80\x02\x00\x00ZW\x02\x00.\xbc\xb0\xe0\x01i\x00\x00\xf7\x01((l\xd0\xed\xe3\xe6\x1cqU\xda&\xd9\x96\xe3\x8c\x8a\xbb\x1b\x1f5\x8b\x86\xdcq\x8e\xd50\x8dU\xf7\x10\x1d\x8fr*\x12\x0b\\\xc7P\xc5\xc0\x03$\xf6\x1d\xeaY!\x91\x17~\xc3\x8fZ\xb1\xbbe\xf9\xf2\x95A\xd9\x9d\xb8\xabD\xc8\xd222\x8d\x9d(\xbaE(\x99\x19\xca\xee\xe9\x8a*e\x88&\x17\xbf\x7f\xce\x8ad\x96f\x93\xcb(G%Xu\xa9f\xb9\xf2\xc1r\x87#\xd2\xa9\xdb\xc5\xe7\xa9gb\x02\xb0\x02\xa6\xbc\x91QQ\x1b\xd7\x93\xebM\xa0WJ\xe5\x133\x1b\x830\x05j\xcf\xda\xd9\xb0\x911b\xdc\x1c\xd5y\x988\x1bF\x00\xa9m\xd0\xa8\xca\xe3\x04g\x91C\xb2\x1c[d\xad\x1f\x96\x81\x8b\x0c\x12h\xa2a\x1f\x92\x99m\xcd\x9f\xba=h\xa1\x01cOP\xb6A\x88\xe5\x895F\xfd\xf3tW<(\x03\xfch\xa2\x98\x8a\xcc\xc4\x8fn\xd5r\xd8\x8d\x81s\xd3\xf9QE)\x15\x1d\xc6\xf9\xc7\xec\xdf/P\xe7\x9a(\xa2\x81\x1f\x04\x00\x00\x00\x0c,b\x99\x00\x00\x00\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00(\xf9Wj', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869487795394560, 'body': b'.\x15m;E\xe6\xcb\x06\x94 \x00\x00\x00\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\xf7Aw\xf4\x00\x00\x00\x00ez\x19\xfb\x00\x00\x00\x00\xf8\xa71\x1b\x89"Q\tH\xa5\xf3\xc6\x1f\xb8\xa2\xdd\x15\x00jW\xfb3\xe9s\x85\xd8J\xeb\xd3\x92/2\xd4\xc2\xd3s\x04\x90\x00\x00c\xe3\x11e\x15\xc4\xb5\x1c\x04\x00\x00\x00`\x8e\xc7u\x01a\x00\x00\xa0\x00\x00\x00\xa0\x00\x00\x00\xad8\x00\x00`\x8e\xc7u\x01b\x00\x00@\x01\x00\x00@\x01\x00\x00i\xb7\x00\x00`\x8e\xc7u\x01c\x00\x00\x80\x02\x00\x00\x80\x02\x00\x00ZW\x02\x00.\xbc\xb0\xe0\x01i\x00\x00\xf7\x01((l\xd0\xed\xe3\xe6\x1cqU\xda&\xd9\x96\xe3\x8c\x8a\xbb\x1b\x1f5\x8b\x86\xdcq\x8e\xd50\x8dU\xf7\x10\x1d\x8fr*\x12\x0b\\\xc7P\xc5\xc0\x03$\xf6\x1d\xeaY!\x91\x17~\xc3\x8fZ\xb1\xbbe\xf9\xf2\x95A\xd9\x9d\xb8\xabD\xc8\xd222\x8d\x9d(\xbaE(\x99\x19\xca\xee\xe9\x8a*e\x88&\x17\xbf\x7f\xce\x8ad\x96f\x93\xcb(G%Xu\xa9f\xb9\xf2\xc1r\x87#\xd2\xa9\xdb\xc5\xe7\xa9gb\x02\xb0\x02\xa6\xbc\x91QQ\x1b\xd7\x93\xebM\xa0WJ\xe5\x133\x1b\x830\x05j\xcf\xda\xd9\xb0\x911b\xdc\x1c\xd5y\x988\x1bF\x00\xa9m\xd0\xa8\xca\xe3\x04g\x91C\xb2\x1c[d\xad\x1f\x96\x81\x8b\x0c\x12h\xa2a\x1f\x92\x99m\xcd\x9f\xba=h\xa1\x01cOP\xb6A\x88\xe5\x895F\xfd\xf3tW<(\x03\xfch\xa2\x98\x8a\xcc\xc4\x8fn\xd5r\xd8\x8d\x81s\xd3\xf9QE)\x15\x1d\xc6\xf9\xc7\xec\xdf/P\xe7\x9a(\xa2\x81\x1f\x04\x00\x00\x00\x0c,b\x99\x00\x00\x00\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00(\xf9Wj', 'error': None}
+ObfuscatedBytes
+322f03c74619d5b7d2c94cc4bad6752ae2b59e31b359a147fa4dd8bbbd0b4b23eafdf9e95c8297eb0ebec7ebe1663f3771d3d22d4bebea28f4a057a5eb1586505f3c481ae0a4be626a740dcf970b510b093f3fa8c41ac6591ac4ae7cecaf1f8056e00c5d5f9f134ff17b600efb5f5f37653f8e33da6ca246e8a75eb02af1de20f8f4e9768f2eb42a6d7554b7e81dd93a186a9029be7eea7e9c3a9ae1b1ddb748b55e487e2b5d4a238a9cad80156c96b8ae6926a52fa3c716ef69dbbcf71f609c49c3e330be917fbffd107bf2c3e13333290b97404c5abacedfdfd93c5ebbf19f99ea277a07dce47d92a39aadbc9892b1c27921c44b10020a11fea6400d76e4c5179d3bd97c364dffbb3e95b059873f0f1a5c16f57b88b72b3e129e2399c8c21cf16bab4e2c20451ce6cb060048d8828c1cb3f71b4a16e048ce5adabfecf0248ab6a69d6e3f986d6373a0f1da13d33c475126df4c8e262ea37aab9dd131f031045c220a5f8dec16a20d577f7e3d39ad6d3f1d94b41e8b01f74dbc9986f0d5512289a8123e97d54a77f7f8fdee82348b3d0952b4e21db864d3ca5926bfbb08f795704740171c1d6bf8100e7bd98a12cc35060f894e75329f47015e6315a5c93a4ce2a8634373c657d056e9c2f2e28179f6eb82f5292ceb5b6718fcc7eb94c19bf20148bf238bfc0c61b561cb37ee749df5556fe7ac6e091bf2d943c4110a92916c0419340825b3467882b7d6acf2ed2a0213682f95b2bba66dc8fdf02b53e6e3108fefd19576950a7aabcda4f35dea1ea5130c7b47c4c826de9a768e5e34e8dcdbe6b8b42545df154fbdf15a1420abc593501fce064341c9c35f4ca9e4
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869487928539136, 'body': b'@B\xaet\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x002\xfbWj\x00\x00\x00\x00', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869487928539136, 'body': b'@B\xaet\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x002\xfbWj\x00\x00\x00\x00', 'error': None}
+ObfuscatedBytes
+c18dff7b39889f469e8c2ea085adcdebb682d590e88b385a1696009fa183387e584eb1d6d14fe5c785b1d0e44b109ab6ecdbe04f5b065b14fc1b6e896d8aefa2dddd1fdf183b70457d367e5e806ce18dfc3c3354a1c801006f95e4401fbe358bdda5d333efb3fdedd36816b1d23a0606059249334303db0888
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869503661003776, 'body': b'\x01\xe1\x15\x90\x02\x00\x00\x00\xbb\x00\x00\x009\x01\x00\x00\x01\x00\x00\x006\xfbWj', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869503661003776, 'body': b'\x01\xe1\x15\x90\x02\x00\x00\x00\xbb\x00\x00\x009\x01\x00\x00\x01\x00\x00\x006\xfbWj', 'error': None}
+ObfuscatedBytes
+97b391f26c25f702b9a7eaefbbb0da373d5368255cf104626ff6560ceb17c7de5431851b0c3b9490569c49a08ca61512953571c1cd63a54656bc672711f0e83ea408e79ff43487f4280c00a0f22531b77b3dcebe800e9b2c433f2e557c5e6b4e14f93b7bdb6899bda2
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869504429803520, 'body': b'@B\xaet\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x006\xfbWj\x00\x00\x00\x00', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869504429803520, 'body': b'@B\xaet\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x006\xfbWj\x00\x00\x00\x00', 'error': None}
+ObfuscatedBytes
+596375767ccee154a9330963915d688788298a7a7b80c9cbd610486e144d34dfccc65e102effb980f5bacb2cda7ea7ea70dcc81d619d70a48b309a23bfae1f7e0e27cba32b407f560786da97bb28c1705473b50de54b106ca5b4cac627b7cf8753ebcfe395ebf297656c0be9eb35a460d3a4d2e14d2c9cf0e7
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7662869536126661632, 'body': b'\xb5ur\x99', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7662869536126661632, 'body': b'\xb5ur\x99', 'error': None}
+ObfuscatedBytes
+df2b4a95a77975e679cafc3a4b5094c5cabb3abce52a75f3fe21e8e981d23ecdedce1db0716c0bc9d7671dc77a79d033684787eb239078ef790ce9535fced5edcfb4a162d973965bbc0c1380b1cf64787866b691f4117ec0a6
+key extracted from  tgnet3.dat
+{'_': 'Pong', 'msg_id': 7662869549956456448, 'ping_id': 48}
+
+{'_': 'Pong', 'msg_id': 7662869549956456448, 'ping_id': 48}
+ObfuscatedBytes
+d7cdc76b16078ee736150fa1e0f35314b919ae925285eae5ac0c5ffae0522f3b0e2fef8c742a97a1fcefa138ced14f689c3509874f10d9700ae49379c26a21f5b734733329acee2180f9e5cef65f9812a2d1eb163534fb9d72
+SendMessageRequest(peer=InputPeerUser(user_id=156312201, access_hash=-325319132941366380), message='messaggio da una sessione hijackata', no_webpage=False, silent=False, background=False, clear_draft=True, noforwards=False, update_stickersets_order=False, invert_media=False, allow_paid_floodskip=False, reply_to=None, random_id=-9200235864603338611, reply_markup=None, entities=[], schedule_date=None, schedule_repeat_period=None, send_as=None, quick_reply_shortcut=None, effect=None, allow_paid_stars=None, suggested_post=None, rich_message=None)
+MESSAGE TO SEND
+62 8f f4 fe 80 00 00 00 4c a5 e8 dd 89 22 51 09 00 00 00 00 94 4b 64 e2 f8 3b 7c fb 23 6d 65 73 73 61 67 67 69 6f 20 64 61 20 75 6e 61 20 73 65 73 73 69 6f 6e 65 20 68 69 6a 61 63 6b 61 74 61 8d 58 82 e0 39 32 52 80 
+{'_': 'SendMessageRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'message': 'messaggio da una sessione hijackata', 'no_webpage': False, 'silent': False, 'background': False, 'clear_draft': True, 'noforwards': False, 'update_stickersets_order': False, 'invert_media': False, 'allow_paid_floodskip': False, 'reply_to': None, 'random_id': -9200235864603338611, 'reply_markup': None, 'entities': [], 'schedule_date': None, 'schedule_repeat_period': None, 'send_as': None, 'quick_reply_shortcut': None, 'effect': None, 'allow_paid_stars': None, 'suggested_post': None, 'rich_message': None}
+ef ef ef ef a4 5e c3 b2 
+39 c7 0c 9d 56 c3 48 cb 12 66 fc 60 75 60 ba ba c8 23 54 11 98 fb 57 6a f7 01 00 00 48 00 00 00 62 8f f4 fe 80 00 00 00 4c a5 e8 dd 89 22 51 09 00 00 00 00 94 4b 64 e2 f8 3b 7c fb 23 6d 65 73 73 61 67 67 69 6f 20 64 61 20 75 6e 61 20 73 65 73 73 69 6f 6e 65 20 68 69 6a 61 63 6b 61 74 61 8d 58 82 e0 39 32 52 80 47 a1 54 db 69 19 ce 31 71 f7 07 60 22 b8 35 a3 8a b4 36 cc 51 0a 0f ab 2d 60 1f 6f 4d 69 11 77 13 15 c2 e4 01 ca e6 6d fe 4c bb d4 be e1 75 9d 98 00 b7 18 2e 17 fa d8 d7 ab 90 e7 47 e7 59 23 6d 43 d4 a1 ee ed 9f f3 5d b8 ec 0e 78 e4 31 4c 79 71 7c 1f 8d b1 0e 42 4f 75 90 cc 17 38 1b 61 8b e3 6f 7e 8d 3b 8d 71 a9 6e 46 bd c1 73 bc dc 30 11 c0 de 43 69 9f cf 47 53 a7 cc af 1c e0 11 8a 58 c7 5b 91 cc 2d 44 75 2f 6d b7 64 6f 84 e4 3d d7 ca 7b 08 ad 30 b5 b2 67 c9 26 47 4b f6 93 94 86 40 0b 98 f0 13 f4 60 56 0a 7b d8 11 ab bb 0e 74 bf 94 10 29 43 f3 c1 83 24 b2 c3 3c 5f 44 ea 0c 6b e9 07 9b e6 15 2f 75 9f 43 9e 36 58 13 65 16 71 12 24 ef b2 b9 29 21 61 40 f3 b0 74 23 9a 50 3a c1 46 88 ee bd 90 f0 8c a2 b1 53 0d b2 87 b3 5e 0d 20 b5 8f 80 13 67 0f cb db 90 a1 da 72 45 d3 50 2f 72 52 f8 84 76 af bb 80 48 f7 c1 47 7a 1b f9 95 c7 47 99 6d 51 62 d1 9b 11 ee 01 a5 50 e5 8d 4f a0 76 84 37 55 77 28 b4 29 af a6 eb e5 61 3d be 2a 13 b8 f1 c0 f8 17 ba e6 ed 78 d8 db cf 03 d3 f1 64 0f 6a 76 2f 32 97 c4 7e 18 f2 d2 3c 31 59 78 70 f3 94 48 a5 a0 b6 74 34 02 26 bb 2e af 01 44 40 84 4d d9 0a ba ed 59 25 ad fe 25 b3 a9 91 c1 d9 b0 7e 87 73 09 c6 e0 b0 76 e7 57 99 59 c8 4e bc a6 0e 77 ec 54 56 0d ee b1 d8 f3 d2 eb 56 a5 36 e1 64 03 c3 82 1d 10 36 f9 9c a4 3b cb 90 58 da 0a 6f c7 2a 63 7b cc ca b9 a5 3b bc 57 ef b1 9a 91 5b 9c ea 5b 1b f2 6a 66 74 0a 55 29 e1 0b cd a0 b5 dd 19 e8 a2 cf 76 b5 a3 a3 84 45 dc a5 c9 b8 bf 26 a6 3c a7 9c 06 83 50 c5 30 9b 12 91 7d 7d b7 9c 00 33 dc eb d3 a2 43 0e e6 3e 9a 9d 5c 80 56 e1 65 f4 cd 26 b9 4f d1 6c d3 cb 5f e6 19 79 21 42 30 5c fa 5b f2 f8 59 42 de e0 1e 4e b6 4a 25 74 10 b3 94 1c 1d 09 1b 1b 41 2f ed 9f 90 ff 56 9f f2 83 a3 f3 93 13 e0 39 ee 02 47 a8 e4 fb 26 c6 b2 19 74 38 11 c9 50 5f 9b 16 c1 64 5f 2d d9 cf 7a 7e 54 fb 80 a6 a9 f0 ee cd 29 73 c6 dd 4d 8e 8a 01 59 96 e7 bf 13 88 0b 8d 84 10 68 79 04 3a fc f7 30 3f fb 6e e2 5e 06 ee cf 8b 71 af 64 e3 b4 d0 f2 09 42 96 6b 20 fe d8 92 e4 a8 6c ff 2a f1 c8 b1 08 a3 23 39 3e 78 90 4a f3 f0 1b 9b 21 25 51 ee cf 3e 27 d9 b1 17 04 8e c8 c6 00 b5 6b 0a 9a cb 6e 8b 25 a9 d1 a9 de fc 25 e5 d7 6a 2f d2 5c df c1 c4 a8 06 d2 83 c1 ea 5e 3a 6a 9b 7d ad 93 75 b9 05 84 13 14 41 a4 4c f7 ea 28 07 d2 b6 2b d8 26 42 14 3e 37 71 24 ca a7 2e e9 79 d4 c1 e8 af 32 2d ae c7 31 cb 2a 21 5c ff ae 56 b1 5f 12 6d aa 20 46 08 33 44 12 25 b9 7e 7d 29 21 0c 92 72 b8 4b ab bb 5e 27 1c c5 a9 46 3a 1e c4 85 42 35 bd d1 c1 6d 7a a6 79 e3 20 84 a9 fc c2 c0 60 08 22 01 67 c9 63 63 3a fd 7b 05 c0 f3 5f 7d a6 c1 6f d0 37 ad 3e 4e ac b9 d6 92 ff 96 fd 47 11 cc 13 4e 5a 41 6c cd e7 79 de 2a cf c5 fc ef 18 bf 6a 59 af ef c0 6f ec 5a 61 df f3 53 e0 0b 8a 73 2d f4 4d 4f c2 12 bb f9 e9 fe 22 ae f0 ae 11 98 cf da ad 9e 35 44 09 00 81 ea 38 17 8a d6 01 5a 83 25 7d c0 b5 c3 ca 8b 37 0a 4f 17 55 f5 9e 07 63 af f6 04 50 35 a7 9f b7 be 1f 14 de 0a c3 06 bc 0e 3a 59 98 f6 da f5 b9 f3 26 fb ec 48 94 ed 41 85 e9 90 40 81 57 bf d3 e6 f4 
+
+Generating [1;38;5;1;49mP[0m[1;38;5;12;49ml[0m[1;38;5;13;49ma[0m[1;38;5;220;49mint[0m[0;38;5;117;49mext[0m from external headeer ([1;38;5;204;49mauth_key_id[0m + [1;38;5;48;49mmsg_key[0m) + [1;38;5;228;49mciphertext[0m:
+
+Abridged transport header + TCP payload
+[1;38;5;87;49m7f [0m[1;38;5;202;49m00 01 12 [0m[1;38;5;204;49m28 b3 51 e4 d3 e5 f3 77 [0m[1;38;5;48;49maf 71 48 24 99 c3 f2 39 c7 a6 79 ce 8c 35 66 39 [0m[1;38;5;228;49m3e d4 46 e1 3c c1 88 2e e1 b7 c0 60 b2 fe 6d 98 86 6d a3 a3 bd 14 37 bf 7f 3b 9b 6a 82 6c 12 72 61 3a ae a6 53 2a 32 23 89 df 53 44 ac e9 52 4d 89 44 71 9b 70 fc 67 7f 05 60 c7 07 b7 b0 4f b9 58 64 55 d1 ca 53 85 d0 12 ad 41 dc a0 9a 49 08 cd c5 e8 a6 a6 e0 1c 1a db 21 b9 cc f7 f0 31 78 f3 42 cb b1 62 bd 33 ec cf e0 3f 7c 43 14 db e2 fe b5 e8 07 8b 8e 74 a6 0b fa 71 26 ea 36 1b 0e 1c 0e 76 a5 54 24 37 a8 ed fc e7 b0 87 ce f5 58 b3 c1 2d 22 af 92 8d 68 67 b1 69 5f c9 20 cc 7f c6 ac 1b 9e 83 4d fb b4 9f 1a 2c 5c cf db 09 47 03 5c d4 d3 94 06 6a 1c 67 ab 69 81 ff 20 6c 03 a0 2f 9e 44 d6 c9 04 4f 40 f8 4f 5c ec 55 e6 40 48 eb c2 a8 e6 d3 64 5e 95 1d d5 4a 5e 7d 54 59 f3 ca 04 b3 31 d3 9e ba 7e 33 6b 8e d1 a8 57 1d e5 ae 9a 62 a6 bb 7e c5 bd cc 30 f3 1e 79 92 8a be a8 67 95 89 9d 33 ca 79 93 a7 39 40 e2 a7 e5 b7 d8 7f ef 21 c7 e5 4e f2 82 8e c1 40 70 6c 9b 98 b2 2e a6 46 9c aa a1 f4 7a 2a ad a6 ec 34 bf 9d 47 72 9b fe 3d f6 dd be 86 cd 8d 4d f1 da 63 c6 e0 06 e4 2b 69 e6 63 47 dd 99 43 10 b9 83 2a a5 10 1e bb 20 05 45 22 79 f2 63 1a 9a cb 3f c1 f6 1e 67 24 32 bb 22 9b ca d2 0b 5d 6a 7b 8d 9f 1e 1a 74 22 a0 5b 81 4f 2c cb 2d 7d 27 1b fd 42 87 6a 34 a1 cf 0a 5e 4b 41 45 4c 85 d2 66 70 53 15 4c 8c 87 c8 29 60 49 64 06 1a fa 56 62 bc 03 d4 b0 1c f2 aa 23 44 da fc 1f bf d6 ab d4 05 64 63 9d 9e 7f 1e c5 9e f9 b1 35 32 f2 33 e7 73 7e d9 11 9b a0 6b c6 1a 16 45 2d 29 6a ac 0c ca 69 e3 b7 87 05 ad 9e f0 d6 65 5b 41 6f 03 3e ae 35 15 ad 5a 00 df f0 ba 4c 16 96 c8 63 09 0e 86 ea f8 63 bf be 2c ff 3b e8 b4 d9 04 0b 26 a0 74 d9 d3 cd ed 8d f4 a8 bf 40 2c 3e 43 86 f8 a9 4e 39 54 47 a6 5c 06 bd d8 db fe c3 73 39 ee ea fc cb 40 84 5a ce 02 be 96 3d 6d 9b 58 6c 4d 55 a9 f7 7d 65 44 96 46 43 fc f7 f4 b8 8b 4e 18 b5 fe 1a 6b 22 7c ea e3 11 99 c7 4f 17 2c 4d 46 c4 c3 d3 dc 70 d0 68 ff 68 cd c8 1b 0b 49 12 55 f7 02 66 7f e5 92 55 52 18 34 a3 28 3a f4 3b 1e 59 d5 08 ec d1 b2 66 74 e4 4f 59 e7 fc 2f 85 36 53 01 42 e8 32 48 6f f3 a3 82 54 22 4f d6 5b 17 ee 58 cb c3 59 03 4b 3a c1 23 2e 56 ba af 0e bc e0 41 fb ae 19 45 8b 2b 3e f5 5b f8 fd 66 c5 78 9a 47 00 a6 53 79 46 8c 4e 6c 4b ce 4d 2d 00 e2 78 95 22 1a 10 cc 96 bf 7a f5 67 de ee fa 61 b0 aa d2 bd 2a 81 d0 0a 2f 22 69 84 16 3e 79 ac 18 d3 53 ad f2 a2 72 ed 53 fd 05 04 15 49 a4 e6 97 5b e0 12 9b 1b 7f 7e fc b5 80 9f f3 23 f6 1c ff 01 59 ce 32 12 13 21 e2 6b b9 d4 d6 ea 24 9c da 09 22 62 75 29 69 07 7a f9 db 9f b1 a2 f0 25 02 70 c7 7d d4 6e ba 62 f9 30 52 a2 fe 42 8b 74 8c 05 b9 7c ad b8 0a 72 08 ce dd ce 43 f6 58 80 5d 13 df 7f 1e 64 6c 1e 98 f1 93 b0 f0 aa 26 d7 4a 34 ba 36 99 d3 dc b8 98 46 d9 68 01 7a f2 bc e6 d5 c6 b7 0c 5c a0 f9 4f ee 25 59 c0 b0 c3 40 dc bd 09 7e 67 f9 3f 6c 6f f2 e6 a3 30 05 a5 42 1e 5f 40 eb 1d 88 59 0d 76 82 ed c5 fc 89 8f 6c 1e 7e 4d 02 91 d0 f0 d6 57 ef a5 06 ed ff 7f 84 92 4a f4 bf 2f 8d 52 c1 66 9c 1b 80 90 0b 8d 44 3f 30 12 44 44 9a ac 3b 65 33 53 11 02 af 47 b4 d7 76 42 2d 9e c2 57 ff 65 ff 9a 7e 7b 0f 74 74 c4 c1 5c 15 8e 8b 5f c2 cb 54 04 5f 68 ea 8e 4a 36 a1 7f 58 66 8d b3 c0 ac 16 08 94 21 63 62 02 47 72 da 71 f8 e5 a1 23 d9 ae de 70 d7 ce 2b b1 cf 7f 7b 69 a0 62 ec 7e c9 e6 f1 49 62 d3 fa 17 89 be 4d 4c 09 56 a2 4f 0d b6 63 b1 4b 0e 5b 73 3f fc bb 6e c7 8b 31 1c 42 63 44 9b f9 d9 78 11 fe 05 20 43 [0m
+Abridged transport header:
+[1;38;5;87;49m7f [0m[1;38;5;202;49m00 01 12 [0m
+Since the first byte of Abridged Transport Layer is 0x7f, the length of the TCP payload is 4 times the number encoded in the next 3 bytes of the header. So lenght = 4 * 274 = 1096
+[1;39;49m
+TCP payload: [0m
+external header ([1;38;5;204;49mauth_key_id[0m + [1;38;5;48;49mmsg_key[0m) + [1;38;5;228;49mciphertext[0m (after removing Abridged transport header)
+[1;38;5;204;49m28 b3 51 e4 d3 e5 f3 77 [0m[1;38;5;48;49maf 71 48 24 99 c3 f2 39 c7 a6 79 ce 8c 35 66 39 [0m[1;38;5;228;49m3e d4 46 e1 3c c1 88 2e e1 b7 c0 60 b2 fe 6d 98 86 6d a3 a3 bd 14 37 bf 7f 3b 9b 6a 82 6c 12 72 61 3a ae a6 53 2a 32 23 89 df 53 44 ac e9 52 4d 89 44 71 9b 70 fc 67 7f 05 60 c7 07 b7 b0 4f b9 58 64 55 d1 ca 53 85 d0 12 ad 41 dc a0 9a 49 08 cd c5 e8 a6 a6 e0 1c 1a db 21 b9 cc f7 f0 31 78 f3 42 cb b1 62 bd 33 ec cf e0 3f 7c 43 14 db e2 fe b5 e8 07 8b 8e 74 a6 0b fa 71 26 ea 36 1b 0e 1c 0e 76 a5 54 24 37 a8 ed fc e7 b0 87 ce f5 58 b3 c1 2d 22 af 92 8d 68 67 b1 69 5f c9 20 cc 7f c6 ac 1b 9e 83 4d fb b4 9f 1a 2c 5c cf db 09 47 03 5c d4 d3 94 06 6a 1c 67 ab 69 81 ff 20 6c 03 a0 2f 9e 44 d6 c9 04 4f 40 f8 4f 5c ec 55 e6 40 48 eb c2 a8 e6 d3 64 5e 95 1d d5 4a 5e 7d 54 59 f3 ca 04 b3 31 d3 9e ba 7e 33 6b 8e d1 a8 57 1d e5 ae 9a 62 a6 bb 7e c5 bd cc 30 f3 1e 79 92 8a be a8 67 95 89 9d 33 ca 79 93 a7 39 40 e2 a7 e5 b7 d8 7f ef 21 c7 e5 4e f2 82 8e c1 40 70 6c 9b 98 b2 2e a6 46 9c aa a1 f4 7a 2a ad a6 ec 34 bf 9d 47 72 9b fe 3d f6 dd be 86 cd 8d 4d f1 da 63 c6 e0 06 e4 2b 69 e6 63 47 dd 99 43 10 b9 83 2a a5 10 1e bb 20 05 45 22 79 f2 63 1a 9a cb 3f c1 f6 1e 67 24 32 bb 22 9b ca d2 0b 5d 6a 7b 8d 9f 1e 1a 74 22 a0 5b 81 4f 2c cb 2d 7d 27 1b fd 42 87 6a 34 a1 cf 0a 5e 4b 41 45 4c 85 d2 66 70 53 15 4c 8c 87 c8 29 60 49 64 06 1a fa 56 62 bc 03 d4 b0 1c f2 aa 23 44 da fc 1f bf d6 ab d4 05 64 63 9d 9e 7f 1e c5 9e f9 b1 35 32 f2 33 e7 73 7e d9 11 9b a0 6b c6 1a 16 45 2d 29 6a ac 0c ca 69 e3 b7 87 05 ad 9e f0 d6 65 5b 41 6f 03 3e ae 35 15 ad 5a 00 df f0 ba 4c 16 96 c8 63 09 0e 86 ea f8 63 bf be 2c ff 3b e8 b4 d9 04 0b 26 a0 74 d9 d3 cd ed 8d f4 a8 bf 40 2c 3e 43 86 f8 a9 4e 39 54 47 a6 5c 06 bd d8 db fe c3 73 39 ee ea fc cb 40 84 5a ce 02 be 96 3d 6d 9b 58 6c 4d 55 a9 f7 7d 65 44 96 46 43 fc f7 f4 b8 8b 4e 18 b5 fe 1a 6b 22 7c ea e3 11 99 c7 4f 17 2c 4d 46 c4 c3 d3 dc 70 d0 68 ff 68 cd c8 1b 0b 49 12 55 f7 02 66 7f e5 92 55 52 18 34 a3 28 3a f4 3b 1e 59 d5 08 ec d1 b2 66 74 e4 4f 59 e7 fc 2f 85 36 53 01 42 e8 32 48 6f f3 a3 82 54 22 4f d6 5b 17 ee 58 cb c3 59 03 4b 3a c1 23 2e 56 ba af 0e bc e0 41 fb ae 19 45 8b 2b 3e f5 5b f8 fd 66 c5 78 9a 47 00 a6 53 79 46 8c 4e 6c 4b ce 4d 2d 00 e2 78 95 22 1a 10 cc 96 bf 7a f5 67 de ee fa 61 b0 aa d2 bd 2a 81 d0 0a 2f 22 69 84 16 3e 79 ac 18 d3 53 ad f2 a2 72 ed 53 fd 05 04 15 49 a4 e6 97 5b e0 12 9b 1b 7f 7e fc b5 80 9f f3 23 f6 1c ff 01 59 ce 32 12 13 21 e2 6b b9 d4 d6 ea 24 9c da 09 22 62 75 29 69 07 7a f9 db 9f b1 a2 f0 25 02 70 c7 7d d4 6e ba 62 f9 30 52 a2 fe 42 8b 74 8c 05 b9 7c ad b8 0a 72 08 ce dd ce 43 f6 58 80 5d 13 df 7f 1e 64 6c 1e 98 f1 93 b0 f0 aa 26 d7 4a 34 ba 36 99 d3 dc b8 98 46 d9 68 01 7a f2 bc e6 d5 c6 b7 0c 5c a0 f9 4f ee 25 59 c0 b0 c3 40 dc bd 09 7e 67 f9 3f 6c 6f f2 e6 a3 30 05 a5 42 1e 5f 40 eb 1d 88 59 0d 76 82 ed c5 fc 89 8f 6c 1e 7e 4d 02 91 d0 f0 d6 57 ef a5 06 ed ff 7f 84 92 4a f4 bf 2f 8d 52 c1 66 9c 1b 80 90 0b 8d 44 3f 30 12 44 44 9a ac 3b 65 33 53 11 02 af 47 b4 d7 76 42 2d 9e c2 57 ff 65 ff 9a 7e 7b 0f 74 74 c4 c1 5c 15 8e 8b 5f c2 cb 54 04 5f 68 ea 8e 4a 36 a1 7f 58 66 8d b3 c0 ac 16 08 94 21 63 62 02 47 72 da 71 f8 e5 a1 23 d9 ae de 70 d7 ce 2b b1 cf 7f 7b 69 a0 62 ec 7e c9 e6 f1 49 62 d3 fa 17 89 be 4d 4c 09 56 a2 4f 0d b6 63 b1 4b 0e 5b 73 3f fc bb 6e c7 8b 31 1c 42 63 44 9b f9 d9 78 11 fe 05 20 43 [0m
+[1;39;49m
+external header: [0m
+[1;38;5;204;49mauth_key_id[0m + [1;38;5;48;49mmsg_key[0m
+sent in clear text
+[1;38;5;204;49mauth_key_id[0m is needed to identify the [1;38;5;202;49maut[0m[1;38;5;140;49mh_k[0m[1;38;5;34;49mey[0m for decryption, [1;38;5;48;49mmsg_key[0m is needed to compute [1;38;5;200;49mae[0m[1;38;5;20;49ms_k[0m[1;38;5;200;49mey[0m and [1;38;5;20;49mae[0m[1;38;5;200;49ms_[0m[1;38;5;20;49miv[0m
+[1;38;5;204;49m28 b3 51 e4 d3 e5 f3 77 [0m[1;38;5;48;49maf 71 48 24 99 c3 f2 39 c7 a6 79 ce 8c 35 66 39 [0m
+
+[1;38;5;228;49mciphertext[0m
+AES Infinite Garble Mode (IGE) of plaintext (zero padded to be of a multiple of 16 bytes long)
+[1;38;5;228;49m3e d4 46 e1 3c c1 88 2e e1 b7 c0 60 b2 fe 6d 98 86 6d a3 a3 bd 14 37 bf 7f 3b 9b 6a 82 6c 12 72 61 3a ae a6 53 2a 32 23 89 df 53 44 ac e9 52 4d 89 44 71 9b 70 fc 67 7f 05 60 c7 07 b7 b0 4f b9 58 64 55 d1 ca 53 85 d0 12 ad 41 dc a0 9a 49 08 cd c5 e8 a6 a6 e0 1c 1a db 21 b9 cc f7 f0 31 78 f3 42 cb b1 62 bd 33 ec cf e0 3f 7c 43 14 db e2 fe b5 e8 07 8b 8e 74 a6 0b fa 71 26 ea 36 1b 0e 1c 0e 76 a5 54 24 37 a8 ed fc e7 b0 87 ce f5 58 b3 c1 2d 22 af 92 8d 68 67 b1 69 5f c9 20 cc 7f c6 ac 1b 9e 83 4d fb b4 9f 1a 2c 5c cf db 09 47 03 5c d4 d3 94 06 6a 1c 67 ab 69 81 ff 20 6c 03 a0 2f 9e 44 d6 c9 04 4f 40 f8 4f 5c ec 55 e6 40 48 eb c2 a8 e6 d3 64 5e 95 1d d5 4a 5e 7d 54 59 f3 ca 04 b3 31 d3 9e ba 7e 33 6b 8e d1 a8 57 1d e5 ae 9a 62 a6 bb 7e c5 bd cc 30 f3 1e 79 92 8a be a8 67 95 89 9d 33 ca 79 93 a7 39 40 e2 a7 e5 b7 d8 7f ef 21 c7 e5 4e f2 82 8e c1 40 70 6c 9b 98 b2 2e a6 46 9c aa a1 f4 7a 2a ad a6 ec 34 bf 9d 47 72 9b fe 3d f6 dd be 86 cd 8d 4d f1 da 63 c6 e0 06 e4 2b 69 e6 63 47 dd 99 43 10 b9 83 2a a5 10 1e bb 20 05 45 22 79 f2 63 1a 9a cb 3f c1 f6 1e 67 24 32 bb 22 9b ca d2 0b 5d 6a 7b 8d 9f 1e 1a 74 22 a0 5b 81 4f 2c cb 2d 7d 27 1b fd 42 87 6a 34 a1 cf 0a 5e 4b 41 45 4c 85 d2 66 70 53 15 4c 8c 87 c8 29 60 49 64 06 1a fa 56 62 bc 03 d4 b0 1c f2 aa 23 44 da fc 1f bf d6 ab d4 05 64 63 9d 9e 7f 1e c5 9e f9 b1 35 32 f2 33 e7 73 7e d9 11 9b a0 6b c6 1a 16 45 2d 29 6a ac 0c ca 69 e3 b7 87 05 ad 9e f0 d6 65 5b 41 6f 03 3e ae 35 15 ad 5a 00 df f0 ba 4c 16 96 c8 63 09 0e 86 ea f8 63 bf be 2c ff 3b e8 b4 d9 04 0b 26 a0 74 d9 d3 cd ed 8d f4 a8 bf 40 2c 3e 43 86 f8 a9 4e 39 54 47 a6 5c 06 bd d8 db fe c3 73 39 ee ea fc cb 40 84 5a ce 02 be 96 3d 6d 9b 58 6c 4d 55 a9 f7 7d 65 44 96 46 43 fc f7 f4 b8 8b 4e 18 b5 fe 1a 6b 22 7c ea e3 11 99 c7 4f 17 2c 4d 46 c4 c3 d3 dc 70 d0 68 ff 68 cd c8 1b 0b 49 12 55 f7 02 66 7f e5 92 55 52 18 34 a3 28 3a f4 3b 1e 59 d5 08 ec d1 b2 66 74 e4 4f 59 e7 fc 2f 85 36 53 01 42 e8 32 48 6f f3 a3 82 54 22 4f d6 5b 17 ee 58 cb c3 59 03 4b 3a c1 23 2e 56 ba af 0e bc e0 41 fb ae 19 45 8b 2b 3e f5 5b f8 fd 66 c5 78 9a 47 00 a6 53 79 46 8c 4e 6c 4b ce 4d 2d 00 e2 78 95 22 1a 10 cc 96 bf 7a f5 67 de ee fa 61 b0 aa d2 bd 2a 81 d0 0a 2f 22 69 84 16 3e 79 ac 18 d3 53 ad f2 a2 72 ed 53 fd 05 04 15 49 a4 e6 97 5b e0 12 9b 1b 7f 7e fc b5 80 9f f3 23 f6 1c ff 01 59 ce 32 12 13 21 e2 6b b9 d4 d6 ea 24 9c da 09 22 62 75 29 69 07 7a f9 db 9f b1 a2 f0 25 02 70 c7 7d d4 6e ba 62 f9 30 52 a2 fe 42 8b 74 8c 05 b9 7c ad b8 0a 72 08 ce dd ce 43 f6 58 80 5d 13 df 7f 1e 64 6c 1e 98 f1 93 b0 f0 aa 26 d7 4a 34 ba 36 99 d3 dc b8 98 46 d9 68 01 7a f2 bc e6 d5 c6 b7 0c 5c a0 f9 4f ee 25 59 c0 b0 c3 40 dc bd 09 7e 67 f9 3f 6c 6f f2 e6 a3 30 05 a5 42 1e 5f 40 eb 1d 88 59 0d 76 82 ed c5 fc 89 8f 6c 1e 7e 4d 02 91 d0 f0 d6 57 ef a5 06 ed ff 7f 84 92 4a f4 bf 2f 8d 52 c1 66 9c 1b 80 90 0b 8d 44 3f 30 12 44 44 9a ac 3b 65 33 53 11 02 af 47 b4 d7 76 42 2d 9e c2 57 ff 65 ff 9a 7e 7b 0f 74 74 c4 c1 5c 15 8e 8b 5f c2 cb 54 04 5f 68 ea 8e 4a 36 a1 7f 58 66 8d b3 c0 ac 16 08 94 21 63 62 02 47 72 da 71 f8 e5 a1 23 d9 ae de 70 d7 ce 2b b1 cf 7f 7b 69 a0 62 ec 7e c9 e6 f1 49 62 d3 fa 17 89 be 4d 4c 09 56 a2 4f 0d b6 63 b1 4b 0e 5b 73 3f fc bb 6e c7 8b 31 1c 42 63 44 9b f9 d9 78 11 fe 05 20 43 [0m
+[1;38;5;202;49maut[0m[1;38;5;140;49mh_k[0m[1;38;5;34;49mey[0m2048 bit, exchanged through Diffie-Hellman when logging into a new device, known to client device and server. A single user can have multiple auth_keys, one for each device where they are logged in. Once obtained, it is never changed.
+Bytes 0..7, 44..47 and 88..95 are unused in server to client communications 
+Bytes 36..39, 76..83 and 120..127 are unused in client to server communications  (this case)
+Bytes 84..87 and 128..255 are never involved in the computation of aes_key and aes_iv, and may only be used for encryption on local data on device.
+All the remaining bytes are used on both directions of communication
+[0;38;5;244;49m[0m[1;38;5;202;49m95 b4 66 e9 96 c7 b6 9b 51 b7 47 e5 54 44 b3 fa b7 c6 af 0f 60 5a c6 59 04 23 4d c2 29 b9 a0 45 1c 91 d6 ec [0m[0;38;5;244;49mcc 70 c2 1d [0m[1;38;5;140;49mc1 c5 30 58 ee 91 7f fa 65 14 8a da 62 7b 47 91 d1 8d d7 2f a4 e2 7c f3 19 fc 9a 22 fd 24 06 09 b2 d2 69 ea [0m[0;38;5;244;49m57 82 5e 42 24 72 6f 7f 44 95 ed 43 [0m[1;38;5;34;49m5e a7 d0 6d d3 6e 75 42 39 f2 a9 b3 f9 d4 1a 2b 9a 90 ea 01 30 4e ec 34 be 56 e8 d1 6f 07 0b 00 [0m[0;38;5;244;49md2 86 8b b3 e7 a3 ba 82 db 0e 66 cf c0 bb cf 07 80 e6 05 f8 21 3b 0a b5 21 dc 26 81 49 4a 1c 0c f8 96 51 48 d6 77 42 27 86 b1 d1 9e 5c 12 49 1b 6d 4e 7c 44 f0 c8 55 64 d4 3d dc 94 53 c3 30 7b 4e cf a0 c8 50 90 be c1 2a 5b f5 f7 8f aa 83 6a af 7b d1 37 1b a6 6d a4 36 b3 7b e4 3f 51 13 4d bb 1e 82 2b f1 52 e2 31 e5 50 b6 a2 2e a1 76 e3 6c a5 ea c1 fd ea 3e fb 5f dc 11 30 b5 95 14 5d 6a 42 32 47 e1 69 cf 96 [0m
+
+[1;38;5;210;49mx[0m:
+[1;38;5;210;49mx[0m = 0 on client to server messages, [1;38;5;210;49mx[0m = 8 on server to client messages. In this instance, [1;38;5;210;49mx[0m = 0
+[1;39;49m
+pre-hashed sha_256_a: 
+[0m [1;38;5;48;49mmsg_key[0m + [1;38;5;202;49mauth_key_fragment_a[0m, where [1;38;5;202;49mauth_key_fragment_a[0m is the 36 bytes of [1;38;5;202;49maut[0m[1;38;5;140;49mh_k[0m[1;38;5;34;49mey[0m starting from byte [1;38;5;210;49mx[0m (0)
+[1;38;5;202;49m95 b4 66 e9 96 c7 b6 9b 51 b7 47 e5 54 44 b3 fa b7 c6 af 0f 60 5a c6 59 04 23 4d c2 29 b9 a0 45 1c 91 d6 ec [0m[1;38;5;48;49maf 71 48 24 99 c3 f2 39 c7 a6 79 ce 8c 35 66 39 [0m
+
+[1;38;5;200;49msha_256_a[0m
+sha-256 of [1;38;5;202;49mauth_key_fragment_a[0m + [1;38;5;48;49mmsg_key[0m
+[1;38;5;200;49m4d 30 3d 84 2e f6 6a 26 6f 84 e9 d3 ff d2 de 30 38 be b4 ea a6 ff 73 61 46 63 03 79 3f 6d e4 b3 [0m
+[1;39;49m
+pre-hashed sha_256_b: 
+[0m [1;38;5;140;49mauth_key_fragment_b[0m + [1;38;5;48;49mmsg_key[0m, where [1;38;5;140;49mauth_key_fragment_b[0m is the 36 bytes of [1;38;5;202;49maut[0m[1;38;5;140;49mh_k[0m[1;38;5;34;49mey[0m starting from byte 40 + [1;38;5;210;49mx[0m (40)
+[1;38;5;48;49maf 71 48 24 99 c3 f2 39 c7 a6 79 ce 8c 35 66 39 [0m[1;38;5;140;49mc1 c5 30 58 ee 91 7f fa 65 14 8a da 62 7b 47 91 d1 8d d7 2f a4 e2 7c f3 19 fc 9a 22 fd 24 06 09 b2 d2 69 ea [0m
+
+[1;38;5;20;49msha_256_b[0m
+sha-256 of msg_key + auth_key_fragment_b
+[1;38;5;20;49m2d d7 2a 03 27 d4 ac 7a 2d 49 35 94 b1 7f 1d ab 68 4e a9 e9 57 17 e9 78 be 5c 62 5c cb b7 23 cf [0m
+
+[1;38;5;200;49mae[0m[1;38;5;20;49ms_k[0m[1;38;5;200;49mey[0m
+Bytes 0..7 of [1;38;5;200;49msha_256_a[0m + bytes 8..23 of [1;38;5;20;49msha_256_b[0m + bytes 24..31 of [1;38;5;200;49msha_256_a[0m
+[1;38;5;200;49m4d 30 3d 84 2e f6 6a 26 [0m[1;38;5;20;49m2d 49 35 94 b1 7f 1d ab 68 4e a9 e9 57 17 e9 78 [0m[1;38;5;200;49m46 63 03 79 3f 6d e4 b3 [0m
+
+[1;38;5;20;49mae[0m[1;38;5;200;49ms_[0m[1;38;5;20;49miv[0m
+Bytes 0..7 of sha_256_b + bytes 8..23 of sha_256_a + bytes 24..31 of sha_256_b
+[1;38;5;20;49m2d d7 2a 03 27 d4 ac 7a [0m[1;38;5;200;49m6f 84 e9 d3 ff d2 de 30 38 be b4 ea a6 ff 73 61 [0m[1;38;5;20;49mbe 5c 62 5c cb b7 23 cf [0m
+
+[1;38;5;1;49mP[0m[1;38;5;12;49ml[0m[1;38;5;13;49ma[0m[1;38;5;220;49mint[0m[0;38;5;117;49mext[0m
+(decrypted from [1;38;5;228;49mciphertext[0m using AES IGE with computed [1;38;5;200;49mae[0m[1;38;5;20;49ms_k[0m[1;38;5;200;49mey[0m and [1;38;5;20;49mae[0m[1;38;5;200;49ms_[0m[1;38;5;20;49miv[0m): 
+[1;38;5;1;49msalt[0m + [1;38;5;12;49msession_id[0m + [1;38;5;172;49mm[0m[1;38;5;14;49messa[0m[1;38;5;13;49mge_id[0m + [1;38;5;204;49mmessage_seq_no[0m + [1;38;5;223;49mmessage_data_length[0m + [1;38;5;220;49mmessage_data[0m + [0;38;5;117;49mpadding[0m
+[1;38;5;1;49m39 c7 0c 9d 56 c3 48 cb [0m[1;38;5;12;49m12 66 fc 60 75 60 ba ba [0m[1;38;5;14;49mc[0m[1;38;5;172;49m8[0m[1;38;5;14;49m 23 54 11 [0m[1;38;5;13;49m98 fb 57 6a [0m[1;38;5;204;49mf7 01 00 00 [0m[1;38;5;223;49m48 00 00 00 [0m[1;38;5;220;49m62 8f f4 fe 80 00 00 00 4c a5 e8 dd 89 22 51 09 00 00 00 00 94 4b 64 e2 f8 3b 7c fb 23 6d 65 73 73 61 67 67 69 6f 20 64 61 20 75 6e 61 20 73 65 73 73 69 6f 6e 65 20 68 69 6a 61 63 6b 61 74 61 8d 58 82 e0 39 32 52 80 [0m[0;38;5;117;49m47 a1 54 db 69 19 ce 31 71 f7 07 60 22 b8 35 a3 8a b4 36 cc 51 0a 0f ab 2d 60 1f 6f 4d 69 11 77 13 15 c2 e4 01 ca e6 6d fe 4c bb d4 be e1 75 9d 98 00 b7 18 2e 17 fa d8 d7 ab 90 e7 47 e7 59 23 6d 43 d4 a1 ee ed 9f f3 5d b8 ec 0e 78 e4 31 4c 79 71 7c 1f 8d b1 0e 42 4f 75 90 cc 17 38 1b 61 8b e3 6f 7e 8d 3b 8d 71 a9 6e 46 bd c1 73 bc dc 30 11 c0 de 43 69 9f cf 47 53 a7 cc af 1c e0 11 8a 58 c7 5b 91 cc 2d 44 75 2f 6d b7 64 6f 84 e4 3d d7 ca 7b 08 ad 30 b5 b2 67 c9 26 47 4b f6 93 94 86 40 0b 98 f0 13 f4 60 56 0a 7b d8 11 ab bb 0e 74 bf 94 10 29 43 f3 c1 83 24 b2 c3 3c 5f 44 ea 0c 6b e9 07 9b e6 15 2f 75 9f 43 9e 36 58 13 65 16 71 12 24 ef b2 b9 29 21 61 40 f3 b0 74 23 9a 50 3a c1 46 88 ee bd 90 f0 8c a2 b1 53 0d b2 87 b3 5e 0d 20 b5 8f 80 13 67 0f cb db 90 a1 da 72 45 d3 50 2f 72 52 f8 84 76 af bb 80 48 f7 c1 47 7a 1b f9 95 c7 47 99 6d 51 62 d1 9b 11 ee 01 a5 50 e5 8d 4f a0 76 84 37 55 77 28 b4 29 af a6 eb e5 61 3d be 2a 13 b8 f1 c0 f8 17 ba e6 ed 78 d8 db cf 03 d3 f1 64 0f 6a 76 2f 32 97 c4 7e 18 f2 d2 3c 31 59 78 70 f3 94 48 a5 a0 b6 74 34 02 26 bb 2e af 01 44 40 84 4d d9 0a ba ed 59 25 ad fe 25 b3 a9 91 c1 d9 b0 7e 87 73 09 c6 e0 b0 76 e7 57 99 59 c8 4e bc a6 0e 77 ec 54 56 0d ee b1 d8 f3 d2 eb 56 a5 36 e1 64 03 c3 82 1d 10 36 f9 9c a4 3b cb 90 58 da 0a 6f c7 2a 63 7b cc ca b9 a5 3b bc 57 ef b1 9a 91 5b 9c ea 5b 1b f2 6a 66 74 0a 55 29 e1 0b cd a0 b5 dd 19 e8 a2 cf 76 b5 a3 a3 84 45 dc a5 c9 b8 bf 26 a6 3c a7 9c 06 83 50 c5 30 9b 12 91 7d 7d b7 9c 00 33 dc eb d3 a2 43 0e e6 3e 9a 9d 5c 80 56 e1 65 f4 cd 26 b9 4f d1 6c d3 cb 5f e6 19 79 21 42 30 5c fa 5b f2 f8 59 42 de e0 1e 4e b6 4a 25 74 10 b3 94 1c 1d 09 1b 1b 41 2f ed 9f 90 ff 56 9f f2 83 a3 f3 93 13 e0 39 ee 02 47 a8 e4 fb 26 c6 b2 19 74 38 11 c9 50 5f 9b 16 c1 64 5f 2d d9 cf 7a 7e 54 fb 80 a6 a9 f0 ee cd 29 73 c6 dd 4d 8e 8a 01 59 96 e7 bf 13 88 0b 8d 84 10 68 79 04 3a fc f7 30 3f fb 6e e2 5e 06 ee cf 8b 71 af 64 e3 b4 d0 f2 09 42 96 6b 20 fe d8 92 e4 a8 6c ff 2a f1 c8 b1 08 a3 23 39 3e 78 90 4a f3 f0 1b 9b 21 25 51 ee cf 3e 27 d9 b1 17 04 8e c8 c6 00 b5 6b 0a 9a cb 6e 8b 25 a9 d1 a9 de fc 25 e5 d7 6a 2f d2 5c df c1 c4 a8 06 d2 83 c1 ea 5e 3a 6a 9b 7d ad 93 75 b9 05 84 13 14 41 a4 4c f7 ea 28 07 d2 b6 2b d8 26 42 14 3e 37 71 24 ca a7 2e e9 79 d4 c1 e8 af 32 2d ae c7 31 cb 2a 21 5c ff ae 56 b1 5f 12 6d aa 20 46 08 33 44 12 25 b9 7e 7d 29 21 0c 92 72 b8 4b ab bb 5e 27 1c c5 a9 46 3a 1e c4 85 42 35 bd d1 c1 6d 7a a6 79 e3 20 84 a9 fc c2 c0 60 08 22 01 67 c9 63 63 3a fd 7b 05 c0 f3 5f 7d a6 c1 6f d0 37 ad 3e 4e ac b9 d6 92 ff 96 fd 47 11 cc 13 4e 5a 41 6c cd e7 79 de 2a cf c5 fc ef 18 bf 6a 59 af ef c0 6f ec 5a 61 df f3 53 e0 0b 8a 73 2d f4 4d 4f c2 12 bb f9 e9 fe 22 ae f0 ae 11 98 cf da ad 9e 35 44 09 00 81 ea 38 17 8a d6 01 5a 83 25 7d c0 b5 c3 ca 8b 37 0a 4f 17 55 f5 9e 07 63 af f6 04 50 35 a7 9f b7 be 1f 14 de 0a c3 06 bc 0e 3a 59 98 f6 da f5 b9 f3 26 fb ec 48 94 ed 41 85 e9 90 40 81 57 bf d3 e6 f4 [0m
+
+Computing [1;38;5;48;49mmsg_key[0m again from [1;38;5;1;49mP[0m[1;38;5;12;49ml[0m[1;38;5;13;49ma[0m[1;38;5;220;49mint[0m[0;38;5;117;49mext[0m to check it is equal to the one received in the external header
+
+[1;38;5;48;49mmsg_key[0m[0;38;5;244;49m_large[0m:
+sha-256 of [1;38;5;34;49mauth_key_fragment_msg[0m + [1;38;5;1;49mP[0m[1;38;5;12;49ml[0m[1;38;5;13;49ma[0m[1;38;5;220;49mint[0m[0;38;5;117;49mext[0m
+[0;38;5;244;49m11 17 29 f9 a7 66 f6 f1 [0m[1;38;5;48;49maf 71 48 24 99 c3 f2 39 c7 a6 79 ce 8c 35 66 39 [0m[0;38;5;244;49mc7 e6 96 fc d8 7f dd 77 [0m
+
+[1;38;5;48;49mmsg_key[0m: 
+middle 16 bytes of [1;38;5;48;49mmsg_key[0m[0;38;5;244;49m_large[0m, the rest is unused
+[1;38;5;48;49maf 71 48 24 99 c3 f2 39 c7 a6 79 ce 8c 35 66 39 [0m
+[1;38;5;48;49mmsg_key[0m computed again from [1;38;5;1;49mP[0m[1;38;5;12;49ml[0m[1;38;5;13;49ma[0m[1;38;5;220;49mint[0m[0;38;5;117;49mext[0m and [1;38;5;48;49mmsg_key[0m received in external header match, security check is passed
+
+Time of the message (epoch time [1;38;5;13;49munix_s[0m taken from 32 higher order bits of [1;38;5;172;49mm[0m[1;38;5;14;49messa[0m[1;38;5;13;49mge_id[0m, little endian):
+[1;38;5;13;49m2026-07-15 21:28:56[0m
+Message decrypted
+---------------------------------------------------------------
+
+
+{'_': 'SendMessageRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'message': 'messaggio da una sessione hijackata', 'no_webpage': False, 'silent': False, 'background': False, 'clear_draft': True, 'noforwards': False, 'update_stickersets_order': False, 'invert_media': False, 'allow_paid_floodskip': False, 'reply_to': None, 'random_id': -9200235864603338611, 'reply_markup': None, 'entities': [], 'schedule_date': None, 'schedule_repeat_period': None, 'send_as': None, 'quick_reply_shortcut': None, 'effect': None, 'allow_paid_stars': None, 'suggested_post': None, 'rich_message': None}
+39 c7 0c 9d 56 c3 48 cb 12 66 fc 60 75 60 ba ba c8 23 54 11 98 fb 57 6a f7 01 00 00 48 00 00 00 62 8f f4 fe 80 00 00 00 4c a5 e8 dd 89 22 51 09 00 00 00 00 94 4b 64 e2 f8 3b 7c fb 23 6d 65 73 73 61 67 67 69 6f 20 64 61 20 75 6e 61 20 73 65 73 73 69 6f 6e 65 20 68 69 6a 61 63 6b 61 74 61 8d 58 82 e0 39 32 52 80 47 a1 54 db 69 19 ce 31 71 f7 07 60 22 b8 35 a3 8a b4 36 cc 51 0a 0f ab 2d 60 1f 6f 4d 69 11 77 13 15 c2 e4 01 ca e6 6d fe 4c bb d4 be e1 75 9d 98 00 b7 18 2e 17 fa d8 d7 ab 90 e7 47 e7 59 23 6d 43 d4 a1 ee ed 9f f3 5d b8 ec 0e 78 e4 31 4c 79 71 7c 1f 8d b1 0e 42 4f 75 90 cc 17 38 1b 61 8b e3 6f 7e 8d 3b 8d 71 a9 6e 46 bd c1 73 bc dc 30 11 c0 de 43 69 9f cf 47 53 a7 cc af 1c e0 11 8a 58 c7 5b 91 cc 2d 44 75 2f 6d b7 64 6f 84 e4 3d d7 ca 7b 08 ad 30 b5 b2 67 c9 26 47 4b f6 93 94 86 40 0b 98 f0 13 f4 60 56 0a 7b d8 11 ab bb 0e 74 bf 94 10 29 43 f3 c1 83 24 b2 c3 3c 5f 44 ea 0c 6b e9 07 9b e6 15 2f 75 9f 43 9e 36 58 13 65 16 71 12 24 ef b2 b9 29 21 61 40 f3 b0 74 23 9a 50 3a c1 46 88 ee bd 90 f0 8c a2 b1 53 0d b2 87 b3 5e 0d 20 b5 8f 80 13 67 0f cb db 90 a1 da 72 45 d3 50 2f 72 52 f8 84 76 af bb 80 48 f7 c1 47 7a 1b f9 95 c7 47 99 6d 51 62 d1 9b 11 ee 01 a5 50 e5 8d 4f a0 76 84 37 55 77 28 b4 29 af a6 eb e5 61 3d be 2a 13 b8 f1 c0 f8 17 ba e6 ed 78 d8 db cf 03 d3 f1 64 0f 6a 76 2f 32 97 c4 7e 18 f2 d2 3c 31 59 78 70 f3 94 48 a5 a0 b6 74 34 02 26 bb 2e af 01 44 40 84 4d d9 0a ba ed 59 25 ad fe 25 b3 a9 91 c1 d9 b0 7e 87 73 09 c6 e0 b0 76 e7 57 99 59 c8 4e bc a6 0e 77 ec 54 56 0d ee b1 d8 f3 d2 eb 56 a5 36 e1 64 03 c3 82 1d 10 36 f9 9c a4 3b cb 90 58 da 0a 6f c7 2a 63 7b cc ca b9 a5 3b bc 57 ef b1 9a 91 5b 9c ea 5b 1b f2 6a 66 74 0a 55 29 e1 0b cd a0 b5 dd 19 e8 a2 cf 76 b5 a3 a3 84 45 dc a5 c9 b8 bf 26 a6 3c a7 9c 06 83 50 c5 30 9b 12 91 7d 7d b7 9c 00 33 dc eb d3 a2 43 0e e6 3e 9a 9d 5c 80 56 e1 65 f4 cd 26 b9 4f d1 6c d3 cb 5f e6 19 79 21 42 30 5c fa 5b f2 f8 59 42 de e0 1e 4e b6 4a 25 74 10 b3 94 1c 1d 09 1b 1b 41 2f ed 9f 90 ff 56 9f f2 83 a3 f3 93 13 e0 39 ee 02 47 a8 e4 fb 26 c6 b2 19 74 38 11 c9 50 5f 9b 16 c1 64 5f 2d d9 cf 7a 7e 54 fb 80 a6 a9 f0 ee cd 29 73 c6 dd 4d 8e 8a 01 59 96 e7 bf 13 88 0b 8d 84 10 68 79 04 3a fc f7 30 3f fb 6e e2 5e 06 ee cf 8b 71 af 64 e3 b4 d0 f2 09 42 96 6b 20 fe d8 92 e4 a8 6c ff 2a f1 c8 b1 08 a3 23 39 3e 78 90 4a f3 f0 1b 9b 21 25 51 ee cf 3e 27 d9 b1 17 04 8e c8 c6 00 b5 6b 0a 9a cb 6e 8b 25 a9 d1 a9 de fc 25 e5 d7 6a 2f d2 5c df c1 c4 a8 06 d2 83 c1 ea 5e 3a 6a 9b 7d ad 93 75 b9 05 84 13 14 41 a4 4c f7 ea 28 07 d2 b6 2b d8 26 42 14 3e 37 71 24 ca a7 2e e9 79 d4 c1 e8 af 32 2d ae c7 31 cb 2a 21 5c ff ae 56 b1 5f 12 6d aa 20 46 08 33 44 12 25 b9 7e 7d 29 21 0c 92 72 b8 4b ab bb 5e 27 1c c5 a9 46 3a 1e c4 85 42 35 bd d1 c1 6d 7a a6 79 e3 20 84 a9 fc c2 c0 60 08 22 01 67 c9 63 63 3a fd 7b 05 c0 f3 5f 7d a6 c1 6f d0 37 ad 3e 4e ac b9 d6 92 ff 96 fd 47 11 cc 13 4e 5a 41 6c cd e7 79 de 2a cf c5 fc ef 18 bf 6a 59 af ef c0 6f ec 5a 61 df f3 53 e0 0b 8a 73 2d f4 4d 4f c2 12 bb f9 e9 fe 22 ae f0 ae 11 98 cf da ad 9e 35 44 09 00 81 ea 38 17 8a d6 01 5a 83 25 7d c0 b5 c3 ca 8b 37 0a 4f 17 55 f5 9e 07 63 af f6 04 50 35 a7 9f b7 be 1f 14 de 0a c3 06 bc 0e 3a 59 98 f6 da f5 b9 f3 26 fb ec 48 94 ed 41 85 e9 90 40 81 57 bf d3 e6 f4 
+f6 01 00 00 
+Salt:
+39 c7 0c 9d 56 c3 48 cb 
+Session ID:
+12 66 fc 60 75 60 ba ba 

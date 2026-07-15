@@ -3,6 +3,10 @@ import random
 import json
 import os, re, sys, termios, tty
 import tgcrypto
+from telethon.tl.functions.messages import SendMessageRequest
+from telethon.tl import types, functions
+# from telethon.tl.types import InputPeerUser
+from telethon import utils
 
 def to_bytes(n: int, length = -1, little = False) -> bytes:
     length = length if length > 0 else (n.bit_length() + 7) // 8

@@ -4,19 +4,18 @@ import random
 import tgcrypto
 import time
 
-from telethon.errors import TypeNotFoundError
+
 
 from src.utils import *
 import hashlib
 
 from src.MtprotoSession import MtprotoSession
-from telethon.extensions import BinaryReader
 
 
 
 class TGMessage:
 
-    def __init__(self, plaintext_bytes : bytearray = None, session: MtprotoSession = None, msg_type: str  = None, silent: bool = False, colored: bool  = None, instant: bool = False, ciphertext_bytes : bytearray = None):
+    def __init__(self, plaintext_bytes : bytearray = None, session: MtprotoSession = None, msg_type: str  = None, silent: bool = False, colored: bool  = None, instant: bool = False, ciphertext_bytes : bytearray = None, fetch=False):
         
         self.check_msg_key_large = None
         self.check_msg_key = None
@@ -55,10 +54,14 @@ class TGMessage:
         self.complete_bytes_ciphertext = None
         self.received_auth_key_id = None
         self.n_bytes_tcp_payload = 0
+        self.contentRelated = True
+
+
+
         if ciphertext_bytes is None:
             self.construct_message_from_plaintext(plaintext_bytes, msg_type, silent, colored, instant)
         else:
-            self.construct_message_from_ciphertext(ciphertext_bytes, msg_type, silent, colored, instant)
+            self.construct_message_from_ciphertext(ciphertext_bytes, msg_type, silent, colored, instant, fetch)
 
 
     def prepare_to_build_msg_key(self, sender: str):
@@ -84,7 +87,7 @@ class TGMessage:
         self.aes_key = self.sha_256_a[:8] + self.sha_256_b[8: 24] + self.sha_256_a[24:]
         self.aes_iv = self.sha_256_b[:8] + self.sha_256_a[8: 24] + self.sha_256_b[24:]
 
-    def construct_message_from_ciphertext(self, received_bytes: bytearray, sender:str, silent: bool, colored: bool, instant: bool = False):
+    def construct_message_from_ciphertext(self, received_bytes: bytearray, sender:str, silent: bool, colored: bool, instant: bool = False, fetch: bool = False):
         self.complete_bytes_ciphertext = bytearray(received_bytes)
         if self.complete_bytes_ciphertext[0] > 127:
             print()
@@ -99,7 +102,7 @@ class TGMessage:
             self.tcp_payload = self.complete_bytes_ciphertext[4:  4 + self.n_bytes_tcp_payload]
         # self.session = MtprotoSession(auth_key) # todo questo rigenera l'id della sessione, devo prendere effettivmente i dati dal messaggio
         if self.session is None:
-            self.session = MtprotoSession(self.tcp_payload[:8])
+            self.session = MtprotoSession(self.tcp_payload[:8], fetch)
         self.received_auth_key_id = self.tcp_payload[:8]
         self.msg_key = self.tcp_payload[8:24]
         self.ciphertext = self.tcp_payload[24:]
@@ -111,16 +114,18 @@ class TGMessage:
             self.plaintext = self.ciphertext
         else:
             self.plaintext = tgcrypto.ige256_decrypt(self.ciphertext, self.aes_key, self.aes_iv)
-        self.remove_trailing_zeros()
+        # self.remove_trailing_zeros()
         pre_hashed_msg_key_large = self.auth_key_fragment_msg_key + self.plaintext
         self.check_msg_key_large = hashlib.sha256(pre_hashed_msg_key_large).digest()
         self.check_msg_key = self.check_msg_key_large[8:24]
 
         self.msg_key_large = self.check_msg_key_large
         self.seqNo = self.plaintext[24:28]
+
+        self.contentRelated =  bytes_to_int(self.seqNo, little= True) % 2 == 1
         self.session.salt = self.plaintext[:8]
         self.session.session_id = self.plaintext[8:16]
-        self.session.n_content_related = (bytes_to_int(self.seqNo) >> 1) + 1
+        self.session.n_content_related = (bytes_to_int(self.seqNo, little= True) >> 1) + (1 if self.contentRelated else 0)
         self.message_id = self.plaintext[16:24]
         self.unix_s = bytes_to_int(self.message_id[4:], little=True)
         self.unix_ns = bytes_to_int(self.message_id[:4], little=True)
@@ -137,20 +142,13 @@ class TGMessage:
             print("auth_key_fragment check on decryption failed")
             print("decrypted msg_key      : ",to_hex_str(self.check_msg_key))
             print("external header msg_key: ",to_hex_str(self.msg_key))
-            raise MsgCheckFailedException
+            # raise MsgCheckFailedException
         # print("Message raw:")
         # print(str(self.message_data_plaintext)[2:-1])
-        print("TL message converted by Telethon BinaryReader")
-        try:
-            with BinaryReader(self.message_data_plaintext) as reader:
-                obj = reader.tgread_object()
-                # print(obj)
-                print(obj.to_dict())
-        except TypeNotFoundError :
-            print("Telethon Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID 93d7b347")
+
 
     def construct_message_from_plaintext(self, message_data: bytearray, msg_type: str,
-                                         silent: bool, colored: bool, instant: bool = False):
+                                         silent: bool, colored: bool, instant: bool = False, quickAck=False, contentRelated = True):
 
         self.message_data_plaintext = message_data
         self.unix_s = math.floor(time.time())   # 32 most significative bits are unix time
@@ -163,20 +161,26 @@ class TGMessage:
         self.message_id = to_bytes(self.msg_time + self.additive,8, little = True)  # message_id mod 4 is 0 for client messages, 3 for server unsolicited messages and 1 for server response messages
 
         # self.message_id = to_bytes((self.msg_time+ self.additive) <<32 >> 32,4, little = True) + to_bytes(self.unix_s, 4, little = True)
-        self.seqNo = to_bytes((self.session.n_content_related << 1) + 1, 4, little = True)
-        self.session.n_content_related += 1
+        self.contentRelated = contentRelated
+        self.seqNo = to_bytes((self.session.n_content_related << 1) + (1 if self.contentRelated else 0), 4, little = True)
+        self.session.n_content_related += 1 if contentRelated else 0
         self.data_length = len(self.message_data_plaintext)
-        self.padding = bytearray(rand_bytes(random.randint(12, 1024)))
-        while self.padding[-1] == 0x00:
-            self.padding[-1] = rand_bytes(1)[0]
+        self.padding = bytearray(rand_bytes(random.randint(12, 1024 - 15)))
+        # max should be 1024, but here I do 1024 - 15 because if its more thant that
+        # it could go over 1024 later in the code when adding padding bytes to make
+
+
+        # while self.padding[-1] == 0x00:
+        #     self.padding[-1] = rand_bytes(1)[0]
         self.received_auth_key_id = self.session.auth_key_id
         self.plaintext = (self.session.get_header_Bytes()
                           + self.message_id
                           + self.seqNo
                           + to_bytes(self.data_length, length=4, little=True)
                           + self.message_data_plaintext
-                          + self.padding)
-
+                          )
+        self.padding = self.padding + rand_bytes(-len(self.plaintext + self.padding) % 16)
+        self.plaintext = self.plaintext + self.padding
         self.prepare_to_build_msg_key(msg_type)
         pre_hashed_msg_key_large = self.auth_key_fragment_msg_key + self.plaintext
         self.msg_key_large = hashlib.sha256(pre_hashed_msg_key_large).digest()
@@ -185,7 +189,7 @@ class TGMessage:
         self.check_msg_key = self.msg_key
         self.build_aes_key_iv()
         if self.session.auth_key_id != MtprotoSession.NULL_AUTH_KEY_ID:
-            self.ciphertext = tgcrypto.ige256_encrypt(self.plaintext + bytes(-len(self.plaintext) % 16), self.aes_key,
+            self.ciphertext = tgcrypto.ige256_encrypt(self.plaintext , self.aes_key,
                                                   self.aes_iv)
         else:
             self.ciphertext = self.plaintext + bytes(-len(self.plaintext) % 16) #if auth_key_idis 000... we do not encrypt
@@ -193,6 +197,8 @@ class TGMessage:
         self.tcp_payload = self.session.auth_key_id + self.msg_key + self.ciphertext
         self.abridged_transport_header = to_bytes(int(len(self.tcp_payload) / 4), 1) if int(
             len(self.tcp_payload) / 4) < 127 else to_bytes(0x7f, 1) + to_bytes(int(len(self.tcp_payload) / 4), 3)
+        if quickAck:
+            self.abridged_transport_header[0] |= 128
         self.complete_bytes_ciphertext = self.abridged_transport_header + self.tcp_payload
         # print("length:", len(self.ciphertext))
         if self.message_data_plaintext[:8] == b"00000000":
@@ -520,7 +526,7 @@ class TGMessage:
         print()
         wait_input(instant)
         print(f"Time of the message (epoch time {unix_s_str} taken from 32 higher order bits of {message_id_str}, little endian):")
-        time_str = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(self.unix_s ))
+        time_str = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(self.unix_s))
         print(colored_st(time_str, "unix_s", colored))
         wait_input(instant)
 
@@ -530,16 +536,17 @@ class TGMessage:
         print()
 
     def remove_trailing_zeros(self):
-        while self.plaintext[-1] == 0x00:
-            self.plaintext = self.plaintext[:-1]
-
+        # while self.plaintext[-1] == 0x00:
+            # self.plaintext = self.plaintext[:-1]
+        pass
     def get_decrypted_data(self):
         return self.message_data_plaintext
 
     def get_encrypted_data(self):
         return self.complete_bytes_ciphertext
 
-
+    def get_total_time(self):
+        return self.unix_s << 32  + self.unix_ns
 class PrintableBytesMessage:
     def __init__(self, message: TGMessage, colored):
         self.message = message
