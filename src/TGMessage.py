@@ -4,7 +4,7 @@ import random
 import tgcrypto
 import time
 
-
+from telethon.tl.core import MessageContainer
 
 from src.utils import *
 import hashlib
@@ -62,6 +62,9 @@ class TGMessage:
             self.construct_message_from_plaintext(plaintext_bytes, msg_type, silent, colored, instant)
         else:
             self.construct_message_from_ciphertext(ciphertext_bytes, msg_type, silent, colored, instant, fetch)
+
+        self.deserialized_message = deserialize_TL_message(self.message_data_plaintext)
+        self.printable_message = PrintableBytesMessage(self, colored)
 
 
     def prepare_to_build_msg_key(self, sender: str):
@@ -213,7 +216,8 @@ class TGMessage:
 
 
     def print_message_encryption(self, colored: bool, instant: bool):
-        printable_message = PrintableBytesMessage(self, colored)
+        printable_message = self.printable_message
+        # printable_message = PrintableBytesMessage(self, colored)
         salt_str = colored_st("salt", "salt", colored)
         session_id_str = colored_st("session_id", "session_id", colored)
         # internal_header_str = colored_str("internal ", "salt", colored) + colored_str("header", "session_id", colored)
@@ -402,6 +406,28 @@ class TGMessage:
         print()
         print()
 
+    def __str__(self):
+        msg_str = "\n\nComplete Plaintext\n"
+        msg_str += self.printable_message.plaintext_str
+        msg_str += "\n\nSalt:\n"
+        msg_str += self.printable_message.salt_str + " or " + str(bytes_to_int(self.session.salt, little = True))
+        msg_str += "\n\nSession ID:\n"
+        msg_str += self.printable_message.session_id_str + " or " + str(bytes_to_int(self.session.session_id, little = True))
+        msg_str += "\n\nMessage ID:\n"
+        msg_str += self.printable_message.message_id_str + " or " + str(bytes_to_int(self.message_id, little = True))
+        msg_str += f"\n\nTime of the message (epoch time seconds taken from 32 higher order bits of Message ID, little endian):\n"
+        msg_str += time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(self.unix_s))
+        msg_str += "\n\nSeqNo:\n"
+        msg_str += self.printable_message.msg_seq_no_str + " or " + str(bytes_to_int(self.seqNo, little = True))
+        msg_str += "\n\nDeserialized TL language data:\n"
+        msg_str += str(self.deserialized_message.to_dict())
+        if isinstance(self.deserialized_message, MessageContainer):
+            msg_str += ("\nSubmessages objects:")
+            for sub_message in self.deserialized_message.messages:
+                msg_str += "\n" + str(sub_message.obj.to_dict())
+
+        return msg_str
+
     def print_message_decryption(self, colored: bool, instant: bool):
         salt_str = colored_st("salt", "salt", colored)
         session_id_str = colored_st("session_id", "session_id", colored)
@@ -547,6 +573,7 @@ class TGMessage:
 
     def get_total_time(self):
         return self.unix_s << 32  + self.unix_ns
+    
 class PrintableBytesMessage:
     def __init__(self, message: TGMessage, colored):
         self.message = message

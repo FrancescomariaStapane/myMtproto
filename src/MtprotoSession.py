@@ -50,7 +50,7 @@ class MtprotoSession:
                 # print(key_temp.hex())
                 computed_auth_key_id = bytearray(hashlib.sha1(bytes.fromhex(key_temp.hex())).digest())[12:]
                 if to_hex_str(auth_key_id) == to_hex_str(computed_auth_key_id):
-                    print("key extracted from ", entry.name)
+                    # print("key extracted from ", entry.name)
                     return key_temp
         print("ERROR: No suitable auth_key found in tgnet files")
         raise Exception

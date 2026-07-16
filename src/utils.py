@@ -7,6 +7,10 @@ from telethon.tl.functions.messages import SendMessageRequest
 from telethon.tl import types, functions
 # from telethon.tl.types import InputPeerUser
 from telethon import utils
+from tgnet import Tgnet
+from telethon.errors import TypeNotFoundError
+from telethon.extensions import BinaryReader
+from telethon.tl import types, functions
 
 def to_bytes(n: int, length = -1, little = False) -> bytes:
     length = length if length > 0 else (n.bit_length() + 7) // 8
@@ -100,7 +104,21 @@ def extract_protocol_bytes(obf_enc_bytes : bytes):
     return protocol_bytes
 
 
-
+class toDictable:
+    def __init__(self, log=""):
+        self.log = log
+    def to_dict(self):
+        return {"":self.log}
+def deserialize_TL_message(message: bytes):
+    if message == b"":
+        return toDictable("auth_key dh exchange message")
+    try:
+        with BinaryReader(message) as reader:
+            obj = reader.tgread_object()
+            return (obj)
+    except TypeNotFoundError:
+        print("Telethon Could not find a matching Constructor ID for the TLObject")
+        return toDictable()
 
 # def save_cursor_pos():
 #     return "\x1b[s"

@@ -1,0 +1,356 @@
+tag: efefefeff8c0cb4d
+6a 28 b3 51 e4 d3 e5 f3 77 a5 87 06 21 28 8d 2c fa 8d 11 4c fb b2 e5 5d 95 dd 73 5e 47 9f 0c a4 ad b6 bf 03 f3 f8 54 85 e4 47 fb 7b fa fb 1e 1d 29 5a cd 32 aa e7 20 d8 4e 3f 83 57 26 0f b7 b5 62 2f 55 4f 83 cc 6b 01 f4 91 61 8d 60 fa 8e f7 4c d1 c2 7b a6 42 c0 f2 81 a1 2b f3 3a 97 12 48 37 97 9f 44 f1 e0 03 e9 95 ea ba c8 db 4d 61 88 cf b4 d3 75 b1 8d 5b 87 85 7d e3 9b cc 78 48 48 e8 41 b5 0e 95 13 90 6a 3d 4f 95 0e 7d 75 67 75 bc a8 8c 7c 31 8f 19 6a 5c ce 8d 45 ef da c9 e3 24 ef a9 d8 9f 2d 8a 5c 8a c9 b9 4e 51 ba 17 10 5d bd b4 ef d6 0d 05 9f 49 29 fd 3c de d7 c9 eb 2e 2c ff 8a 10 1d 13 e7 56 f8 fa d4 a7 ba 61 f0 9c 58 3e 37 03 ea 36 fd 4c 7c 52 f1 72 f7 ec 30 e9 70 83 2b 12 70 e0 4b 45 51 36 ee 18 b1 2e 83 23 c8 3c fc 96 59 8b 3e ed 27 8f 0a 5a 76 12 ca 81 f1 26 43 e5 68 0a 90 de 5f 37 f8 fd f1 b3 b2 6a c1 c7 a0 69 75 80 68 fd b9 17 b6 7e e0 0b c1 99 2c 33 c2 95 3e b1 83 62 52 ad 94 57 88 37 d6 7f e6 71 f4 85 52 d9 f9 73 0f 2e ce 0e 98 17 9a f7 08 d8 a1 f2 37 87 ec 5b 7d e9 15 d7 05 a3 4f de e2 a0 0a 5b a7 fb 79 0d 7e 9a 43 e3 be ec 2e a2 1d 81 d3 5d 61 24 17 25 1f 1c 70 32 13 28 32 0e a5 58 08 1e c5 dc f4 58 ea ab df 21 db a7 5d 15 f4 6f 3a a1 fc d0 e0 80 e0 d1 74 f8 7b 3c 0b 61 06 77 a7 70 ea 1f c1 c1 f9 f8 b6 5c 42 8d 5c a5 49 98 3d df 43 5a bd ac 22 28 b3 51 e4 d3 e5 f3 77 18 a4 42 99 83 dd d0 55 14 95 5d 4a 14 bd 41 80 10 0b cd 4b 9c 37 9b 21 b7 d2 af 35 2e de 2f 17 26 9b 00 6b f0 b1 63 ae c5 78 8f 1b 81 5f 2b 1d 98 f8 b6 b4 e8 40 c0 ad 45 2c 97 dd a1 ac 8a 86 62 08 f5 15 9d 4f 73 22 b1 fd ad 7f 79 2e eb 2a 45 21 42 85 0e a9 de 86 6e 8b 65 1c 19 23 33 fe b7 2f 0c a2 fb d4 b0 4a 44 cd fc 7c c8 4a 00 17 db ad e5 e1 43 79 21 1c e4 8b 04 f6 42 97 18 23 2a 28 b3 51 e4 d3 e5 f3 77 15 cd b6 21 37 0e a9 65 61 e5 d8 e9 4f ca db 78 3a 7c d2 55 10 1a cc e6 05 22 fe 8b a7 67 18 d9 73 5e 10 de 14 d2 8b 40 96 fd 30 19 b4 9b 74 a2 c7 5f 15 72 38 6d 53 f3 8a 32 0c 8c d9 31 a9 a3 55 67 28 e2 21 95 b0 8b 66 70 e5 de de e4 a4 60 be 69 ee 8b c7 58 77 20 58 74 4e d7 19 dd e5 cb b2 da 98 84 84 df 8a 73 00 4d 55 b8 2d 02 d0 68 ea d9 75 dc 8b 0c e7 a8 0b f5 73 8e 28 91 5c 21 12 cc 7a 42 11 4d a4 6d db de b5 36 08 63 06 cf 72 07 09 23 5c 5b 92 de c8 38 26 23 47 72 41 ce 22 28 b3 51 e4 d3 e5 f3 77 fc ce 75 b3 d3 10 e4 42 15 37 c4 13 fd 1a 2f 65 15 aa cc 2f 33 22 1b 9b e3 12 d3 8e a6 7a 5f 58 a1 9b 2b 15 c1 a2 97 c1 04 01 23 c5 44 17 a6 0e 61 81 87 7a ed 58 bc b4 23 e0 f5 5d 29 d5 b4 9d f7 58 a7 6f 77 6b c0 2a 40 40 c9 94 4e 16 0f c3 ab e7 4a 3f 28 a5 cc eb e1 b6 0b 24 7a e7 0d 42 75 a3 6e 41 c8 ec 29 f8 99 cf 72 b7 9f 66 1e b3 c7 3f 51 08 08 8c 96 71 7c f2 1b 86 1d 8f 89 00 2a 28 b3 51 e4 d3 e5 f3 77 1b 74 97 b1 eb d1 f6 57 88 7d 3e c3 69 11 29 10 7d 07 65 83 38 76 96 4f 2c 6f b0 a7 d2 0b 21 2c 24 e3 8c e0 68 37 29 0a 9d d0 fe 19 76 91 e5 89 e8 68 6e cf 25 d6 3a 98 07 72 b2 01 42 84 5b f4 cf de 24 bd c9 8e 85 38 46 6a 95 20 67 e1 94 a4 11 23 dd b5 45 36 e6 46 3a 54 26 04 23 01 ba 5f 31 5e 43 fb 7a 67 d4 18 bb f2 a6 82 6d 0e c8 60 e8 2d 85 f3 b3 1a c2 d4 bf 14 b6 19 21 2b 22 b7 92 2c 73 e8 7b ba a7 79 11 c1 a3 d4 43 f9 90 87 cb 8b 47 3e a2 a3 7e c1 da 6f bb 6e 3a 76 de 4d 2e 28 b3 51 e4 d3 e5 f3 77 3f f6 8e 8b 1a 16 e6 af 57 f9 2b 5a 04 54 a4 0a b7 f9 7c 69 01 e2 30 9d 5e cc 9b db de fb 53 5b c5 b1 a8 ff 2a e1 cb 6b 7e a1 ab d1 28 a5 fd 8e 39 ea 3f 75 19 28 26 d6 32 7a 73 12 0d d8 3e 03 82 9a c9 2b 65 b7 bf f7 d6 27 03 42 b0 48 84 ec a4 cc ee e1 38 91 9c d0 3f c6 16 17 5c f7 19 36 08 1d 50 83 58 ff f6 55 89 86 b3 f8 e8 a4 26 79 c9 79 b4 bc 92 18 5d dd 7e 0e 29 fa a2 4b 27 ea bc 2e 0b d7 c6 a0 27 34 dc 64 ee 2b 13 22 c4 e3 6e 8b 1d 1b 50 40 c0 ed 28 07 66 59 14 65 b3 8b 42 eb 30 a3 51 c3 cb 85 27 68 a7 1b 51 16 4e 9a 52 28 b3 51 e4 d3 e5 f3 77 02 a7 e0 08 37 fe d9 f6 0a 96 e0 60 9d 78 f5 a3 03 1f e7 7e 32 7e db 60 74 70 ec b7 00 a2 a5 53 8c b4 49 6e 63 33 91 98 b3 e3 38 a4 8b 1e 8d 67 1b 57 50 ec 4b 64 e7 6c b7 ac 76 94 12 68 37 80 f0 39 50 77 9e 63 0f c0 6d c4 68 e0 a8 12 00 21 27 6b bf f7 4e a0 4c 03 d8 c5 eb 83 c7 5a f1 01 75 7c 19 19 99 00 19 a7 27 d8 f0 0a 95 e1 f0 23 1a 12 c4 16 2a a6 68 fd 93 c0 30 ae bd 88 24 27 bf a5 aa be 98 29 53 f6 be 3f f2 ff e5 68 0d 7a d5 2b 95 37 a9 53 93 ff 73 ae ca 1b 57 a8 08 19 2a 8a 18 72 c1 21 f9 4f d1 04 85 5a d1 3f fb f8 fc 66 5d c3 32 03 c5 47 e6 92 f6 3b 58 93 66 2c 9c c8 fa 60 81 11 cc ab 74 a3 f9 2f ae a8 6f 61 de 55 a7 76 c6 fd 2d 92 e3 34 20 60 18 22 07 85 1f f2 26 ac eb c1 ee da a9 ed 71 55 42 da cc 6d 86 42 80 94 82 a6 62 f8 27 16 94 6f 39 88 ac 75 2f d8 59 ff fd 04 9c 96 ad 26 d6 d0 b0 b6 c1 d7 e8 3e 18 fb b7 e6 1b 48 93 59 ad 26 43 22 b1 df 57 90 a6 97 2d 4b d0 16 ee 97 52 d5 18 fe 8a 41 ac 76 06 d5 6f 73 be 12 0e 91 43 4b 7c 92 64 32 66 28 b3 51 e4 d3 e5 f3 77 ab 1b 99 c3 35 25 3b 8d 52 61 f5 4d 4f 5c 60 f5 46 ea f0 8f a3 f9 1f be fa 74 d2 3e 3b 0e 6d 67 c2 97 97 59 16 69 4c 99 fc 76 22 51 eb 69 c5 fa ad db c0 a9 11 d7 51 99 d2 b7 c4 03 15 8e 05 c4 9e 7c 39 23 2f fd 63 96 e4 e9 af 3e 9e 9e c2 da 8b c6 70 3e 1d 6c 06 ea c7 d2 8e 74 3f e5 e4 5e a2 b1 8d 7c 5a 65 e1 58 2d 8e c3 48 e9 6e 9d a0 9c 15 52 be bb 8e 48 fc 20 2d 61 52 40 1e 56 d9 1b b8 33 3d 1f a3 b2 bb fc 6b be 7c d5 6e 50 a0 93 7d dc 46 06 2d e8 b1 2a 2e 21 de bd 64 bd 31 cf ba 38 d8 2f 71 b0 3a 0b 0b 25 7f d5 01 04 bd 89 6f 7a d8 13 85 56 40 b6 32 e6 06 06 49 59 a1 c2 fe 9d 81 15 a7 f5 ec 47 0f 44 d5 e9 fc 6d f1 9f 30 fa 32 f7 69 ea 6f b5 63 5c ab 54 5a 7b a8 dc fb c4 49 da 9f b9 48 f3 a5 a6 ff 1c 02 54 eb 6e cd 1c 2f 78 e5 da 3a 3f 0c 53 6e 47 4a 74 17 f7 84 0f cd 25 af 3e c5 ef 83 ad a3 17 67 53 f9 4a c5 7a 81 f9 99 49 67 32 c3 bc eb b7 69 68 d8 ae 0d dc fa 7f 29 03 41 4d 14 90 2c bb 77 08 5c 11 e1 22 7a f2 e6 8a ec a5 d9 4b 4d 96 86 fb 6f f7 16 a1 58 fd cb 12 b9 61 cd 05 7f 95 ed 76 3f db 69 74 29 7a ee 52 d7 fd 44 27 76 99 42 64 b1 76 83 21 59 eb 60 a4 8b 5e 52 89 74 8b 00 3b 2f ed 4b d7 a1 8d df 4d 24 e6 2b 2d 84 f9 12 2b 05 b3 ea 4b 7a 43 8e 13 d3 dd eb ad 89 24 a6 3c 4f 52 28 b3 51 e4 d3 e5 f3 77 fa f9 9c f7 35 a6 c1 cd 37 54 0d 7f b2 23 59 3e 63 6b c8 01 10 99 11 ee 01 5d 88 9a 8a 1f 8c d6 d7 98 b6 95 51 e7 c0 9a 55 6d 1c cf 93 ee 7c ed 1e f9 92 94 7a 49 e1 d6 e6 db dd 18 89 3a af e2 ba 9b b4 d3 a5 a0 96 1e cc c6 cc 3f 99 00 a1 11 a2 f0 72 2a 04 10 09 a5 00 df 4e fa 79 dc 31 47 31 f8 00 49 65 26 81 d9 29 86 87 3a 68 fb a7 4e ff 87 ec 4c 98 7a cf 32 34 20 81 15 2a c8 57 3a 4c 1e ef 2f 51 62 c4 9e 2d 07 d4 eb 43 b4 c2 23 82 19 8f a3 a0 b5 0a 8b f2 6a 5f 90 ee ac 69 b2 bf 24 58 c5 7b 43 39 69 a7 9d 9e 9d 86 7a bf dc de fd ab ee c7 81 17 14 85 cf 02 1e d3 db 1e 67 8b b1 13 8a 2d 94 df b7 89 d6 e2 02 f2 ee 16 ab 42 3e a6 45 03 7f cc 4d 75 4e 2f ed c9 22 b9 d4 ed 71 14 17 14 1e 1a e6 3f 57 81 15 26 57 db 09 68 90 a8 97 0e 88 88 66 e1 c4 b9 87 17 3f 2f 21 2d 78 e7 50 f4 14 e4 1b 1c fa f8 74 27 61 ed 9d 0c 17 f8 d0 bd 6a f2 bc e9 26 c5 35 e4 ba a7 e0 ee 2d cf f0 eb 11 15 4d 8a 60 69 c3 9d 6c 46 fe 91 ba 09 9f 74 b6 60 a8 57 08 2a d4 35 da b3 31 26 28 b3 51 e4 d3 e5 f3 77 38 4c db 80 6b af 78 ef 6b 15 cf 77 81 bc d6 50 c6 a2 80 68 0c 7b f2 32 36 ef 42 ab 76 cc 74 6a 62 7a ad 04 33 07 d1 56 72 24 d2 4e d4 b3 fa 79 ae 53 70 23 5d 59 f9 b8 29 a2 31 9f 94 72 cb 77 ab e0 68 72 55 22 28 e6 d5 e6 71 83 b9 c1 bb 87 df d2 7c 2d 12 9f b8 fc e9 10 08 9c 44 4e 4b 1a 41 f1 bf dc 43 d5 1c 56 d3 85 a7 98 7a 6c 47 1a d1 33 28 6d 78 62 a1 3c d7 37 64 37 6a 67 c1 af 22 1a 3f cf ac 01 90 bb 66 6e 3f 68 a3 5e 12 ad 46 28 b3 51 e4 d3 e5 f3 77 7d 1e a8 8d 1d f2 03 f1 2c 6f e7 41 b0 f3 fa f3 44 25 8b ad 96 d4 fd 1f 0e a4 19 48 0f 03 02 b8 2b 32 98 bc be 47 27 fc b7 11 7b da 38 a7 34 f1 76 0e ae 4d cf 37 7b 10 a5 4e 4f 50 c9 06 8a 18 59 17 69 af 6c db 52 65 54 ea 98 d9 66 a4 83 4b b2 01 ca 64 06 cc 28 a9 81 9b 87 91 c5 a8 01 d8 ae 89 40 36 ae 0c a1 f6 aa 57 be 6f 4e c6 88 37 84 ff 6c f2 ed 00 32 27 2a f6 3c 21 94 be e0 6d ee 33 68 3b 7c 3e 7a 08 45 f1 58 9e 15 6c 86 6a d8 a7 1c a9 46 61 91 17 e0 cb 99 43 7c 00 d1 1a 36 8b a0 52 cf c4 ea dd 3f 05 ea 47 d9 79 34 ed 3e 12 37 74 87 64 86 e4 c3 71 d1 b7 b8 ae 3a 8d 7d 43 38 06 17 ed 54 bf 7d 23 b3 08 0b c9 6a 1a 77 bc b3 61 9d 4c d1 9d ba 0a d4 40 61 c7 78 5a e5 f1 19 70 57 69 66 49 3a eb 40 48 4d 5d d8 ad 08 11 54 03 13 52 75 d7 80 c2 32 46 e6 d1 fe f4 ad 1d 7b b5 5b 67 ff ec 4b 3a 80 40 1e 2c fc 06 4e 28 b3 51 e4 d3 e5 f3 77 f2 67 e6 c4 9a 1d 88 4c 77 e2 83 a8 db e8 54 d8 30 63 77 83 83 97 6e 9e 4f cd 95 5f bf ad fb 1d 25 2c 33 7c a8 22 03 39 e6 36 55 16 00 2e a8 d0 bc d8 22 ab 0f 26 d4 44 a9 5f 88 e9 a4 b9 fd fc 0f 4f eb 5b ad 00 bb fc 80 ce d3 d1 0d 03 18 b7 ca 01 e2 11 29 1a de 3b fb e2 5e 4c 5e ef f8 a4 aa 1a 92 d5 55 52 80 d2 7d 20 f4 eb 8e d5 72 02 49 87 4a fc e0 ba 3b 12 ff 35 84 ef f5 d7 e2 c4 2a 5e c1 5c fb ed 56 a2 0d cc 9e 43 5b b9 e4 98 97 26 ed 21 0b 20 b4 49 e6 0f 10 2d 1e 05 9d 87 97 45 ab 25 a7 09 53 d8 12 bd c5 c6 5e e9 cf c0 e7 7e 9d d6 9c f2 d1 cd 48 5a d2 9d 3a 2b c0 f0 4c 5a f9 09 64 bd 3a 78 ed 3a 5a ec 03 18 68 7c a6 d8 36 6f 99 fe 9a b7 be 60 49 6e cf 24 2b 7a c1 c2 4c 90 40 2f 20 fb cf 7b 29 ab 05 a1 23 61 13 89 0a 07 d7 02 53 d8 43 84 97 57 8f e1 78 97 7c 3d 70 23 87 27 40 5d 3c 51 c2 f8 b1 fd 90 9f 2d 2c ee 8c 5b 01 af 49 9e 25 d9 e2 4f b4 b0 19 31 be ba 8e 36 0a d7 10 41 75 13 11 d7 51 a3 3d 3e 28 b3 51 e4 d3 e5 f3 77 8c a2 05 18 92 c3 d7 39 bd 78 86 4b f0 fc f9 a9 e4 d7 20 54 b7 51 70 8e 99 83 de c4 bc 77 47 75 3b 10 11 df 59 84 dc 37 21 62 36 29 8a 88 2b b7 f8 a1 1b 7c dd c3 b3 ca 31 8f 35 aa 2f bd c1 2f bc 3c d1 f7 31 9a f4 19 57 df 70 ba 3b e0 89 b0 bf 2c 7c ff 83 62 e1 48 83 dc ea e5 63 22 41 23 de fb 12 c2 e0 6a 24 88 b9 f2 ef 72 f6 a4 15 c8 fe f0 34 6c 70 40 3d 9b b5 cd b9 59 c7 a3 57 c4 1e 4b 13 e8 d3 3b 8b f2 40 ef ff 5e 11 64 f6 4c 80 f5 29 32 5e ce 67 1a be 43 b8 ec a9 59 eb ce 63 7a 54 9e 32 84 a2 f8 d4 4f 2b 93 3a 04 1c ca 13 01 15 e2 e9 cb 17 ec 8e f5 28 66 79 36 7d da 1a f5 84 f7 cc d5 11 22 7c d6 b8 25 91 af 67 e6 29 14 8e b3 b3 01 53 c4 a6 1f 33 ad 67 e8 61 a6 98 26 a8 17 3b 68 60 cf 3a 05 69 96 ea 08 8d e7 46 28 b3 51 e4 d3 e5 f3 77 e0 4f 34 da 84 01 8b 8b d4 42 d3 7e f8 d9 c3 8b b1 06 51 75 87 a5 2f 8a 90 18 59 64 ac 25 b6 53 bc 97 7b 13 c5 e3 67 14 8a d7 fb 63 40 c2 82 5a ab d2 59 99 21 1b ac 4b a0 e1 df 90 ac 14 fb a1 f0 51 1e 59 79 32 75 67 74 9a 25 be e5 fc 7d 91 fb 60 ef bc 91 b0 bd 89 5b 18 50 48 b2 9e 9f 84 39 b5 77 52 e5 19 8f 6a fd fd c1 fd d5 67 50 7a e4 f0 b3 a8 c3 23 36 cc 5c 54 a6 7e 69 33 47 49 6f ac 0e ec 95 3b 1c cc dd 45 6f 14 dc 5f b4 09 2f ca 18 2e e8 8e 13 6c d0 aa 9d e3 92 5e e3 d2 ae 03 4e 37 21 c7 00 1b fe 65 08 c1 29 7f 3d 22 12 b8 df ff 3a 93 f8 13 2e 1d 1b dd 67 4b 4b 78 a1 62 cb b5 8b ee 9f 90 6c 16 c4 bd f2 91 63 26 ab 8d 15 09 4d 31 bb a0 e7 a1 6c b3 f9 64 dd 7f 53 db b6 6e 6a 5d ff 1c 33 f9 fc b7 ef e7 cd d8 e5 82 e1 c1 17 53 51 8a c3 4a 95 fc 0c 29 6c cc d9 f4 48 fc 5e e0 b4 ed fd 84 48 75 5f a4 4e 12 42 28 b3 51 e4 d3 e5 f3 77 f6 76 cc d8 4a 9d 4f f4 e4 e4 e7 ac 2d 56 70 ac 82 2e 45 8a 2d d1 ef c4 87 d3 12 ad 37 7b da 3f c2 95 ad dc 31 54 70 1f c5 c2 05 47 a0 bf 0a 72 54 c5 ad d4 7d 3b 4e ec ff b3 29 72 2c 16 64 20 0b 0f ed 6c 40 4a d1 36 4a 6f 06 ae 93 1f 43 6a 51 39 76 db 97 72 21 b7 81 6a 39 f6 20 11 fc a6 dc 5f 7d ff 45 60 c9 0f 3a 8e be 63 e7 32 9c 80 ce e4 3e ca f4 6a d2 4b 5d 1f 09 8f ee 78 0a 51 bc db fb bf fa a3 1a 98 16 21 58 05 88 48 72 00 ae 44 91 c8 6d 57 8e 0f 45 7f 62 f8 3a 95 97 d0 61 81 15 f1 31 86 51 3c 8c e8 67 46 28 c7 29 2a b2 a5 ab 74 2e 01 8c 08 d1 74 b5 26 d9 42 17 89 a0 7d 14 a6 70 60 fe 6a 28 59 89 4d cb d5 cf 57 17 e8 d2 29 63 40 ba 30 5c 3f d4 bb e5 89 61 d0 2f 1f 3d 7a 1e 2d 33 ac e3 17 66 e6 fb eb 03 06 7a de b7 88 47 e2 ec c3 b3 12 53 fc 52 15 eb 4d aa 28 b3 51 e4 d3 e5 f3 77 d9 76 8b f3 fc 29 6f 55 e1 ff 57 73 46 55 ef da 73 d5 ff 89 72 4c 0a 6e cc 5c a4 60 55 c5 83 6a bf ae 7e 4c 43 4c 42 4d 48 f0 66 0e 22 1e 9b 42 63 3a f2 c2 13 ca a0 a6 00 65 ad f1 b9 27 fa 61 69 2e 30 e6 09 28 31 ce cf a1 22 93 7c 09 2b b4 28 9f cb 49 60 be 34 18 78 2a 83 f7 f8 f7 96 35 90 17 2b 3e 95 a0 4e 9b 26 3d 30 49 2f 8c d2 0a ce a7 76 ec 38 e9 67 c0 ee 63 dc 33 19 1a 1a ab d7 68 25 d9 f9 2e 2e 3b e7 ab fa 3d 12 be 75 64 94 a3 db be c4 05 e6 0b 86 15 44 63 24 03 98 97 26 28 b3 51 e4 d3 e5 f3 77 91 74 9a 67 de e7 52 03 b8 af c5 aa e2 bd 5c 93 1a a5 9f 94 eb 39 a6 30 67 13 74 1d f2 48 9f b1 9d f6 50 7a 19 ef da 24 a9 ba c3 3e 01 a5 4d 23 64 1b e9 f6 d1 2f a3 64 c4 46 fb a5 cb 74 91 7c 2c a9 62 b2 91 bc b3 88 55 e2 4f 98 9d 46 f4 ff f8 bf 2f ce cf 98 ad 3b e1 27 95 d4 ff 5b e2 54 f0 11 be 1f 86 6a fb bf e9 e1 27 25 f0 21 e0 b6 71 3d 31 95 f7 22 c5 80 70 25 d5 e8 4a bc 1f 04 d2 a9 67 9a e7 40 da a1 dc 23 b9 a7 ba 06 47 8d 4a 28 b3 51 e4 d3 e5 f3 77 76 56 3d 44 9b dc 20 e2 f3 b5 b9 f7 ce e2 54 12 dd ea d2 c6 a9 09 a6 75 66 ef 72 19 35 fa 4c 94 1d d5 37 1d f9 dd 48 a1 49 af 27 a9 df b6 46 aa 44 a4 f6 d1 cc d2 ed 7e 11 4e 90 78 5e 57 f3 ed ff 0d bb 57 67 cd 93 17 98 b8 7b a8 9a d2 e3 97 24 5b 02 cd 3d 5f 52 4b e4 be e0 fe e2 36 03 49 6e 6a bc 4b ac 22 33 78 77 34 61 1a 2f ca ed fc 31 a7 5d 5f fa 8c d3 17 ee d4 91 93 29 49 4a d4 4d 32 71 7d 6b 0d 6d 2f 7a 48 5f 4f 7b b0 ab bc 59 c3 92 d9 02 b7 42 43 d6 85 5c 55 9f 88 f7 f6 01 ac c8 b3 30 07 1b eb d6 08 1e 8f a3 61 62 3e 09 77 c8 87 6c 0c 78 81 0b b1 18 55 57 48 1e 1b ce ab fe 78 c1 92 78 b3 fa 37 38 d7 0c 30 dc ae 22 bf 46 a6 4f 1d 3a e1 c9 35 66 2c e9 2d ed 86 da 49 e5 1b fa 45 1c 94 d4 87 ff 10 c9 4e f1 25 40 ee 3d 15 a9 56 fc c8 9d 70 2a 47 ed 74 54 ae bc 80 43 70 f4 01 9d 71 3f 51 f0 20 8b 26 f1 45 01 d3 11 bf 85 97 a9 ae ca 06 c6 61 f7 26 ae 03 4a 28 b3 51 e4 d3 e5 f3 77 76 d3 e1 c6 08 ff f6 da 42 a5 a2 91 ac 67 ba c7 12 1a 15 58 01 33 fe d5 3f fd 7c 14 b2 e0 e5 d7 69 c3 de 5a 0e 35 30 a5 42 21 c8 6b 01 a1 3c 21 29 68 20 27 7a 7b d1 25 1a cd df 65 6c 12 f3 e7 c3 45 7d 00 d1 1e c0 e2 76 3c be 79 9b a6 b7 05 bf bf 69 01 b5 a1 e1 a2 21 ef 59 1a 99 0c 43 04 1d 49 38 d3 d4 26 43 ce 8d d7 29 00 c3 da 3c a4 fc 14 c0 ec 3f da 59 37 9d 21 d0 68 39 4e cc c9 0f 1e 74 9e 6e ce 7e 7b d8 b2 57 f2 76 2a 89 2f 03 4f d8 27 55 9a 50 11 a5 7f f7 ea 1d b6 6b 4c 80 fe 6b 8e 61 4a 09 21 8c 59 f2 52 a8 c1 ed 6e fb 94 73 40 f8 bb 30 f7 eb 0d 5a bd 4a 46 08 67 ec c4 ed 09 93 57 00 44 bc be cb 5f 28 39 f6 9c c9 90 85 03 53 80 32 e1 7a ff 27 2c 05 8d 2e 12 96 a5 94 91 b9 26 e0 47 2e 4f 39 fd 60 19 65 d1 7b 43 c5 fe 58 bd bf f5 1d e6 c6 38 f7 bf d3 48 56 a2 87 4d 5e b0 1c 14 61 bd 2a bb fb 78 5a 4e 4d 71 ef b5 54 c3 39 7a 99 56 12 cf 81 84 a9 7a 22 28 b3 51 e4 d3 e5 f3 77 60 ad 74 e8 61 3a 74 3c 4c 91 e6 0a 81 82 c4 2b 53 db 69 79 57 bb 85 2c ec 9a ed 5f 9d 7b f8 9b 06 ba 90 9d e4 8f 93 8b 24 3d e1 fb d3 68 19 22 ab d5 53 80 38 7e 5e 16 6e e0 bd 17 9e 44 e7 60 90 73 2f 61 6b 8a 46 dc a3 75 3b de 62 be 55 03 28 82 74 52 34 f8 6e f5 3a 18 b0 cf e5 ed eb 4c a5 0a fe 8a 38 b3 1e 91 f2 06 ae 81 98 72 32 e0 54 6f e5 53 fe f0 84 51 e2 d4 53 97 15 d0 1e fc 22 28 b3 51 e4 d3 e5 f3 77 2a 7d 18 bb 95 04 8a 75 99 50 5a 6a 9a 21 bf 24 28 3f 22 f9 e6 65 24 6f 85 73 75 db c7 6f 72 19 e0 be 06 ab 93 20 a6 51 d2 77 5b 08 b8 24 e1 20 93 b6 6b 0b 32 aa 98 de 3f 53 43 73 f9 15 e0 a7 cf 1b a5 fe dc ba a9 ba 80 64 47 25 67 fa 29 7d fb 79 ef 37 79 0b 6a b6 77 c3 9e b2 d4 a7 65 07 de 98 5c 71 80 82 fb e9 18 71 eb 58 cf d4 88 0e e0 8e 34 5a 9a 7f df 26 3c b3 9d 1c 5c 80 7b 52 
+OUTGOING TRAFFIC
+
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7663035993313704960, 'seq_no': 341, 'obj': <telethon.tl.functions.stories.GetAllStoriesRequest object at 0x7a1d2edce270>}, {'_': 'TLMessage', 'msg_id': 7663035993313704964, 'seq_no': 343, 'obj': <telethon.tl.functions.stories.GetAllStoriesRequest object at 0x7a1d2edfd590>}]}
+Submessages objects
+{'_': 'GetAllStoriesRequest', 'next': False, 'hidden': False, 'state': '1784189482:1368549973:0:a0bff30c5763f6904e'}
+{'_': 'GetAllStoriesRequest', 'next': False, 'hidden': True, 'state': '1784189482:0:0:906cfee362a2a98ca8'}
+
+ObfuscatedBytes
+42fea8b3db72e23172051cb3921a51885d62c657cc8e7f3e2afd3db1b50555483ca607d4c0f6795836b21755b9f532deb14b312a296a705b72fff714c01a3ad73be8b6d08ff517d8ce6c21e4f3ca63880f70dbddb1af1d66007e84316d757e5f67e456a0b248339f40f683c9921abb23d0698fe0e55373ee8faa15471aa1ebad4b1fa27a2a3757e89b44f3c903a47d6c232d663c2ff5f069cf09eba3bfd1484fc43d7ef820211162dc75de2e1943cc8d4e781d85bef2f497b66ab633485d460209074958fe852c49476444d426514c90d2602eb7ef705864e89b6e23815d350921974e6a3a65a1e0e30a44bc3fbf211ff86c58647e85764dabea52b832e1d95e6606229a66cc774ffbdd83d0cd2c4be9c2af381e75c13a891960f6c290238d79bc4b24b749dded3649d7fac440ec247c173b148f6b0ce116555d4778f98896dbb7760b56cd9d9f46fce942d663a2b02d81a6851f301df80ccd780ae17fd6b955e751132f466bac8bc53ba738e46f9d227660c3d543af93ec90015626ee879c3a1117ac925322eacdd7148d1a232ed3c2a1358bb0c284733fc0325b2da3b74b40ae4fb7f0e1182527ab
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+344
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035993452943361]}
+
+ObfuscatedBytes
+19c42ec1c3d2f8d6741e8b011c49acbd9406ca7240372a8616166a48bdf3ecaa273e6f9d25e1df5dfbaa525baf781e67ae4612bbcbff160ee13e6044e507ff44df4cbc0185b774e0af946d0c08cfe21c22559df8d2f2417cea3325073f7dfe80e1d5ad0bacff3d023c71dee99392f1532ae6ecaafefdff0a531fe0f3612f48e2773cc360b63768be8f
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+344
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035993467634689]}
+
+ObfuscatedBytes
+f08708f7d6d2b70b4772fe3ae8c8205553115fd5bbcc50383406a0893e93d2e165869ff9eca2fbaa1ffbdc0628d31804b67c5bdaf697d1a00984905e863b96241a5fefe44193d1c299de4374d10ea4cbe5aae71c8efb3c53d626dabb5897441e7dcb0ec8a8ddda7d7e4f06cc31b6e3f108515a17bb49f3ebe7fbf46c02d5ddbb5d316fc89b1d453f649e17208423552bde9dff434542ca66b7b18736c19e7f3d32d00e584b09d47143
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+344
+
+key extracted from  tgnet3.dat
+{'_': 'UpdateStatusRequest', 'offline': False}
+
+ObfuscatedBytes
+da46b4e2a23c2a565dc7bfd92f0fffcfe3a41beb2e1af33883dc5ac64468ca351a15cf4a50a3ac9ba551e6ca8d84505419641f5cd574157e02ab49d8f8dc52e74c83aa2cd8d6e6c30748ba8f67af95a5675c8d3e17c5fe1846dda3436502dd764db8443fdb2d771afd4d58b74ac3767fef8a3330851a518dae6840e6348ef2cc28f726c477a18ebd76
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+345
+
+key extracted from  tgnet3.dat
+{'_': 'GetSavedHistoryRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'offset_id': 2147483647, 'offset_date': datetime.datetime(2038, 1, 19, 3, 14, 7, tzinfo=datetime.timezone.utc), 'add_offset': -1, 'limit': 1, 'max_id': 0, 'min_id': 0, 'hash': 0, 'parent_peer': None}
+
+ObfuscatedBytes
+79a737a3249217b1d1a36ea3172500303194e0e4671d5416aac6e876d1c97379a529f883e6242f243254a32a2361c1feb9f64e0d65a3415c2169657d6e19b8dcd628bc1022adf5fa29e51197f7e851a2bd6bcf097023dfbd33031e3340de70fa9979a65b9c004b3e305e1a13b2f62263b09045bd0125fa313e36098d645809fa48c2a0efb12f7991911a81c8f6a30ff0946b71686863940733cbbfb02a9e8482254edccc40c3011d32
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+347
+
+key extracted from  tgnet3.dat
+{'_': 'GetFullUserRequest', 'id': {'_': 'InputUser', 'user_id': 156312201, 'access_hash': -325319132941366380}}
+
+ObfuscatedBytes
+3653bf7977bc4c48e79cbbd9f84f8f9ee301d292207714181cfb42fc1df78b0c56efa06d43680e0a077f7993c0df6ba35f5f9a5b9e96ce795172b750e93b1647bfeb8d46c76da9a595bec58f4c5b5b4aa7e2925dc9ae274572e32cb737b49787bb61765d3af88f2986f7994bd82b5a0b9c07c9b27816393bc8af41c5fe1e821209ee2347fc78d1d000675cd4d6e07987a8e081d805527d7f06fea1c210cf98ee0dd962c2cb40fbbe50a84d9d1e8a0baeb6b15474aa3aad4e67
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+349
+
+key extracted from  tgnet3.dat
+{'_': 'GetScheduledHistoryRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'hash': 0}
+
+ObfuscatedBytes
+6bbfe60f2e40acb6876e75498c21dcc358b5dc8e2ed39be767f31098931454cc1652c2c804bed05ac998e0caae755c8a4b2b7546d3bb66928ffbe13f26e56df5274629188398675abdca36886e1ed4f6c3e2efaeee6e058733bdaac8b8dd19503ffba9161ef9f9292e8126f3df4f8fb19ff0ab7fd296ddac5b4342c3f7dc8cf7217a71059f145b72f05b6d8622638f23bf4b51573f138adfac8245a38b88ff1e71485334e185f23d2c6de2c7337ae148da132690b6675c0c121c1dbc0fa67ba9b1e55b9886e46b784ac3327d81543019b50c41fc9e0c61c48156977ad1bf0e8e6fe951fb684695a58c9604d5c0a2c5a927c83531f118b0a62b2bf9c3fc9339d4a30641f95df3cbcddeabfb7ab44ecbe0102f6b23bb4c8d4184cd806f5ba022ea30167a75c844cc6d12a000d9a34723224e710aecb46b7966c15a99bd6cc0b903aad562a4054616c199
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+351
+
+key extracted from  tgnet3.dat
+{'_': 'GetMessagesReactionsRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'id': [198, 197, 196, 195, 194, 193, 192, 191, 190, 189, 188, 187, 186, 185, 184, 183, 182, 181, 180, 179, 178, 177, 176]}
+
+ObfuscatedBytes
+9a78b22a1353368de7957d72461d381a23e308f5d65b6718d4e175f4801bfef597c8652a32d5db10eee62fde3e2829e74d0458d417d8ec18edc72265aed385a4316e7cffa7aaaf6da3d28dd01fedc1dfb002f714ffa1f8ebdaee9fd3ecad9494b7e2876764f155956b783abd3ecc3f2742760b3c604f50b8afb8e4158078b12e0b52ddba7e4c2072bc3ee9451fb583e2d30901e7770455997c8f75e849135356aa32650e0ac9cafe9d3f17dd3f8df427140384c0f676f25154e4341d633928e5203deed3e15f254e16457dca4a3370d73e688f7e6f9eeadb7450c357e63ee13df67f2958de363d6d110f5007d1b39bc2630a6ce2f34ba098024de147f6b712aa552d8ace13d6c5b8261c77590c3da4bd968abfe6c88debbfdb8736d1e746bce190d43b22904974ca972a9b936847163c5b46d864a41a761d15b1e2c09f1c651cb804d4cb8bfa51a3c48bb4800ebefb65ee666d4bad9036ea5094a32fc36ee0fd52126fa5ae643fdbd4a0d15a396694ff12d1b98a534f8ffbe7f79b06f8b4b1ee78006ef5be83e2e684b6957616ad4d237728c0eb352bf1754a
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+353
+
+key extracted from  tgnet3.dat
+{'_': 'ReadHistoryRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'max_id': 198}
+
+ObfuscatedBytes
+eb7837d1dde3873936124b479920f9aa3c06d6d58a988f356febdb5586bb8915a751d6d1b02290e56e9455c3a37633a1c4a1a26dedbe42437969e986d50c6078c1d18847f90c8bf86190910af64e2d636706bbd7a2ace7a9195941e80dfaa7bbc305a20ad4861307aca0b0c7ee29e015f9e09504ef0dcd7fb05ec9a0f835c5ccd3782e759e751f384fb05b111a3796e743c6bdeb2d2c41d176c731e4b137a23f5101175228c9290dccf72484a1da6411e4355161ee802271ca1c2151d08c49bd607d76889e28085ee54684888e83c3a50d83cbaeaecf08be964750b42ebdd3c0f046871d2fd12e824fe75037ded4b5f021acbc842d87104d5e135ead2f53667e66f3354b5f8866c40f8272e4f7910783c2506f46d8342a3359b0926e145b0b8a5999b9c95f274595c6c6a7da92673a36fb66297c23eb2ebca7b09856067e8b2680538afc59d38d98fb
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+355
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035998787158017]}
+
+ObfuscatedBytes
+f91f3ad8d337162279ec6fee6a8a2aebd7c03238fa878b1daefc18a78f95f0f7cab38fd9bd92588b395cd8dd2244ee138d150b3723292501a901819a2a479361eb7fc67d55e86eafe923783dfb5a5185785b8afdf7f71c45069375e01f96a9ea60843886789ff9488260e275085b6018607dca1bd6aad4c6adeab59482f861517e164a0dab27c23de28747a8391f90259a69bb242217b0817f
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+356
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035998818028545]}
+
+ObfuscatedBytes
+e0fd7e3fb586fb7bb558924ad48ae897659d4013bf628e7e8ca1142c6a0c353c7544531f960d76503beb177d88703b50e6317f0d8b59c9f1b98a7496a75eb997e636a81c1eeec191c822ddd213094db51d08abd15b581e171f52eb22de189844ab81b8cd1aaa7360c23f5c91bbac28de97a27e80d19cc9e9e135894b1f84a154879900f771a80ae415a06d51f0cde517a78eb642697f5dbf208604be5d9e7c5fac6b94e1da361175a26df2475fb91389843727df82498cf3891759790536446c4601822a80f0da4a9ac3a981e1266505178deefed04597d7ac5bda35c04a681145f21bbb60dd4826236122c90ea94b3191956ade0ad5de5c844695c30e181b82e4093d63804a76510dd283c859b394dbb437b2e47330e020cf
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+356
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035999135377409]}
+
+ObfuscatedBytes
+2e43184af58ff90c72b48f6255316d143a995c11cca9acc8d7a4749cb253a2090db19bc246d854efe1bd92be1b758b917bdf82234f7f1f8c6c085c67a7339065ae4e84cfbeec74be976cce7e9c168bdbbb441fbeadd58801c635466e296ecaf9740cdc15765fd99c8b5f73cd82c9cf9b9854c6b268def620fe3df2a55820b4440d2ec7936a2cd169acf67e93aa733d1caba7c68fb1c1708ad114834ea2da85854feabd7abbd96a71c71f7467896cd834188ec7faa2df2db993daa7f10d8a444321c0c6ae3f4eea6f1c1091af8eecd9996dde39630ad071e9490f3facc1e7686abf74d9731ad21dd22ab59acbf7c9c3f5c3ec447f34d6e78ab6e5f7060ec48819804c25b3d58fe2b4c46fecff090dde6f3c7f1cb03adbf20417f7c7e7d494913869b699302a41da2fff80599f3f02f615aa146d440850052e7a
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+356
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035999157927937]}
+
+ObfuscatedBytes
+018c092d5e32feaa8a53f20d89ec3d4f330399a58bd3dc631fad1bd6bb4158263b3cfc30538e4c1ff83dd9dd3eecae5d3e85dce65edd0e32c5ba0a76ad85510c8c5bff07ab68b9b6126f678a0ea2d3e64c9d0e3b5d6381825f5a8cb15a4304b61e8e07fb7a49e7d3018f7b0e2fbd1a1ab6219f328fc8ffc0221eee1e6d56ae8a8c94b0636e16849439f8f04cf934ed2dc421c1bed090091e346349c3fa1bc24e387151c260a56a9f7c9ccacefcda2b3019a55a0fa1be09557b57d97bf57ede2cdf0e4bdb816d5c58b30cf97022d7de711ebdd8fee679bc44306f767afaaa35bfac4e6052e9283d87a83dd38060208abf3849f6c2c791bae335
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+356
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035999162287105]}
+
+ObfuscatedBytes
+e9fdf452b92b7490808f4d4326c839049b6d779f9a4a7bd2f90789a46855a5de7bbd11765331b180ebf083e6eb725a7ce83ce870d8d619c3c2fee03ac1c78de907cb7bea7a26ad9094c1f047d1a60d0c7c76247c1281f685201e9b25e382bbeb4332ef63a070bf8a7d1a3160442d836d4779ee8bc84dd6ecdcfc0a17c0c03a5d7df78d88ad4cb33e07df445db62a992a4026582d9b72cb88f167fdbafcc9c2ad8c28bf5e8e4f01b54a305af3ba4648c3cbcb52917a98091cc67353d273d085fc7abc9a72d33516a9c705b31f43120d513b8c152bce01e28ab498dd359615105cbc03a756385b730b60c16dc73d78c5021cf00cda34fc810d1638252988557450147b9e295f3bb8e5f27f9e31eb617a04dbe36e68fac93cc7d7
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+356
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663035999191541761]}
+
+ObfuscatedBytes
+d3ca6e1df764d04f93f30036eaec63a68af39fb9cd7c6324f6f9ac8f0958c241613823d65a6aa252fb694c915a071a5d7ca9ba51faaf132c0cb8483b5cee72120f9276f198dd20729947dcba88750b735739cc6320a8909bc60b79f79f90e61c53d061675673c17629f5bb3054b0b79fc08225cf14bfffb3677c1d44fac375549289c411e9f70d358eb29796d4e19650ffe097e8c6a7072c9e42ec4078070803a4504e87f1c52305d1967e8dd6d4bc6638a14ccf08329f388ea94f87bee76a9ff40978b392db31a9b1017d4b31bfc2c85b50742a0af8c195c5429d4b54b249ef9801749b54491f0d6cd63e6d04255ebd452b9d56b6dbf0d168fd1429b94113b4e4d6ea1cc57b1ec80f
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+356
+
+
+key extracted from  tgnet3.dat
+{'_': 'SendMessageRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'message': 'ssa', 'no_webpage': False, 'silent': False, 'background': False, 'clear_draft': True, 'noforwards': False, 'update_stickersets_order': False, 'invert_media': False, 'allow_paid_floodskip': False, 'reply_to': None, 'random_id': 1529067070449532267, 'reply_markup': None, 'entities': [], 'schedule_date': None, 'schedule_repeat_period': None, 'send_as': None, 'quick_reply_shortcut': None, 'effect': None, 'allow_paid_stars': None, 'suggested_post': None, 'rich_message': None}
+
+ObfuscatedBytes
+9e9cb9b2e66c7117d257a8973137cde7169e96e43b2715429dd8f772e9b6c54598d24ff8782469cdc2a0c3230f3ded3ae65463f591f471112dd528e1f48eacf65ca5d4c3cececdfe28f6ee0eb75ace5d9e9f5107637117b9a7399daacf98f85f23df2329a119754f9bac1a41c4b0b011034ca6a25e29de892a4f2f3a1fbf2d6415809fff52935cffddd8aee80fc6d1f2fd3b496244eed2309620f60eac3559b44b4aa47e888c146ff6
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+357
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663036009895218177]}
+
+ObfuscatedBytes
+64582ef36197f46626e361543d1b9ee8a150a3f794eee1e555440c5c3ff64d1a78a4546255a86271ad3076f7210e8f6f43166b417390a479cc6519221bb2160bf5e1af5a3febe0815b2a6048cc711f877fdddba9023ff2f502d3a1774a940b808a867f33ee6203c134afbecbf403d859cc8cae14abef503b67a9d8ad0e43e466f62e14726d2b4c9ed7b47f279cdfff34cce18fca730b9c8d7f
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+358
+
+key extracted from  tgnet3.dat
+{'_': 'GetMessagesReactionsRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'id': [199]}
+
+ObfuscatedBytes
+7d15b71e2c445743f71a30e649ecd6f6671b162b1b2aa97d7ec1a84d84420038c86b92ef97ca8022299e1781bbfeeeeae1339881ecd9218c49442219cecabb923cbec1d908e97a273b14b8aba3c218fd609974f53a54a53d5c619aebd8ad1f795e4f27fa2117308d483984f43f2763e6d22b2927f0da8ec0c5498672ecc5754e5299f5f0884db6d31bddbf7b75147146f27574c97f94d244919dc311d3227f4bf96b602913de1466229a2a7ba13d8b06efcdbd4de0780e54d1148589301a2c749f07e6d67e2fce1ee2c23a2f0f66f713548b5992d185bf57cbb8e74e12c6bbd372727177430ac3425dbe2daae531416455455f832c6377a6bba4bbc281f00cbe495f5f32e8d4ad16572b8571a2cdf4bd821fe74249d52507e7765e367559c00899cab036e1736959b5
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+359
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663036010306483201]}
+
+ObfuscatedBytes
+c6b2876c8c14d4957adc58cff1cda4d8167d443d4d4c5b2c55b84a52b5bae739586f827c4861e36355fe2ec1f7c4aa112d49434c6e3d287bc78844a941febf9dfae3364fe5124e6f9829b8294565e9f7da24b80c805028fd7a5ea64af67bbf579737a25e8fc50a802b617b21061abc649eb9022a0f6f191c73b0d4141e0df14b71907bcf2e72afd16abffb81d54a3699e8ed5f3e255e7a5777b88582130384225edd52b566dd9519e0907e7faa157bd43c4b8836b561abd6cfa488e34f8cc9c424922ceb4a76ef5466c36a968c74453b1644adcc4d54d7a523012199bf0cc81f03db662cf12360b25adb592fc3bb06dec04207a2459cbf694f73c16241169b029cd26c42d8bcc4dad1e31307923b1fbe9957f87821db17292ccc693a43347c559ddd16e7c7ff0fd3e8
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+360
+
+key extracted from  tgnet3.dat
+{'_': 'UpdateStatusRequest', 'offline': True}
+
+ObfuscatedBytes
+d3732531197d264fb3ab8b1a3873918e4caf86c1d168c19ae51217a5e2cb93c13370c7f8c269fe9fa5ae24cac569816d105081977dab13708876d0a818e9461be56be223fde1d65055e9af6d04130bd8486ce44ed8d798761e2f9cbc9eeb1425cc7320537ea422940e082c95c39d9283471bb05d2a352b6c87b6809e3655b6304736abe87d219ca733
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+361
+
+key extracted from  tgnet3.dat
+{'_': 'MsgsAck', 'msg_ids': [7663036024103918593]}
+
+ObfuscatedBytes
+3b04972e07532ca7785f2cfcd1186b91451fe728f2faefa42b5e93288817ce4a371ccf35ce25a1b6f8b08a625f230233046694898fd432b2f4598d848b0f77f43c33f18bdaddb8d1a7677637b46627ef4725e34b15f272d3a996a72e69ec4d34f466699dcc0adcdc6ed5a0e05752f0af376ea0a8f1a65343bfd1bca22987fa88da4ec559e1e247010d
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+362
+
+2026-07-16 08:13:29
+
+
+INCOMING TRAFFIC
+
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7663035993452943361, 'seq_no': 357, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x7a1d2edcde80>}, {'_': 'TLMessage', 'msg_id': 7663035993452943365, 'seq_no': 358, 'obj': <telethon.tl.types.MsgsAck object at 0x7a1d2ee07450>}]}
+Submessages objects
+{'_': 'RpcResult', 'req_msg_id': 7663035993313704960, 'body': b">\xfeX\x11\x00\x00\x00\x00*1784189482:1368549973:0:a0bff30c5763f6904e\x00\xfd'.q\x00\x00\x00\x00\x05\x98\xcb\xb2\xa2\x92Xjf\x01\x00\x00\x14\x00\x00\x00Y\xb4\xd6b\x15\xc4\xb5\x1c\x01\x00\x00\x00\x04\xfc~\xaa\xa2\x92Xj", 'error': None}
+{'_': 'MsgsAck', 'msg_ids': [7663035993313704964]}
+
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7663035993452943361, 'seq_no': 357, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x7a1d2edfd810>}, {'_': 'TLMessage', 'msg_id': 7663035993452943365, 'seq_no': 358, 'obj': <telethon.tl.types.MsgsAck object at 0x7a1d2ee07250>}]}
+ObfuscatedBytes
+88fe590c1f43dcd119b29b8fae0a31893e580aa7c33404aa5a56ee1e2f6172db0c76022ef17321a9536de2ad09791850bf00f688beeb9ca8f03c0bf3eef2fe8b0062901b445337b1d5befd59ed3f4b4a3c1698a9d80c85886d6a7208a9e9b2f3d37c903f8b5214e79a7dbc8e380ec6ee9fea2002a23ce9fecbe947839d952f7a3ba68c7032d5f3af527f40f88634fd39c5bd049a41b2dffb591adffe7daabcb14be36e755d77165db7b23428a40ed8eeaf6a5761827f911911cedc5eaad20b3735bfa721928a1528d4
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663035993313704964, 'body': b"\x81^\xfcn\x00\x00\x00\x00\x00\x00\x00\x00!1784189602:0:0:7b28e160c53f71d8c0\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\xfd'.q\x00\x00\x00\x00", 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663035993313704964, 'body': b"\x81^\xfcn\x00\x00\x00\x00\x00\x00\x00\x00!1784189602:0:0:7b28e160c53f71d8c0\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\xfd'.q\x00\x00\x00\x00", 'error': None}
+ObfuscatedBytes
+1b83500a3bb9b0dfda3f4011ff931b319fd88d6f3c619bcb968dfe6cf14c0f3f234d9bedf5768e2ac762f57502f3ce19270ae3dc25131ac1c06a5042ccb7748b03535888d104e0d52e383d512caa263d3f488d228a4eda7d1426bedb9d466a473cc2ae906225d67442bf36968aadcc2aaa82bd39b1b0a7e1e203a494ee06b3b7fdf048f63f95258c88183b9fe49165448456b9cb64479cd65d629120a209d7186801dc70fac8b534e6
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7663035998787158017, 'seq_no': 361, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x7a1d2f0f3360>}, {'_': 'TLMessage', 'msg_id': 7663035998787158021, 'seq_no': 362, 'obj': <telethon.tl.types.MsgsAck object at 0x7a1d2f3871c0>}]}
+Submessages objects
+{'_': 'RpcResult', 'req_msg_id': 7663035998506319872, 'body': b'\xb5ur\x99\x05@\xbd\xf0\xa3\x92Xjj\x01\x00\x00\x14\x00\x00\x00Y\xb4\xd6b\x15\xc4\xb5\x1c\x01\x00\x00\x00\x00\xd4x\xe9\xa3\x92Xj', 'error': None}
+{'_': 'MsgsAck', 'msg_ids': [7663035998665233408]}
+
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7663035998787158017, 'seq_no': 361, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x7a1d2f6d7e30>}, {'_': 'TLMessage', 'msg_id': 7663035998787158021, 'seq_no': 362, 'obj': <telethon.tl.types.MsgsAck object at 0x7a1d2f387070>}]}
+ObfuscatedBytes
+261b3410e565cff0b5dea293e9983d778dcee318b3959084477b62ce9711cf9b30f9319e1687ec9f84bad516b054dc39a721b7c30ecb4c12b812892b12961a24ba4fba2ec96ab8084288a007d97c3aa48c697d8105a770c098991ac91eabaa75e563051455024b934be9f87e9d315adb52504530474dde2cf7f4fcba33961702d0f5b014b28e61917969bdd5c5286066b38244bcd6deb1a3a6
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663035998665233408, 'body': b'\xea\xe7s\x1d\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663035998665233408, 'body': b'\xea\xe7s\x1d\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00', 'error': None}
+ObfuscatedBytes
+ddbae0ad54e6fa69cef833e68641580e036fa219b991c7d398b31cfc1f48f74f83bc07b7fcbbf9687bace831a579029d6d364bbf1858e9ec78072d3019baf276f92c1163a66bc4366f08de64a7bca066b30a2184230e635cf620d6d8d022533fac00ae35765b869469cef34efde502a960b1aa3f535b78f5bd
+key extracted from  tgnet3.dat
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7663035999135377409, 'seq_no': 365, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x7a1d2f4da650>}, {'_': 'TLMessage', 'msg_id': 7663035999135377413, 'seq_no': 366, 'obj': <telethon.tl.types.MsgsAck object at 0x7a1d2edd7d70>}]}
+Submessages objects
+{'_': 'RpcResult', 'req_msg_id': 7663035998892867584, 'body': b'@B\xaet\x15\xc4\xb5\x1c\x01\x00\x00\x00\xfa{)\x1e\x00\x00\x00\x00"\x17QY\x89"Q\t\x00\x00\x00\x00\xbc\x00\x00\x00\x0b\x9f3\n\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00\xa4\x91Xj\x15\xc4\xb5\x1c\x00\x00\x00\x00\xa3\x92Xj\x00\x00\x00\x00\x05\xa8~\x05\xa4\x92Xjn\x01\x00\x00$\x00\x00\x00Y\xb4\xd6b\x15\xc4\xb5\x1c\x03\x00\x00\x00\x00th\xf1\xa3\x92Xj\x00 \xb0\xf2\xa3\x92Xj\x00\xc8K\xf7\xa3\x92Xj', 'error': None}
+{'_': 'MsgsAck', 'msg_ids': [7663035998798377984, 7663035998819852288, 7663035998897162240]}
+
+{'_': 'MessageContainer', 'messages': [{'_': 'TLMessage', 'msg_id': 7663035999135377409, 'seq_no': 365, 'obj': <telethon.tl.core.rpcresult.RpcResult object at 0x7a1d2f4db650>}, {'_': 'TLMessage', 'msg_id': 7663035999135377413, 'seq_no': 366, 'obj': <telethon.tl.types.MsgsAck object at 0x7a1d2edd7e30>}]}
+ObfuscatedBytes
+099641be760bfcfdab8bca3cdb1a728601c8f8732ace9c5d1d0aa3dcce3b98eaa76c071d66bbce294a27fbf24302865fa405f9f0275a3094156e5f430708c157fdd6bb5d1848736cae15e2d5a339d4b53809766f5abf68e3913147fd0d6f995fac4fea51bb72216d81e307b0148453ec3413fe94b4961526d10fdaf32450c4736fae70f02742b95f81afe66cef2bea0ad2ab543aff2c41f3f210d43d5a951fd5789440c7a6c8d72855b286fb48a70d21c124f5db721ea2a7b31da7b2722f76f16dee3952702e51f4d3e79fe1c1fb4976abd2226fa3b3f8514eb2b157e17266a68f0ca8d36c2ffb91632b72f86503a2996e37f261d20f9b5c810ae09de6012683d6e283433965e6eb184b1300872f38bd59b360522f2dd77269cc5e69af37d28f911c94f5f303e9106e3eaa03a0d27d740fef1b2f6c058cf3971de0a2d83f2b7715a707f30b45e0d3cd937c6a4823a053d3af94e25f7e52107d
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663035998897162240, 'body': b'\x85\x91\xd1\x84J\x01\x00\x00\x00\x00\x00\x00', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663035998897162240, 'body': b'\x85\x91\xd1\x84J\x01\x00\x00\x00\x00\x00\x00', 'error': None}
+ObfuscatedBytes
+ddcae6ebcade87fe46fd065f99cd95c4b6925d00a4fd35d7803cf511a4324c0988b91bdf8c03feeb4d9dad92ec9cfda1d3e62ede9494bbf67b25edea900a0894dd571e9688b28dc19ac35897e1c9d2050c0fab4de6f6e0fd3a65c50a1c2e026088a84030c582552e80
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663035998798377984, 'body': b'.\x15m;E\xe6\xcb\x06\x94 \x00\x00\x00\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\xf7Aw\xf4\x00\x00\x00\x00ez\x19\xfb\x00\x00\x00\x00\xf8\xa71\x1b\x89"Q\tH\xa5\xf3\xc6\x1f\xb8\xa2\xdd\x15\x00jX\x92\xa3\xa0f2\xa3\xdf*me\x19jnhS\x8e\x1d]\x00\x00c\xe3\x11e\x15\xc4\xb5\x1c\x04\x00\x00\x00`\x8e\xc7u\x01a\x00\x00\xa0\x00\x00\x00\xa0\x00\x00\x00\xad8\x00\x00`\x8e\xc7u\x01b\x00\x00@\x01\x00\x00@\x01\x00\x00i\xb7\x00\x00`\x8e\xc7u\x01c\x00\x00\x80\x02\x00\x00\x80\x02\x00\x00ZW\x02\x00.\xbc\xb0\xe0\x01i\x00\x00\xf7\x01((l\xd0\xed\xe3\xe6\x1cqU\xda&\xd9\x96\xe3\x8c\x8a\xbb\x1b\x1f5\x8b\x86\xdcq\x8e\xd50\x8dU\xf7\x10\x1d\x8fr*\x12\x0b\\\xc7P\xc5\xc0\x03$\xf6\x1d\xeaY!\x91\x17~\xc3\x8fZ\xb1\xbbe\xf9\xf2\x95A\xd9\x9d\xb8\xabD\xc8\xd222\x8d\x9d(\xbaE(\x99\x19\xca\xee\xe9\x8a*e\x88&\x17\xbf\x7f\xce\x8ad\x96f\x93\xcb(G%Xu\xa9f\xb9\xf2\xc1r\x87#\xd2\xa9\xdb\xc5\xe7\xa9gb\x02\xb0\x02\xa6\xbc\x91QQ\x1b\xd7\x93\xebM\xa0WJ\xe5\x133\x1b\x830\x05j\xcf\xda\xd9\xb0\x911b\xdc\x1c\xd5y\x988\x1bF\x00\xa9m\xd0\xa8\xca\xe3\x04g\x91C\xb2\x1c[d\xad\x1f\x96\x81\x8b\x0c\x12h\xa2a\x1f\x92\x99m\xcd\x9f\xba=h\xa1\x01cOP\xb6A\x88\xe5\x895F\xfd\xf3tW<(\x03\xfch\xa2\x98\x8a\xcc\xc4\x8fn\xd5r\xd8\x8d\x81s\xd3\xf9QE)\x15\x1d\xc6\xf9\xc7\xec\xdf/P\xe7\x9a(\xa2\x81\x1f\x04\x00\x00\x00\x0c,b\x99\x00\x00\x00\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00\xa4\x91Xj', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663035998798377984, 'body': b'.\x15m;E\xe6\xcb\x06\x94 \x00\x00\x00\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\xf7Aw\xf4\x00\x00\x00\x00ez\x19\xfb\x00\x00\x00\x00\xf8\xa71\x1b\x89"Q\tH\xa5\xf3\xc6\x1f\xb8\xa2\xdd\x15\x00jX\x92\xa3\xa0f2\xa3\xdf*me\x19jnhS\x8e\x1d]\x00\x00c\xe3\x11e\x15\xc4\xb5\x1c\x04\x00\x00\x00`\x8e\xc7u\x01a\x00\x00\xa0\x00\x00\x00\xa0\x00\x00\x00\xad8\x00\x00`\x8e\xc7u\x01b\x00\x00@\x01\x00\x00@\x01\x00\x00i\xb7\x00\x00`\x8e\xc7u\x01c\x00\x00\x80\x02\x00\x00\x80\x02\x00\x00ZW\x02\x00.\xbc\xb0\xe0\x01i\x00\x00\xf7\x01((l\xd0\xed\xe3\xe6\x1cqU\xda&\xd9\x96\xe3\x8c\x8a\xbb\x1b\x1f5\x8b\x86\xdcq\x8e\xd50\x8dU\xf7\x10\x1d\x8fr*\x12\x0b\\\xc7P\xc5\xc0\x03$\xf6\x1d\xeaY!\x91\x17~\xc3\x8fZ\xb1\xbbe\xf9\xf2\x95A\xd9\x9d\xb8\xabD\xc8\xd222\x8d\x9d(\xbaE(\x99\x19\xca\xee\xe9\x8a*e\x88&\x17\xbf\x7f\xce\x8ad\x96f\x93\xcb(G%Xu\xa9f\xb9\xf2\xc1r\x87#\xd2\xa9\xdb\xc5\xe7\xa9gb\x02\xb0\x02\xa6\xbc\x91QQ\x1b\xd7\x93\xebM\xa0WJ\xe5\x133\x1b\x830\x05j\xcf\xda\xd9\xb0\x911b\xdc\x1c\xd5y\x988\x1bF\x00\xa9m\xd0\xa8\xca\xe3\x04g\x91C\xb2\x1c[d\xad\x1f\x96\x81\x8b\x0c\x12h\xa2a\x1f\x92\x99m\xcd\x9f\xba=h\xa1\x01cOP\xb6A\x88\xe5\x895F\xfd\xf3tW<(\x03\xfch\xa2\x98\x8a\xcc\xc4\x8fn\xd5r\xd8\x8d\x81s\xd3\xf9QE)\x15\x1d\xc6\xf9\xc7\xec\xdf/P\xe7\x9a(\xa2\x81\x1f\x04\x00\x00\x00\x0c,b\x99\x00\x00\x00\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00\xa4\x91Xj', 'error': None}
+ObfuscatedBytes
+abe67b9ec46435663d7919bd46095966253c86a322aa73e092be4f41af3473044f35f9c5d22a5a7dc93c660a07e02d68ba0b9b83ee1dc919c9c3ceb8b9f7145f213b917b11db29da6b191c148a47ebea79965a508b19633491c33666a69a672f41d38068be0aad60d73e71c064cee75fe1d89619d114ba184f2d2f744a50c8cdd7ee4a40afe3b6910ae8cd2faec1cc013e5b92ceb5f73ef08c3df15fe30f9fdcf9a4bf6645fd9d8b4ce11b6d5b2152ca670e45137a1193275b46142fb78f13cc6ecc52e77570f11c5a8a5fc90666dfd014a620ce95917fc102cf58a9fd701242fde50818fbc0b8fe3cb3d3f40d870227956d7c1bb0a3d99ac790dba8a57cdba25c37580668331ec5b788085cffb2a52d9477b39b7ca4f466bc1ba4a912ef2bc2a9e106a146223a43617e564d58dc7f4c2c37c4f48c02785d9dd7376969eb175a748592e4e11df2f6f65ed93bffe63d5b79351f41c2b455a4c9fbef84667c1fe4aadbf7381a15df5dbf7a38f233f812ccb7e421edcc26e46e94f2459265fde3fd2f406c571b6be31c99743358e552a404a9c6493e4a26612b6e6463661242fc1e4ff6be5625616207fbae87c59c56eb8e96ee7f6f1e3ada757c3787de6e96bcfff1dacee322e40a0ad3c1f9a259a7acd6bfa7d2a10d3916b8bf8defed7d0fac60482cae018edf995abbb813193f9043a817783b5a13210780067e6aa2c059099c6d2118a2b727a2a368c697d530555780dd87fa36d73eaded38669eb0b098bed31a0afd990d1e8e4d478f70a38e62d678a7e15c20c4063b349ecbc8da3cb25805d14cf78796c85e07d04d8dca14dcb03481a34ad998488e2798ca94bc
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663035998819852288, 'body': b'\xea\xe7s\x1d\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00\xa4\x91Xj', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663035998819852288, 'body': b'\xea\xe7s\x1d\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x88Cw1k\x00\x00\x02\x10\x00\x00\x00\x89"Q\t\x00\x00\x00\x00\x94Kd\xe2\xf8;|\xfb\x0eFrancescomaria\x00\x10francescomaria_S\x00\x00\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\xf8\xa71\x1b\x89"Q\t\x13\x01\x08\x08\x8aB\x86]\x9eZ\x82W$\xe7\x91\xde\x8a(\xa43\x04\x00\x00\x00?p\x8c\x00\xa4\x91Xj', 'error': None}
+ObfuscatedBytes
+417600b3ff0ab340bd4aa4f3d04c450ff83e748ff1afb054b975adab002f00bf72c453eefb0815444858c4528b63ee04b571963bb1797784f398fe17a213891c1ffb8212cd3677f6abd55c56cda559671e70b288560caacba83288bab248395e886257793f704ce72f4923b22e6e0345d7d1c388ff181e40864533fd7951a731d2d8be3ced342fe7427c996b2068dd422865b19eb11fbfc5d9d5b33b18237170162cc0da1ff746314b36c1715384de0936a0fd3fcddee08ee49aeb084ea0f767c9e10e841114ac7ea21217cd3372046a996d9c45126e1b679458bd68e053f6012448e311bcef969cf3
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663036009454191616, 'body': b'\x01\xe1\x15\x90\x02\x00\x00\x00\xc7\x00\x00\x00K\x01\x00\x00\x01\x00\x00\x00\xa6\x92Xj', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663036009454191616, 'body': b'\x01\xe1\x15\x90\x02\x00\x00\x00\xc7\x00\x00\x00K\x01\x00\x00\x01\x00\x00\x00\xa6\x92Xj', 'error': None}
+ObfuscatedBytes
+843e8bcca7553ac8ca0a9f20007ec8bd11965cdf3bfbc4fde94be67b52a51af06905d5c95fe1a603446d1e605ea94f433ca1ae980a9cb1926424da10322092b6e6f2b6871f69631d4266660af2b1380ddc060c8d2d7b10377ac64c436a4b8abdf7dbde78e83b87cb03
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663036010132796416, 'body': b'@B\xaet\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\xa5\x92Xj\x00\x00\x00\x00', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663036010132796416, 'body': b'@B\xaet\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\xa5\x92Xj\x00\x00\x00\x00', 'error': None}
+ObfuscatedBytes
+9231f3defbf28f3008382fb37eb8b73344fae4f3f5e53e2a7cd4e7220c5d99eafdff0457f89bd0e84c5eea32b1ca49031de06fe647de6cb435aa9d64e76f8631803ea2322340186d3a90e0fae18d2bbe5aebfc4053e3c621e5221635ec48278036d1a7ed85fff86b547519fea7251e9a0a603efc1dbfdb7ad4
+key extracted from  tgnet3.dat
+{'_': 'RpcResult', 'req_msg_id': 7663036023859512320, 'body': b'\xb5ur\x99', 'error': None}
+
+{'_': 'RpcResult', 'req_msg_id': 7663036023859512320, 'body': b'\xb5ur\x99', 'error': None}
+ObfuscatedBytes
+d92ad42628e27c7fe9214c79a49f7def80ab9c57f7ac41d7517084097d18aeeb0841e1926b75bf2e0aa49e3f6f27b15cfad426402f2e3078b6db9385a384f17c13d28933dd6fdbe66444d3b8a77a537dc82e1e9c4a99582068
+2026-07-16 08:13:29
+SendMessageRequest(peer=InputPeerUser(user_id=156312201, access_hash=-325319132941366380), message='messaggio da una sessione hijackata', no_webpage=False, silent=False, background=False, clear_draft=True, noforwards=False, update_stickersets_order=False, invert_media=False, allow_paid_floodskip=False, reply_to=None, random_id=-6761883665927548949, reply_markup=None, entities=[], schedule_date=None, schedule_repeat_period=None, send_as=None, quick_reply_shortcut=None, effect=None, allow_paid_stars=None, suggested_post=None, rich_message=None)
+MESSAGE TO SEND
+62 8f f4 fe 80 00 00 00 4c a5 e8 dd 89 22 51 09 00 00 00 00 94 4b 64 e2 f8 3b 7c fb 23 6d 65 73 73 61 67 67 69 6f 20 64 61 20 75 6e 61 20 73 65 73 73 69 6f 6e 65 20 68 69 6a 61 63 6b 61 74 61 eb 4f df bf a1 f6 28 a2 
+{'_': 'SendMessageRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'message': 'messaggio da una sessione hijackata', 'no_webpage': False, 'silent': False, 'background': False, 'clear_draft': True, 'noforwards': False, 'update_stickersets_order': False, 'invert_media': False, 'allow_paid_floodskip': False, 'reply_to': None, 'random_id': -6761883665927548949, 'reply_markup': None, 'entities': [], 'schedule_date': None, 'schedule_repeat_period': None, 'send_as': None, 'quick_reply_shortcut': None, 'effect': None, 'allow_paid_stars': None, 'suggested_post': None, 'rich_message': None}
+ef ef ef ef 62 21 87 48 
+11 1d 27 1c ef 4d 25 66 74 c2 d5 4b 5d 5c 85 05 78 ee cc 2e fa 92 58 6a 6b 01 00 00 48 00 00 00 62 8f f4 fe 80 00 00 00 4c a5 e8 dd 89 22 51 09 00 00 00 00 94 4b 64 e2 f8 3b 7c fb 23 6d 65 73 73 61 67 67 69 6f 20 64 61 20 75 6e 61 20 73 65 73 73 69 6f 6e 65 20 68 69 6a 61 63 6b 61 74 61 eb 4f df bf a1 f6 28 a2 55 07 82 61 3a 60 9b a6 27 e0 b5 3c a0 10 1c 6b d2 61 5d 38 21 49 7d fb 29 20 ac 00 ea 75 6e 27 56 b5 af 1e fe 4b 44 6d 08 89 1a cc ec 57 3b ad 17 07 72 60 be bf 4c 92 3e d5 ea 6a 1a 0d fa a7 2b 5a 7b 7f af b0 54 05 53 1c 4a 55 25 40 82 77 db a0 64 8f ea 1e 88 2d c7 54 57 0d b5 c2 b8 6b 43 a2 4e c3 73 80 6c 67 bc fe f8 d7 af 1c ba ce 76 24 4d 23 ea ae f0 3f c7 76 d6 26 a6 c3 3a 3c 1e 6b d5 4d 7c 2f 34 ab f2 62 6f 1d 96 2a bd 7f 20 b2 31 c6 ef 0b d8 3b b8 3b a2 68 e7 54 72 b6 94 64 8c 55 2e 13 33 81 c7 d7 11 72 7e a0 40 4c fe 6f 98 1f 2d 59 ea d0 29 ae bd 64 e2 7c 70 a7 1a 5e 14 41 91 d6 b3 35 e9 c7 1b 7c 02 1a 71 9f d4 c6 e2 a7 73 6b 96 33 c7 1e 11 bb 5b be b8 d3 14 40 9c eb d5 fb ed 5e 91 27 0e 81 9b 8c c6 55 3c 49 5e 86 5a 0e 17 3c 74 b8 96 ee 97 6f 7c 86 e7 88 53 88 42 fb 30 e7 ac 50 b8 cc 81 8a d5 cf 07 ef 77 d2 7b c9 18 d2 04 5d 6b 17 50 92 f4 66 e2 7d e2 f5 9c 06 2d 41 9e 57 76 74 e9 03 e9 be 95 4f cb fe 17 b3 f8 4e 7a 8b d7 4c 45 2a d2 b4 5f e4 5c b0 1f ed 0a 2a 7b 01 7f 36 1b d4 a5 92 4c b0 87 4f 9d b3 ac fc df 0e 69 d4 8a 84 f2 d9 3b 35 58 57 a2 4e f2 28 6b 2e 59 64 d7 5c c3 1d aa 57 91 62 35 5c 95 24 f8 c1 4a 36 9d aa 21 d1 b6 ce cb c7 19 f5 58 ac 96 1b db 02 e0 11 37 07 ad 34 d9 ad 53 b9 3b 6b 44 d9 59 ad ff a8 d4 0e 18 23 16 c3 1a af 23 34 0f 60 c1 03 7a 88 06 09 17 0c 04 6b f8 47 14 ae 1b 87 1d 82 30 00 58 e6 5f 18 46 a8 b0 a9 f2 6e ea cd 3d de 80 f0 0c 19 74 eb dd 2d de 15 4e c6 c0 08 4e 80 75 0a 50 8d 9f af 0f 41 ed 10 e4 d1 de 14 b1 d3 03 b8 ca 13 60 e9 30 d0 67 ca 19 8d 7e 10 ae c3 b8 0e 71 39 f7 10 07 4a 72 ab 84 e0 95 60 5b 6d 5f fd a8 6f c6 de 17 59 c6 54 15 f6 bf aa 3a 5a b4 ef 8b 6b 39 da 9b 24 4c 44 aa 4a 35 53 e7 32 a7 d9 3d 7a 1a e2 53 69 a4 96 7d 38 44 b5 59 a8 a3 59 bf 9e ac 94 71 3c eb de 39 d8 
+{'_': 'SendMessageRequest', 'peer': {'_': 'InputPeerUser', 'user_id': 156312201, 'access_hash': -325319132941366380}, 'message': 'messaggio da una sessione hijackata', 'no_webpage': False, 'silent': False, 'background': False, 'clear_draft': True, 'noforwards': False, 'update_stickersets_order': False, 'invert_media': False, 'allow_paid_floodskip': False, 'reply_to': None, 'random_id': -6761883665927548949, 'reply_markup': None, 'entities': [], 'schedule_date': None, 'schedule_repeat_period': None, 'send_as': None, 'quick_reply_shortcut': None, 'effect': None, 'allow_paid_stars': None, 'suggested_post': None, 'rich_message': None}
+11 1d 27 1c ef 4d 25 66 74 c2 d5 4b 5d 5c 85 05 78 ee cc 2e fa 92 58 6a 6b 01 00 00 48 00 00 00 62 8f f4 fe 80 00 00 00 4c a5 e8 dd 89 22 51 09 00 00 00 00 94 4b 64 e2 f8 3b 7c fb 23 6d 65 73 73 61 67 67 69 6f 20 64 61 20 75 6e 61 20 73 65 73 73 69 6f 6e 65 20 68 69 6a 61 63 6b 61 74 61 eb 4f df bf a1 f6 28 a2 55 07 82 61 3a 60 9b a6 27 e0 b5 3c a0 10 1c 6b d2 61 5d 38 21 49 7d fb 29 20 ac 00 ea 75 6e 27 56 b5 af 1e fe 4b 44 6d 08 89 1a cc ec 57 3b ad 17 07 72 60 be bf 4c 92 3e d5 ea 6a 1a 0d fa a7 2b 5a 7b 7f af b0 54 05 53 1c 4a 55 25 40 82 77 db a0 64 8f ea 1e 88 2d c7 54 57 0d b5 c2 b8 6b 43 a2 4e c3 73 80 6c 67 bc fe f8 d7 af 1c ba ce 76 24 4d 23 ea ae f0 3f c7 76 d6 26 a6 c3 3a 3c 1e 6b d5 4d 7c 2f 34 ab f2 62 6f 1d 96 2a bd 7f 20 b2 31 c6 ef 0b d8 3b b8 3b a2 68 e7 54 72 b6 94 64 8c 55 2e 13 33 81 c7 d7 11 72 7e a0 40 4c fe 6f 98 1f 2d 59 ea d0 29 ae bd 64 e2 7c 70 a7 1a 5e 14 41 91 d6 b3 35 e9 c7 1b 7c 02 1a 71 9f d4 c6 e2 a7 73 6b 96 33 c7 1e 11 bb 5b be b8 d3 14 40 9c eb d5 fb ed 5e 91 27 0e 81 9b 8c c6 55 3c 49 5e 86 5a 0e 17 3c 74 b8 96 ee 97 6f 7c 86 e7 88 53 88 42 fb 30 e7 ac 50 b8 cc 81 8a d5 cf 07 ef 77 d2 7b c9 18 d2 04 5d 6b 17 50 92 f4 66 e2 7d e2 f5 9c 06 2d 41 9e 57 76 74 e9 03 e9 be 95 4f cb fe 17 b3 f8 4e 7a 8b d7 4c 45 2a d2 b4 5f e4 5c b0 1f ed 0a 2a 7b 01 7f 36 1b d4 a5 92 4c b0 87 4f 9d b3 ac fc df 0e 69 d4 8a 84 f2 d9 3b 35 58 57 a2 4e f2 28 6b 2e 59 64 d7 5c c3 1d aa 57 91 62 35 5c 95 24 f8 c1 4a 36 9d aa 21 d1 b6 ce cb c7 19 f5 58 ac 96 1b db 02 e0 11 37 07 ad 34 d9 ad 53 b9 3b 6b 44 d9 59 ad ff a8 d4 0e 18 23 16 c3 1a af 23 34 0f 60 c1 03 7a 88 06 09 17 0c 04 6b f8 47 14 ae 1b 87 1d 82 30 00 58 e6 5f 18 46 a8 b0 a9 f2 6e ea cd 3d de 80 f0 0c 19 74 eb dd 2d de 15 4e c6 c0 08 4e 80 75 0a 50 8d 9f af 0f 41 ed 10 e4 d1 de 14 b1 d3 03 b8 ca 13 60 e9 30 d0 67 ca 19 8d 7e 10 ae c3 b8 0e 71 39 f7 10 07 4a 72 ab 84 e0 95 60 5b 6d 5f fd a8 6f c6 de 17 59 c6 54 15 f6 bf aa 3a 5a b4 ef 8b 6b 39 da 9b 24 4c 44 aa 4a 35 53 e7 32 a7 d9 3d 7a 1a e2 53 69 a4 96 7d 38 44 b5 59 a8 a3 59 bf 9e ac 94 71 3c eb de 39 d8 
+6a 01 00 00 
+Salt:
+11 1d 27 1c ef 4d 25 66 
+Session ID:
+74 c2 d5 4b 5d 5c 85 05 
+SeqNo:
+363
