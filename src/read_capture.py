@@ -12,7 +12,7 @@ from Crypto.Util import Counter
 from telethon.tl.core import MessageContainer
 
 import TGMessage
-from MtprotoSession import MtprotoSession
+from src.MtprotoSession import MtprotoSession, KeyNotFoundException
 import utils
 from TGMessage import TGMessage
 from utils import to_hex_str, colored_st, bytes_to_int, rand_bytes, deserialize_TL_message
@@ -97,7 +97,10 @@ def read_stream(outgoing_traffic_file, ingoing_traffic_file, loud = True, louder
             print(f"Deobfuscated {strings[i]} bytes:")
             print(to_hex_str(deobfuscated_bytes[i]))
         while len(deobfuscated_bytes[i]) > 0:
-            message = TGMessage(ciphertext_bytes=deobfuscated_bytes[i], msg_type=msg_types[i], silent=True, colored=True, instant=True, fetch=True)
+            try:
+                message = TGMessage(ciphertext_bytes=deobfuscated_bytes[i], msg_type=msg_types[i], silent=True, colored=True, instant=True, fetch=True)
+            except KeyNotFoundException:
+                break
             tcp_len = (len(message.abridged_transport_header) + message.n_bytes_tcp_payload)
             this_message_obfuscated_bytes = obfuscated_bytes[i][:tcp_len]
             this_message_deobfuscated_bytes = deobfuscated_bytes[i][:tcp_len]
@@ -108,7 +111,23 @@ def read_stream(outgoing_traffic_file, ingoing_traffic_file, loud = True, louder
 
 
 def main():
-    pass
+    for i in range(100):
+        print("")
+        try:
+            stream = (read_stream(str(f"capture/stream_{i}_out"), str(f"capture/stream_{i}_in"), False, False))
+            print(f"Stream {i}\n")
+            dir = 0
+            for direction in stream:
+                print("INCOMING:" if dir > 0 else "OUTGOING:")
+                dir = 1
+                for message in direction:
+                    print(message)
+                    # print(message.deserialized_message)
+                    print("---------------------------------------------------")
+        except FileNotFoundError:
+            break  # no more streams to examine
+
+
     # n_capture = "15"
     # with open(str("capture/out" + n_capture), "rb") as file:
     #     obfuscated_outgoing_bytes = (bytes.fromhex(file.read().decode()))

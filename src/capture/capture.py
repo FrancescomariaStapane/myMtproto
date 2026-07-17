@@ -48,11 +48,11 @@ class StreamWriter:
             idx = self.next_id
             self.stream_ids[key] = idx
             self.handles[idx] = {
-                "out": open(f"out{idx}", "a"),
-                "in": open(f"in{idx}", "a"),
+                "out": open(f"stream_{idx}_out", "a"),
+                "in": open(f"stream_{idx}_in", "a"),
             }
             self.next_id += 1
-            print(f"New stream {idx}: {key[0]} <-> {key[1]}  -> out{idx} / in{idx}")
+            print(f"New stream {idx}: {key[0]} <-> {key[1]}  -> stream_{idx}_out / stream_{idx}_in")
         return self.stream_ids[key]
 
     def write(self, pkt):
@@ -72,14 +72,14 @@ class StreamWriter:
         elif src_in_subnet:
             direction = "in"
         else:
-            return  # shouldn't happen given the BPF filter
+            return
 
         idx = self._get_index(self._key(pkt))
         fh = self.handles[idx][direction]
         fh.write(payload.hex())
         fh.flush()
 
-        print(f"[{direction}{idx}] +{len(payload)} bytes")
+        print(f"[stream_{idx}_{direction}] +{len(payload)} bytes")
 
     def close_all(self):
         for pair in self.handles.values():
@@ -89,11 +89,8 @@ class StreamWriter:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("-i", "--iface", required=True, help="Interface to capture on")
-    parser.add_argument("-t", "--target", required=True,
-                         help="Target subnet in CIDR form, e.g. 192.168.1.0/20")
-    parser.add_argument("-c", "--count", type=int, default=0,
-                         help="Stop after N packets (default: 0 = run until Ctrl+C)")
+    parser.add_argument("-i", "--iface", required=True)
+    parser.add_argument("-t", "--target", required=True)
     args = parser.parse_args()
 
     subnet = ipaddress.ip_network(args.target, strict=False)
@@ -102,23 +99,20 @@ def main():
     bpf_filter = f"net {subnet.with_prefixlen} and tcp"
 
     def handle_sigint(sig, frame):
-        print("\nStopping capture, closing files...")
+        print("\nStopping capture")
         writer.close_all()
         sys.exit(0)
 
     signal.signal(signal.SIGINT, handle_sigint)
 
     print(f"Capturing on {args.iface}, filter='{bpf_filter}'")
-    print("Files are created in the current directory as outN / inN per stream.")
-    print("Press Ctrl+C to stop.")
-
     try:
         sniff(
             iface=args.iface,
             filter=bpf_filter,
             prn=writer.write,
             store=False,
-            count=args.count if args.count > 0 else 0,
+            count=0,
         )
     finally:
         writer.close_all()

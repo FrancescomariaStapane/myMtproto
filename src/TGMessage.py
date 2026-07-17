@@ -15,7 +15,7 @@ from src.MtprotoSession import MtprotoSession
 
 class TGMessage:
 
-    def __init__(self, plaintext_bytes : bytearray = None, session: MtprotoSession = None, msg_type: str  = None, silent: bool = False, colored: bool  = None, instant: bool = False, ciphertext_bytes : bytearray = None, fetch=False):
+    def __init__(self, plaintext_bytes : bytearray = None, session: MtprotoSession = None, msg_type: str  = None, silent: bool = False, colored: bool  = None, instant: bool = False, ciphertext_bytes : bytearray = None, fetch=False, quickAck = False):
         
         self.check_msg_key_large = None
         self.check_msg_key = None
@@ -55,11 +55,11 @@ class TGMessage:
         self.received_auth_key_id = None
         self.n_bytes_tcp_payload = 0
         self.contentRelated = True
-
+        self.quickAck = quickAck
 
 
         if ciphertext_bytes is None:
-            self.construct_message_from_plaintext(plaintext_bytes, msg_type, silent, colored, instant)
+            self.construct_message_from_plaintext(plaintext_bytes, msg_type, silent, colored, instant, self.quickAck)
         else:
             self.construct_message_from_ciphertext(ciphertext_bytes, msg_type, silent, colored, instant, fetch)
 
@@ -201,7 +201,7 @@ class TGMessage:
         self.abridged_transport_header = to_bytes(int(len(self.tcp_payload) / 4), 1) if int(
             len(self.tcp_payload) / 4) < 127 else to_bytes(0x7f, 1) + to_bytes(int(len(self.tcp_payload) / 4), 3)
         if quickAck:
-            self.abridged_transport_header[0] |= 128
+            self.abridged_transport_header =   to_bytes(self.abridged_transport_header[0] | 128, 1) + self.abridged_transport_header[1:]
         self.complete_bytes_ciphertext = self.abridged_transport_header + self.tcp_payload
         # print("length:", len(self.ciphertext))
         if self.message_data_plaintext[:8] == b"00000000":
@@ -407,7 +407,7 @@ class TGMessage:
         print()
 
     def __str__(self):
-        msg_str = "\n\nComplete Plaintext\n"
+        msg_str = "\nComplete Plaintext\n"
         msg_str += self.printable_message.plaintext_str
         msg_str += "\n\nSalt:\n"
         msg_str += self.printable_message.salt_str + " or " + str(bytes_to_int(self.session.salt, little = True))
@@ -652,3 +652,4 @@ class PrintableBytesMessage:
 
 class MsgCheckFailedException(Exception):
     pass
+
