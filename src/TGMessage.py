@@ -6,6 +6,7 @@ import time
 
 from telethon.tl.core import MessageContainer
 
+from MtprotoSession import KeyNotFoundException
 from src.utils import *
 import hashlib
 
@@ -57,13 +58,13 @@ class TGMessage:
         self.contentRelated = True
         self.quickAck = quickAck
 
-
+        self.deserialized_message = toDictable()
         if ciphertext_bytes is None:
             self.construct_message_from_plaintext(plaintext_bytes, msg_type, silent, colored, instant, self.quickAck)
         else:
             self.construct_message_from_ciphertext(ciphertext_bytes, msg_type, silent, colored, instant, fetch)
-
-        self.deserialized_message = deserialize_TL_message(self.message_data_plaintext)
+        if self.message_data_plaintext is not None:
+            self.deserialized_message = deserialize_TL_message(self.message_data_plaintext)
         self.printable_message = PrintableBytesMessage(self, colored)
 
 
@@ -84,7 +85,7 @@ class TGMessage:
             self.auth_key_fragment_sha_b_start: self.auth_key_fragment_sha_b_end]
 
 
-    def build_aes_key_iv(self):
+    def kdf(self):
         self.sha_256_a = hashlib.sha256(self.msg_key + self.auth_key_fragment_sha_a).digest()
         self.sha_256_b = hashlib.sha256(self.auth_key_fragment_sha_b + self.msg_key).digest()
         self.aes_key = self.sha_256_a[:8] + self.sha_256_b[8: 24] + self.sha_256_a[24:]
@@ -104,13 +105,18 @@ class TGMessage:
             self.n_bytes_tcp_payload = bytes_to_int(self.abridged_transport_header[1:4], little=True) * 4
             self.tcp_payload = self.complete_bytes_ciphertext[4:  4 + self.n_bytes_tcp_payload]
         # self.session = MtprotoSession(auth_key) # todo questo rigenera l'id della sessione, devo prendere effettivmente i dati dal messaggio
-        if self.session is None:
-            self.session = MtprotoSession(self.tcp_payload[:8], fetch)
-        self.received_auth_key_id = self.tcp_payload[:8]
         self.msg_key = self.tcp_payload[8:24]
         self.ciphertext = self.tcp_payload[24:]
+        self.received_auth_key_id = self.tcp_payload[:8]
+
+        if self.session is None:
+            self.session = MtprotoSession(self.tcp_payload[:8], fetch)
+        if self.session.auth_key is None:
+            return
+
+
         self.prepare_to_build_msg_key(sender)
-        self.build_aes_key_iv()
+        self.kdf()
         if len(self.ciphertext) % 16 != 0:
             print("ciphertext length : ", len(self.ciphertext))
         if self.session.auth_key_id == MtprotoSession.NULL_AUTH_KEY_ID:
@@ -190,7 +196,7 @@ class TGMessage:
         self.msg_key = self.msg_key_large[8:24]
         self.check_msg_key_large = self.msg_key_large
         self.check_msg_key = self.msg_key
-        self.build_aes_key_iv()
+        self.kdf()
         if self.session.auth_key_id != MtprotoSession.NULL_AUTH_KEY_ID:
             self.ciphertext = tgcrypto.ige256_encrypt(self.plaintext , self.aes_key,
                                                   self.aes_iv)
@@ -394,12 +400,12 @@ class TGMessage:
         print(
             f"\n{colored_st("Abridged Transport header: ", "bold", colored)}\nTCP payload length divided by 4 if it is less than 127 (0x7f), encoded as 1 byte; otherwise the byte 0x7f followed by TCP payload length divided by 4, encoded as 3 bytes.")
         print(f"In this instance, length of TCP payload divided by 4 is {len(self.tcp_payload)} / 4 = {int(len(self.tcp_payload) / 4)}")
-        print(printable_message.transport_header_str)
+        print(printable_message.colored_transport_header)
 
         wait_input(instant)
         print("Abridged transport header + TCP payload")
 
-        print(f"{printable_message.transport_header_str + printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext}")
+        print(f"{printable_message.colored_transport_header + printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext}")
         print()
         print("Message encrypted")
         print("---------------------------------------------------------------")
@@ -407,7 +413,11 @@ class TGMessage:
         print()
 
     def __str__(self):
-        msg_str = "\nComplete Plaintext\n"
+        msg_str = "\nComplete encrypted bytes with transport header\n"
+        msg_str += self.printable_message.colored_complete_ciphertext_bytes
+        if self.session.auth_key is None:
+            return msg_str
+        msg_str += "\n\nComplete Plaintext\n"
         msg_str += self.printable_message.plaintext_str
         msg_str += "\n\nSalt:\n"
         msg_str += self.printable_message.salt_str + " or " + str(bytes_to_int(self.session.salt, little = True))
@@ -419,6 +429,13 @@ class TGMessage:
         msg_str += time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(self.unix_s))
         msg_str += "\n\nSeqNo:\n"
         msg_str += self.printable_message.msg_seq_no_str + " or " + str(bytes_to_int(self.seqNo, little = True))
+        msg_str += "\n\nauth_key_id:\n"
+        msg_str += str(self.printable_message.colored_auth_key_id)
+        try:
+            msg_str += "\n\nKey Name:\n"
+            msg_str += str(self.session.key_name)
+        except AttributeError:
+            pass
         msg_str += "\n\nDeserialized TL language data:\n"
         msg_str += str(self.deserialized_message.to_dict())
         if isinstance(self.deserialized_message, MessageContainer):
@@ -470,10 +487,10 @@ class TGMessage:
         wait_input(instant)
         print("Abridged transport header + TCP payload")
         print(
-            f"{printable_message.transport_header_str + printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext}")
+            f"{printable_message.colored_transport_header + printable_message.colored_auth_key_id + printable_message.colored_msg_key + printable_message.colored_ciphertext}")
         wait_input(instant)
         print(f"Abridged transport header:")
-        print(printable_message.transport_header_str)
+        print(printable_message.colored_transport_header)
         if self.abridged_transport_header[0] == 0x7f :
 
             print(f"Since the first byte of Abridged Transport Layer is 0x7f, the length of the TCP payload is 4 times the number encoded in the next 3 bytes of the header. So lenght = 4 * {bytes_to_int(self.abridged_transport_header[1:])} = {len(self.tcp_payload)}")
@@ -577,6 +594,19 @@ class TGMessage:
 class PrintableBytesMessage:
     def __init__(self, message: TGMessage, colored):
         self.message = message
+        if len(self.message.abridged_transport_header) == 1:
+            self.colored_transport_header = colored_st(to_hex_str(self.message.abridged_transport_header),
+                                                   "abridged_transport_header_length", colored)
+        else:
+            self.colored_transport_header = colored_st(to_hex_str(self.message.abridged_transport_header[:1]),
+                                                   "abridged_transport_code", colored) + colored_st(
+                to_hex_str(self.message.abridged_transport_header[1:]), "abridged_transport_header_length", colored)
+        self.colored_auth_key_id = colored_st(to_hex_str(self.message.received_auth_key_id), "auth_key_id", colored)
+        self.colored_ciphertext = colored_st(to_hex_str(self.message.ciphertext), "ciphertext", colored)
+        self.colored_msg_key = colored_st(to_hex_str(self.message.msg_key), "msg_key", colored)
+        self.colored_complete_ciphertext_bytes = self.colored_transport_header + self.colored_auth_key_id + self.colored_msg_key + self.colored_ciphertext
+        if self.message.session.auth_key is None:
+            return
         self.salt_str = colored_st(to_hex_str(self.message.session.salt), "salt", colored)
         self.session_id_str = colored_st(to_hex_str(self.message.session.session_id), "session_id", colored)
         self.additive_str = colored_st(str(self.message.additive), "additive", colored)
@@ -618,7 +648,6 @@ class PrintableBytesMessage:
                 + self.colored_auth_key_msg
                 + colored_st(self.auth_key_str[3 * self.message.auth_key_fragment_msg_key_end:], "unused", colored)
         )
-        self.colored_msg_key = colored_st(to_hex_str(self.message.msg_key), "msg_key", colored)
         self.colored_msg_key_large = colored_st(to_hex_str(self.message.msg_key_large[:8]), "unused",
                                                 colored) + colored_st(to_hex_str(self.message.msg_key_large[8:24]), "msg_key", colored)+ colored_st(
             to_hex_str(self.message.msg_key_large[24:]),
@@ -638,16 +667,8 @@ class PrintableBytesMessage:
             to_hex_str(self.message.aes_iv[8:24]), "sha_256_a", colored) + colored_st(
             to_hex_str(self.message.aes_iv[24:]),
             "sha_256_b", colored)
-        self.colored_auth_key_id = colored_st(to_hex_str(self.message.received_auth_key_id), "auth_key_id", colored)
-        self.colored_ciphertext = colored_st(to_hex_str(self.message.ciphertext), "ciphertext", colored)
 
-        if len(self.message.abridged_transport_header) == 1:
-            self.transport_header_str = colored_st(to_hex_str(self.message.abridged_transport_header),
-                                                   "abridged_transport_header_length", colored)
-        else:
-            self.transport_header_str = colored_st(to_hex_str(self.message.abridged_transport_header[:1]),
-                                                   "abridged_transport_code", colored) + colored_st(
-                to_hex_str(self.message.abridged_transport_header[1:]), "abridged_transport_header_length", colored)
+
 
 
 class MsgCheckFailedException(Exception):

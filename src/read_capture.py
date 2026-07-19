@@ -100,7 +100,8 @@ def read_stream(outgoing_traffic_file, ingoing_traffic_file, loud = True, louder
             try:
                 message = TGMessage(ciphertext_bytes=deobfuscated_bytes[i], msg_type=msg_types[i], silent=True, colored=True, instant=True, fetch=True)
             except KeyNotFoundException:
-                break
+                # break
+                pass
             tcp_len = (len(message.abridged_transport_header) + message.n_bytes_tcp_payload)
             this_message_obfuscated_bytes = obfuscated_bytes[i][:tcp_len]
             this_message_deobfuscated_bytes = deobfuscated_bytes[i][:tcp_len]
