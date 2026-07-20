@@ -74,6 +74,7 @@ def client_program():
     print("enter -> receive messages;")
     print("<user_id of recipient>:<message> -> send message;")
     print("exit: -> exit;")
+    mtproto_session.n_content_related = 0
     while message.lower().strip() != 'exit':
 
         # if not message.__contains__(":") or message == "":
@@ -88,7 +89,14 @@ def client_program():
         #     continue
         if message == "":
             message = "00000000:0"
-        tg_message_to_send = TGMessage(plaintext_bytes=bytearray(message.encode()), session=mtproto_session, msg_type="client_msg", silent=args.silent, colored=args.colored, instant=args.instant)
+            contentRelated = False
+        else:
+            contentRelated = True
+        tg_message_to_send = TGMessage(plaintext_bytes=bytearray(message.encode()), session=mtproto_session, msg_type="client_msg", contentRelated=contentRelated, silent=args.silent, colored=args.colored, instant=args.instant)
+
+
+        # if message is not "" and message is not "00000000:0":
+
         client_socket.send(tg_message_to_send.get_encrypted_data())  # send message
         time.sleep(3)
         try:

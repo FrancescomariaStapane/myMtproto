@@ -16,7 +16,7 @@ from src.MtprotoSession import MtprotoSession
 
 class TGMessage:
 
-    def __init__(self, plaintext_bytes : bytearray = None, session: MtprotoSession = None, msg_type: str  = None, silent: bool = False, colored: bool  = None, instant: bool = False, ciphertext_bytes : bytearray = None, fetch=False, quickAck = False):
+    def __init__(self, plaintext_bytes : bytearray = None, session: MtprotoSession = None, msg_type: str  = None, silent: bool = False, colored: bool  = None, instant: bool = False, ciphertext_bytes : bytearray = None, fetch=False, quickAck = False, contentRelated=True):
         
         self.check_msg_key_large = None
         self.check_msg_key = None
@@ -57,14 +57,17 @@ class TGMessage:
         self.n_bytes_tcp_payload = 0
         self.contentRelated = True
         self.quickAck = quickAck
-
+        self.contentRelated=contentRelated
         self.deserialized_message = toDictable()
         if ciphertext_bytes is None:
             self.construct_message_from_plaintext(plaintext_bytes, msg_type, silent, colored, instant, self.quickAck)
         else:
             self.construct_message_from_ciphertext(ciphertext_bytes, msg_type, silent, colored, instant, fetch)
         if self.message_data_plaintext is not None:
-            self.deserialized_message = deserialize_TL_message(self.message_data_plaintext)
+            try:
+                self.deserialized_message = deserialize_TL_message(self.message_data_plaintext)
+            except Exception:
+                self.deserialized_message = toDictable()
         self.printable_message = PrintableBytesMessage(self, colored)
 
 
@@ -134,7 +137,7 @@ class TGMessage:
         self.contentRelated =  bytes_to_int(self.seqNo, little= True) % 2 == 1
         self.session.salt = self.plaintext[:8]
         self.session.session_id = self.plaintext[8:16]
-        self.session.n_content_related = (bytes_to_int(self.seqNo, little= True) >> 1) + (1 if self.contentRelated else 0)
+        # self.session.n_content_related = (bytes_to_int(self.seqNo, little= True) >> 1) + (1 if self.contentRelated else 0)
         self.message_id = self.plaintext[16:24]
         self.unix_s = bytes_to_int(self.message_id[4:], little=True)
         self.unix_ns = bytes_to_int(self.message_id[:4], little=True)
@@ -142,6 +145,7 @@ class TGMessage:
         self.data_length = bytes_to_int(self.plaintext[28:32], little = True)
         self.message_data_plaintext = self.plaintext[32:32 + self.data_length]
         self.padding =  self.plaintext[32 + self.data_length:]
+        self.printable_message = PrintableBytesMessage(self, colored)
         if not silent and self.message_data_plaintext[:8]!=b"00000000":
             if self.session.auth_key_id == MtprotoSession.NULL_AUTH_KEY_ID:
                 instant = True
@@ -157,7 +161,7 @@ class TGMessage:
 
 
     def construct_message_from_plaintext(self, message_data: bytearray, msg_type: str,
-                                         silent: bool, colored: bool, instant: bool = False, quickAck=False, contentRelated = True):
+                                         silent: bool, colored: bool, instant: bool = False, quickAck=False):
 
         self.message_data_plaintext = message_data
         self.unix_s = math.floor(time.time())   # 32 most significative bits are unix time
@@ -170,9 +174,9 @@ class TGMessage:
         self.message_id = to_bytes(self.msg_time + self.additive,8, little = True)  # message_id mod 4 is 0 for client messages, 3 for server unsolicited messages and 1 for server response messages
 
         # self.message_id = to_bytes((self.msg_time+ self.additive) <<32 >> 32,4, little = True) + to_bytes(self.unix_s, 4, little = True)
-        self.contentRelated = contentRelated
+        # self.contentRelated = contentRelated
         self.seqNo = to_bytes((self.session.n_content_related << 1) + (1 if self.contentRelated else 0), 4, little = True)
-        self.session.n_content_related += 1 if contentRelated else 0
+        self.session.n_content_related += 1 if self.contentRelated else 0
         self.data_length = len(self.message_data_plaintext)
         self.padding = bytearray(rand_bytes(random.randint(12, 1024 - 15)))
         # max should be 1024, but here I do 1024 - 15 because if its more thant that
@@ -210,6 +214,7 @@ class TGMessage:
             self.abridged_transport_header =   to_bytes(self.abridged_transport_header[0] | 128, 1) + self.abridged_transport_header[1:]
         self.complete_bytes_ciphertext = self.abridged_transport_header + self.tcp_payload
         # print("length:", len(self.ciphertext))
+        self.printable_message = PrintableBytesMessage(self, colored)
         if self.message_data_plaintext[:8] == b"00000000":
             silent = True
         if self.session.auth_key_id == MtprotoSession.NULL_AUTH_KEY_ID:

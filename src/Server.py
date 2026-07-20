@@ -31,7 +31,7 @@ def c_print(string, silent):
     if not silent:
         print(string)
 
-def send_messages_in_inbox(session: MtprotoSession, conn):
+def send_messages_in_inbox(session: MtprotoSession, conn, n_content_related):
     auth_key_id = to_hex_str(session.auth_key_id, spaces=False)
     # we create an emppty list of messages (inbox) for the connected user' auth_key_id if he doesnt have one
     if auth_key_id not in messages.keys():
@@ -43,8 +43,11 @@ def send_messages_in_inbox(session: MtprotoSession, conn):
                                msg_type="server_unsolicited", silent=get_args().silent,
                                colored=get_args().colored,
                                instant=get_args().instant)  # message is re-encrypted with recipient auth_key before sending
+        tg_message.session.n_content_related = n_content_related
+        n_content_related+=1
         conn.send(tg_message.get_encrypted_data())
         messages[auth_key_id] = []
+    return n_content_related
 
 def get_safe_prime_and_g():
     url = "https://2ton.com.au/getprimes/random/2048"
@@ -114,7 +117,7 @@ def exchange_DH_server(conn, tg_message_req_DH):
 def handle_client(conn, addr):
 
     print(f"Connection established with {addr}.")
-
+    n_content_related = 0
     while True: # until client disconnects
         try:
 
@@ -175,7 +178,8 @@ def handle_client(conn, addr):
                 else:
                     print("received blank message")
                 assert  tg_message.session is not None
-                send_messages_in_inbox(tg_message.session, conn)
+                tg_message.session.n_content_related = n_content_related
+                n_content_related = send_messages_in_inbox(tg_message.session, conn, n_content_related)
 
         except ConnectionResetError:
             print(f"Client {addr} has disconnected.")
@@ -195,6 +199,7 @@ def get_auth_key_id(auth_key: bytearray):
 
 def start_server():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
+        server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         server_socket.bind((HOST, PORT))
         server_socket.listen()
         print(f"Server listening on {HOST}:{PORT}...")
