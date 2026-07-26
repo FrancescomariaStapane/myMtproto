@@ -175,14 +175,26 @@ def read_tdf(path: str) -> TdfFile:
     """
     Reads a tdata "TDF$" container file (tries the modern 's' suffix first,
     falls back to legacy '0'/'1' pair -- mirrors Storage::details::ReadFile).
-    `path` should be given WITHOUT the trailing suffix character.
+    Accepts `path` either WITH or WITHOUT the trailing TDF suffix character
+    (e.g. both "key_data" and "key_datas" work).
     """
     import os
 
-    candidates = []
-    if os.path.exists(path + "s"):
-        candidates = [path + "s"]
+    # Be forgiving: if the exact path given already exists as a file
+    # (caller included the 's'/'0'/'1' suffix themselves), just use it.
+    if os.path.isfile(path):
+        candidates = [path]
+    elif path and path[-1] in "s01" and os.path.isfile(path[:-1] + "s"):
+        # Caller passed a suffixed name but that exact suffix doesn't
+        # exist -- strip it and redo the normal lookup below.
+        path = path[:-1]
+        candidates = []
     else:
+        candidates = []
+
+    if not candidates and os.path.exists(path + "s"):
+        candidates = [path + "s"]
+    elif not candidates:
         c0, c1 = path + "0", path + "1"
         if os.path.exists(c0) and os.path.exists(c1):
             # pick most recently modified first, matching tdesktop's logic

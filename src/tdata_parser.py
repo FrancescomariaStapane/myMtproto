@@ -57,6 +57,7 @@ from tdata_crypto import (
     read_encrypted_tdf,
     read_tdf,
 )
+from utils import twos_comp
 
 # lsk* Local Storage Key enum, from storage_account.cpp
 LSK_DRAFT = 0x01
@@ -177,7 +178,7 @@ def _skip_image_location(stream: QStream) -> None:
         )
 
 
-def read_peer(stream: QStream) -> Optional[Peer]:
+def read_peer(stream: QStream, debug: bool = False) -> Optional[Peer]:
     peer_id_serialized = stream.read_u64()
     version_tag = stream.read_u64()
 
@@ -188,11 +189,17 @@ def read_peer(stream: QStream) -> Optional[Peer]:
         version = 0
         _photo_id = version_tag  # legacy: this field WAS the photo id
 
+    peer_type, bare_id = _decode_peer_id(peer_id_serialized)
+    if debug:
+        print(f"    [debug] peer_id_serialized={peer_id_serialized:#x} "
+              f"version_tag_matched={version_tag == VERSION_TAG} "
+              f"version={version} photo_id={_photo_id:#x} "
+              f"-> decoded type={peer_type} bare_id={bare_id}")
+
     _skip_image_location(stream)
     if version > 0:
         _photo_has_video = stream.read_i32()
 
-    peer_type, bare_id = _decode_peer_id(peer_id_serialized)
     peer = Peer(peer_type=peer_type, bare_id=bare_id)
 
     if peer_type == PEER_TYPE_USER:
@@ -240,20 +247,63 @@ def read_self_serialized(blob: bytes) -> Peer:
     return read_peer(QStream(blob))
 
 
-def read_peer_list(blob: bytes) -> list[Peer]:
+def read_top_peers_blob(blob: bytes, debug: bool = False) -> list[Peer]:
     """
-    Format shared by search-suggestions / recent-hashtags-and-bots-style
-    caches: quint32 app version tag, quint32 count, then `count` writePeer
-    blocks back to back.
+    TopPeers::serialize() format: quint32 app_version, quint32 disabled,
+    quint32 count, then `count` x (writePeer block + quint64 rating).
+    Distinct from read_peer_list: extra 'disabled' header field and a
+    trailing rating value after each peer.
     """
     stream = QStream(blob)
     if stream.at_end():
         return []
-    _app_version = stream.read_u32()
+    app_version = stream.read_u32()
+    _disabled = stream.read_u32()
     count = stream.read_u32()
+    if debug:
+        print(f"[debug] top_peers blob length={len(blob)} "
+              f"app_version={app_version} disabled={_disabled} count={count}")
     peers = []
-    for _ in range(count):
-        peers.append(read_peer(stream))
+    for i in range(count):
+        peers.append(read_peer(stream, debug=debug))
+        stream.read_u64()  # rating, not needed for access_hash lookup
+    return peers
+
+
+def read_peer_list(blob: bytes, debug: bool = False) -> list[Peer]:
+    """
+    Format shared by search-suggestions / recent-hashtags-and-bots-style
+    caches: quint32 app version tag, quint32 count, then `count` writePeer
+    blocks back to back.
+
+    debug=True: on failure, print diagnostics (which index failed, stream
+    position, surrounding hex, and the raw fields read so far for that
+    entry) instead of just propagating the exception blind.
+    """
+    stream = QStream(blob)
+    if stream.at_end():
+        return []
+    app_version = stream.read_u32()
+    count = stream.read_u32()
+    if debug:
+        print(f"[debug] blob length={len(blob)} app_version={app_version} count={count}")
+    peers = []
+    for i in range(count):
+        start_pos = stream.pos
+        try:
+            peers.append(read_peer(stream, debug=debug))
+        except Exception as e:  # noqa: BLE001
+            if debug:
+                lo = max(0, start_pos - 16)
+                hi = min(len(blob), stream.pos + 32)
+                print(f"[debug] FAILED at peer index {i}/{count}, "
+                      f"entry started at byte {start_pos}, "
+                      f"failed at byte {stream.pos}")
+                print(f"[debug] hex around failure ({lo}:{hi}):")
+                print(" ", blob[lo:hi].hex())
+                marker = "  " + " " * ((stream.pos - lo) * 3) + "^^"
+                print(marker)
+            raise
     return peers
 
 
@@ -347,6 +397,7 @@ def get_access_hash(
     account_base_path: str,
     local_key: bytes,
     user_id: int,
+    debug: bool = False,
 ) -> Optional[int]:
     """
     account_base_path: the per-account tdata subfolder (contains "map*"
@@ -363,12 +414,38 @@ def get_access_hash(
     candidates: list[Peer] = []
 
     if account_map.self_serialized:
+        if debug:
+            print(f"[debug] self_serialized length={len(account_map.self_serialized)}")
         candidates.append(read_self_serialized(account_map.self_serialized))
 
     if account_map.search_suggestions_key is not None:
         fname = account_base_path + file_key_to_hex(account_map.search_suggestions_key)
-        blob = read_encrypted_tdf(fname, local_key)
-        candidates.extend(read_peer_list(blob))
+        if debug:
+            print(f"[debug] reading search suggestions file: {fname}")
+        wrapper = read_encrypted_tdf(fname, local_key)
+        wrapper_stream = QStream(wrapper)
+        # Account::readSearchSuggestions: top, recent are always present;
+        # settingsSearches, guestChatBots only if the stream isn't exhausted
+        # (older files may not have written them).
+        top_blob = wrapper_stream.read_bytearray()
+        recent_blob = wrapper_stream.read_bytearray()
+        settings_searches_blob = b""
+        guest_bots_blob = b""
+        if not wrapper_stream.at_end():
+            settings_searches_blob = wrapper_stream.read_bytearray()
+        if not wrapper_stream.at_end():
+            guest_bots_blob = wrapper_stream.read_bytearray()
+
+        if debug:
+            print(f"[debug] top={len(top_blob)}B recent={len(recent_blob)}B "
+                  f"settingsSearches={len(settings_searches_blob)}B "
+                  f"guestChatBots={len(guest_bots_blob)}B")
+
+        candidates.extend(read_top_peers_blob(top_blob, debug=debug))
+        candidates.extend(read_peer_list(recent_blob, debug=debug))
+        # settingsSearches is text search history (no peers); guestChatBots
+        # follows the same list format as `top` if you need it later:
+        # candidates.extend(read_top_peers_blob(guest_bots_blob, debug=debug))
 
     if account_map.recent_hashtags_and_bots_key is not None:
         fname = account_base_path + file_key_to_hex(account_map.recent_hashtags_and_bots_key)
@@ -391,6 +468,6 @@ def get_access_hash(
 
     for peer in candidates:
         if peer.peer_type == PEER_TYPE_USER and peer.bare_id == user_id:
-            return peer.access_hash
+            return twos_comp(peer.access_hash, 64)
 
     return None
