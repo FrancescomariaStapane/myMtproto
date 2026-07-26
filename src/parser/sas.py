@@ -1,0 +1,11 @@
+from tdata_parser import get_access_hash
+
+local_key = bytes.fromhex("ac4131c1e862472916754f80977fe38650c38acce7880f32c3a79bb15a9dc1facd467a9e136e1a52f2e5c24223e1985551d0e35056d5b4ba4455d141407ce6de452dcb0ac4d7771f68bf5560cb0cbdec71734976cabcd7f62617ff08ea401ce9cbf50290ce7d9c45f620224f23d658ca291996e25bb07ced9da494b1a54dc6a98246999a88f20b2d2479443e9427c34de63f29ca760131b13cc601b65179d53ecaad1ef2f4b9160bff5ffc30e5fecabdcc8a216fe5979adfdd5868f1d9ca8386c344463da2b2ed1beb09f1a52dd6df809046aba6d7770449de30da3327356dd18d5a54fbe8ce61460d4bbacac1a4a8845807fa2b507a25fec821f0100496ab70")
+result = get_access_hash(
+    "/home/franc/Desktop/tdata/D877F783D5D3EF8C/",
+    local_key,
+    user_id=8636387877,
+    debug=False,
+)
+
+print(result)

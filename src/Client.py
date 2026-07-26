@@ -74,7 +74,7 @@ def client_program():
     print("enter -> receive messages;")
     print("<user_id of recipient>:<message> -> send message;")
     print("exit: -> exit;")
-    mtproto_session.n_content_related = 0
+    n_content_related = 0
     while message.lower().strip() != 'exit':
 
         # if not message.__contains__(":") or message == "":
@@ -92,8 +92,9 @@ def client_program():
             contentRelated = False
         else:
             contentRelated = True
+        mtproto_session.n_content_related = n_content_related
         tg_message_to_send = TGMessage(plaintext_bytes=bytearray(message.encode()), session=mtproto_session, msg_type="client_msg", contentRelated=contentRelated, silent=args.silent, colored=args.colored, instant=args.instant)
-
+        n_content_related = mtproto_session.n_content_related
 
         # if message is not "" and message is not "00000000:0":
 

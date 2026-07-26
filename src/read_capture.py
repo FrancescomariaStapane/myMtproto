@@ -97,6 +97,10 @@ def read_stream(outgoing_traffic_file, ingoing_traffic_file, loud = True, louder
             print(f"Deobfuscated {strings[i]} bytes:")
             print(to_hex_str(deobfuscated_bytes[i]))
         while len(deobfuscated_bytes[i]) > 0:
+
+            if i == 1: # incoming
+                if deobfuscated_bytes[i][0] & 128 == 128:
+                     deobfuscated_bytes[i] = deobfuscated_bytes[i][4:] # skip quick ack
             try:
                 message = TGMessage(ciphertext_bytes=deobfuscated_bytes[i], msg_type=msg_types[i], silent=True, colored=True, instant=True, fetch=True)
             except KeyNotFoundException:

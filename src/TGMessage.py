@@ -137,7 +137,7 @@ class TGMessage:
         self.contentRelated =  bytes_to_int(self.seqNo, little= True) % 2 == 1
         self.session.salt = self.plaintext[:8]
         self.session.session_id = self.plaintext[8:16]
-        # self.session.n_content_related = (bytes_to_int(self.seqNo, little= True) >> 1) + (1 if self.contentRelated else 0)
+        self.session.n_content_related = (bytes_to_int(self.seqNo, little= True) >> 1) + (1 if self.contentRelated else 0)
         self.message_id = self.plaintext[16:24]
         self.unix_s = bytes_to_int(self.message_id[4:], little=True)
         self.unix_ns = bytes_to_int(self.message_id[:4], little=True)
@@ -425,9 +425,9 @@ class TGMessage:
         msg_str += "\n\nComplete Plaintext\n"
         msg_str += self.printable_message.plaintext_str
         msg_str += "\n\nSalt:\n"
-        msg_str += self.printable_message.salt_str + " or " + str(bytes_to_int(self.session.salt, little = True))
+        msg_str += self.printable_message.salt_str + " or " + str(bytes_to_int(self.session.salt, little = True, signed=True))
         msg_str += "\n\nSession ID:\n"
-        msg_str += self.printable_message.session_id_str + " or " + str(bytes_to_int(self.session.session_id, little = True))
+        msg_str += self.printable_message.session_id_str + " or " + str(bytes_to_int(self.session.session_id, little = True, signed=True))
         msg_str += "\n\nMessage ID:\n"
         msg_str += self.printable_message.message_id_str + " or " + str(bytes_to_int(self.message_id, little = True))
         msg_str += f"\n\nTime of the message (epoch time seconds taken from 32 higher order bits of Message ID, little endian):\n"
@@ -436,11 +436,11 @@ class TGMessage:
         msg_str += self.printable_message.msg_seq_no_str + " or " + str(bytes_to_int(self.seqNo, little = True))
         msg_str += "\n\nauth_key_id:\n"
         msg_str += str(self.printable_message.colored_auth_key_id)
-        try:
-            msg_str += "\n\nKey Name:\n"
-            msg_str += str(self.session.key_name)
-        except AttributeError:
-            pass
+        # try:
+        #     msg_str += "\n\nKey Name:\n"
+        #     msg_str += str(self.session.key_name)
+        # except AttributeError:
+        #     pass
         msg_str += "\n\nDeserialized TL language data:\n"
         msg_str += str(self.deserialized_message.to_dict())
         if isinstance(self.deserialized_message, MessageContainer):

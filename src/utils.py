@@ -16,8 +16,11 @@ def to_bytes(n: int, length = -1, little = False) -> bytes:
     length = length if length > 0 else (n.bit_length() + 7) // 8
     return n.to_bytes(length, 'little') if little else n.to_bytes(length, 'big')
 
-def bytes_to_int(b: bytes, little=False):
-    return int.from_bytes(b, 'little') if little else  int.from_bytes(b, 'big')
+def bytes_to_int(b: bytes, little=False, signed=False):
+    n =  (int.from_bytes(b, 'little') if little else  int.from_bytes(b, 'big'))
+    if not signed:
+        return n
+    return twos_comp(n, len(b) * 8)
 
 def to_hex_str(arr: bytes, spaces = True) -> str:
     s = arr.hex()
@@ -119,6 +122,11 @@ def deserialize_TL_message(message: bytes):
     except TypeNotFoundError:
         print("Telethon Could not find a matching Constructor ID for the TLObject")
         return toDictable()
+def twos_comp(val, bits):
+    """compute the 2's complement of int value val"""
+    if (val & (1 << (bits - 1))) != 0: # if sign bit is set e.g., 8bit: 128-255
+        val = val - (1 << bits)        # compute negative value
+    return val                         # return positive value as is
 
 # def save_cursor_pos():
 #     return "\x1b[s"
