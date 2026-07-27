@@ -4,7 +4,7 @@ local_key = bytes.fromhex("ac4131c1e862472916754f80977fe38650c38acce7880f32c3a79
 result = get_access_hash(
     "/home/franc/Desktop/tdata/D877F783D5D3EF8C/",
     local_key,
-    user_id=8636387877,
+    user_id=70027891,
     debug=False,
 )
 

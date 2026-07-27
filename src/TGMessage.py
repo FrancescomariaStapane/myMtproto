@@ -357,7 +357,7 @@ class TGMessage:
         print(printable_message.colored_auth_key_sha_a + printable_message.colored_msg_key)
 
         wait_input(instant)
-        print(f"\n{sha_256_a_str}:\nsha-256 of {auth_key_fragment_a_str} + {msg_key_str}")
+        print(f"\n{sha_256_a_str}:\nsha-256 of {msg_key_str} + {auth_key_fragment_a_str} ")
         print(printable_message.colored_sha_256_a)
 
         wait_input(instant)
@@ -366,7 +366,7 @@ class TGMessage:
         print(printable_message.colored_msg_key + printable_message.colored_auth_key_sha_b)
 
         wait_input(instant)
-        print(f"\n{sha_256_b_str}:\nsha-256 of {msg_key_str} + {auth_key_fragment_b_str}")
+        print(f"\n{sha_256_b_str}:\nsha-256 of {auth_key_fragment_b_str} + {msg_key_str}")
         print(printable_message.colored_sha_256_b)
 
         wait_input(instant)
@@ -383,7 +383,7 @@ class TGMessage:
         print("Generating external header")
 
         wait_input(instant)
-        print(f"\n 64 lower-order bits of the {auth_key_id_str}:\nSHA-1 of {auth_key_str} (8 bytes)")
+        print(f"\n{auth_key_id_str}:\n 64 lower-order bits of the SHA-1 of {auth_key_str} (8 bytes)")
         print(printable_message.colored_auth_key_id)
 
         wait_input(instant)
